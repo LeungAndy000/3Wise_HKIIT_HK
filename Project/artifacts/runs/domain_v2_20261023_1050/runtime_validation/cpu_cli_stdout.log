@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "normal",
+      "scores": {
+        "normal": 0.9990432858467102,
+        "spam": 5.495353616424836e-05,
+        "scam": 0.0009017859701998532
+      },
+      "unwanted_score": 0.0009567395063641015,
+      "decision": "below_threshold",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "normal",
+      "scores": {
+        "normal": 0.9978272318840027,
+        "spam": 5.2010251238243654e-05,
+        "scam": 0.00212074164301157
+      },
+      "unwanted_score": 0.0021727518942498136,
+      "decision": "below_threshold",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "scam",
+      "scores": {
+        "normal": 0.014468597248196602,
+        "spam": 6.0487931477837265e-05,
+        "scam": 0.9854708909988403
+      },
+      "unwanted_score": 0.9855313789303182,
+      "decision": "flag_for_review",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "scam",
+      "scores": {
+        "normal": 0.01295238733291626,
+        "spam": 5.999097993480973e-05,
+        "scam": 0.9869875907897949
+      },
+      "unwanted_score": 0.9870475817697297,
+      "decision": "flag_for_review",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    }
+  ]
+}

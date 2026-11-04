@@ -1,0 +1,26 @@
+{
+  "jdk": "/home/victor/.local/share/wisemessage-android/jdk-17.0.16+8",
+  "gradle": "/home/victor/.local/share/wisemessage-android/gradle-8.13",
+  "android_sdk": "/home/victor/.local/share/wisemessage-android/android-sdk",
+  "downloads": [
+    {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "file": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "166774efcf0f722f2ee18eba0039de2d685b350ee14d7b69e6f83437dafd2af1"
+    },
+    {
+      "url": "https://services.gradle.org/distributions/gradle-8.13-bin.zip",
+      "file": "gradle-8.13-bin.zip",
+      "sha256": "20f1b1176237254a6fc204d8434196fa11a4cfb387567519c61556e8710aed78"
+    },
+    {
+      "url": "https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip",
+      "file": "commandlinetools-linux-13114758_latest.zip",
+      "sha256": "7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee"
+    }
+  ],
+  "agp": "8.13.2",
+  "gradle_version": "8.13",
+  "compile_sdk": 36,
+  "build_tools": "36.0.0"
+}

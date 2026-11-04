@@ -1,0 +1,28 @@
+{
+  "repository": "hfl/minirbt-h256",
+  "revision": "446e1b4012b10946f479563005700c54c9db3f7c",
+  "license": "apache-2.0",
+  "files": {
+    "config.json": {
+      "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/config.json",
+      "sha256": "02cc77ba23f292bf5265d76fff662ae8a8057bf85ee9723ba30342bf9ed30746",
+      "bytes": 598
+    },
+    "vocab.txt": {
+      "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/vocab.txt",
+      "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "bytes": 109540
+    },
+    "README.md": {
+      "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/README.md",
+      "sha256": "667be60e0b89d63d308d3d1e76f906d056ad4a2c56e6a2f785544098e220f3eb",
+      "bytes": 974
+    },
+    "pytorch_model.bin": {
+      "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/pytorch_model.bin",
+      "sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+      "bytes": 41514155
+    }
+  },
+  "downloaded_at": "2026-10-23T02:20:57.105870+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-10-25T08:51:22.479275+00:00",
+  "status": "running_visible_android_emulator",
+  "release": "3.2.0-test",
+  "version_code": 5,
+  "launch": "Launch-WiseMessage.cmd",
+  "stop": "Stop-WiseMessage.cmd",
+  "guide": "Read-me-first.html",
+  "runtime": "Actual Android Emulator via WSL Ubuntu + WSLg, API30 Google APIs x86_64 with ARM64 translation",
+  "avd": "wisemessage_windows_20261024",
+  "serial": "emulator-5582",
+  "package": "hk.wisemessage.app",
+  "apk": "apk/WiseMessage-3.2.0-test-arm64.apk",
+  "apk_sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c",
+  "apk_signature_verified": true,
+  "release_validation": "../artifacts/android/v3_2_upgrade_validation.json",
+  "native_ui_validation": "../artifacts/android/ui-v3_2-validation/run-20261025T083909Z/validation_report.json",
+  "current_3_2_checks": {
+    "language_font_layout_cases": 6,
+    "extra_large_font_single_column_passed": true,
+    "real_chinese_manual_ui_checks": 2,
+    "model_accuracy_asserted": false,
+    "windows_launcher_no_install_smoke_passed": true
+  },
+  "prior_3_1_validation": {
+    "android_checks_passed": 18,
+    "report": "validation/android-validation-report.json",
+    "delivery_record": "validation/delivery-status-v3_1-20261024.json",
+    "scope": "Historical 3.1 emulator SMS reception/inference/warning checks, not rerun as the full suite for 3.2."
+  },
+  "existing_records_and_preferences_preserved": true,
+  "records_before_manual_checks": 2,
+  "records_after_manual_checks": 4,
+  "current_dashboard": {
+    "protection": "SMS protection is on",
+    "checked_today": 2,
+    "all_time_checked": 4
+  },
+  "retired_web_service_offline": true,
+  "active_http_ui_or_server": false,
+  "retired_web_archive": "../artifacts/windows-web-companion-retired-20261024",
+  "original_capture_avd_preserved": true,
+  "screenshots_for_video": false,
+  "personal_phone_accessed": false,
+  "physical_samsung_3_2_tested": false,
+  "training_modified": false,
+  "android_ui_source_modified": true,
+  "model_or_inference_source_modified": false,
+  "public_upload": false,
+  "files_deleted": 0,
+  "source_sha256": {
+    "Start-WiseMessage.ps1": "b621a89d8f8a2cb4af21f35a2d6db7cb3f75b9dc1f14e4461dec955e36ba4785",
+    "Stop-WiseMessage.ps1": "69b5b9ee4e23b88a3bb3b0313378acceea80f6fbaf25a958c75167f8518f10b0",
+    "emulator-settings.json": "3ef6c886ca5de33457bf3f85ad725033fd5496f55236fcaef5239b9cf01fb4b0",
+    "send-test-sms.py": "6c390527c620e084f90b93fd8ee683d5576f350e6b1695e7c65c665795aab578",
+    "Read-me-first.html": "9ce146443930ac684bb5a7a5cf5a74a9b8f2b86c9ed62ab1bded2a4bb2f8031b"
+  }
+}

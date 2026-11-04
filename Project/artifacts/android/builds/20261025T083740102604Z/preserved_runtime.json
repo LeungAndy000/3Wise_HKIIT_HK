@@ -1,0 +1,6 @@
+{
+  "previous_report": "artifacts/android/builds/20261023T082801157725Z/build_report.json",
+  "certificate_sha256": "f773ccdbb2888fd85aa3fb721d2e7ddac9f522f3ee94776e9b8c91fc299a51f4",
+  "native_sha256": "be27c3ce9d11a44552999769e1a6e65d9721877477f4b9dbfe174275f2d4f3a4",
+  "all_inference_asset_hashes_unchanged": true
+}

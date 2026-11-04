@@ -1,0 +1,2 @@
+9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c  Android/WiseMessage-3.2.0-test-arm64.apk
+1a3c697ef0694a6eef993c3dcae9b5859a2b97848165cd9f3ac301cf9d57707d  HarmonyOS/WiseMessage-HarmonyOS-debug-unsigned.hap

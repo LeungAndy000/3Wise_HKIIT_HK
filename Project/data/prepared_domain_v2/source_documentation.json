@@ -1,0 +1,65 @@
+{
+  "fbs_sms": {
+    "url": "https://github.com/Cypher-Z/FBS_SMS_Dataset",
+    "archive_url": "https://codeload.github.com/Cypher-Z/FBS_SMS_Dataset/zip/refs/heads/master",
+    "archive": "fbs_sms.zip",
+    "license": "No explicit SPDX license; public research release requests source attribution and CCS2020 citation.",
+    "citation": "Zhang et al. (2020), Lies in the Air: Characterizing Fake-base-station Spam Ecosystem in China, doi:10.1145/3372297.3417257",
+    "semantics": "Real de-identified fake-base-station SMS. AD:* means advertising spam; FR:* means fraud. IL:* and Other are excluded because they do not define the requested three-class target.",
+    "limitations": "Spam reflects unsolicited fake-base-station delivery, which text alone cannot always establish. Word segmentation and anonymization are source preprocessing artifacts.",
+    "archive_sha256": "4696beb7f3142cdb146392a97325c6614b39fc50b610108942c5abc76dd96fe0",
+    "archive_bytes": 716032
+  },
+  "mudou_sms": {
+    "url": "https://github.com/shaonianruntu/Spam-Message-Classification",
+    "archive_url": "https://codeload.github.com/shaonianruntu/Spam-Message-Classification/zip/refs/heads/master",
+    "archive": "mudou_mirror.zip",
+    "license": "No license is specified in this public mirror. Upstream provenance and redistribution/commercial rights are unresolved; local research prototype only.",
+    "semantics": "Chinese SMS: 0 normal, 1 spam. Only original training-file normal rows enter three-class training; spam rows cannot be reliably divided into fraud versus advertising and are excluded. Original test file is reserved for binary external evaluation only.",
+    "limitations": "Mirror rather than original data collector. Some normal-labelled rows contain marketing, so class labels reflect source annotation, not consent inferred from wording.",
+    "archive_sha256": "a59c713ad931ada0a0df954545a8cbc6cbe29cf167bfae89c51db2b6a7d26e5b",
+    "archive_bytes": 1906864
+  },
+  "telecom_fraud_5": {
+    "url": "https://github.com/ChangMianRen/Telecom_Fraud_Texts_5",
+    "archive_url": "https://codeload.github.com/ChangMianRen/Telecom_Fraud_Texts_5/zip/refs/heads/main",
+    "archive": "telecom_fraud_5.zip",
+    "license": "Repository GPL-3.0 plus README explicitly restricts dataset to university/research-institution scientific research and prohibits commercial use.",
+    "semantics": "label00 normal ->0; label01 government impersonation, label02 loans, label03 customer-service impersonation, label04 acquaintance impersonation ->2.",
+    "limitations": "Mixed normal SMS and case-derived/generated fraud messages or phone dialogue; these are not all independently captured real SMS. Do not interpret combined test performance as real-SMS-only deployment accuracy.",
+    "paper": "https://doi.org/10.3390/app142411628",
+    "archive_sha256": "2afc5f34146a4657ecf136b8f6e9a42cd6f95b8d5416046f5fc86805a089ded5",
+    "archive_bytes": 1244433
+  },
+  "smishing_imc2025": {
+    "url": "https://github.com/reportsmishing/Smishing-Dataset-IMC25",
+    "archive_url": "https://codeload.github.com/reportsmishing/Smishing-Dataset-IMC25/zip/refs/heads/main",
+    "archive": "smishing_imc.zip",
+    "license": "CC-BY-4.0",
+    "citation": "Agarwal et al. (2025), Fishing for Smishing: Understanding SMS Phishing Infrastructure and Strategies by Mining Public User Reports, doi:10.1145/3730567.3764431",
+    "semantics": "Preserve Chinese-language public reports as unlabelled external diagnostics. scam_type is a topical field and is NOT a validated normal/spam/scam label.",
+    "limitations": "Chinese subset includes anti-fraud notices, genuine-looking appointments, truncated messages, and ambiguous wrong-number contacts. All-scam mapping would corrupt the benchmark. No formal accuracy metric is justified without independent label review.",
+    "archive_sha256": "88c0fc0593f530fe120554eddc61f808388ce8223acf48dc61249ef6a732a79e",
+    "archive_bytes": 3118506
+  },
+  "nus_sms": {
+    "url": "https://github.com/kite1988/nus-sms-corpus",
+    "archive_url": "https://codeload.github.com/kite1988/nus-sms-corpus/zip/refs/heads/master",
+    "archive": "nus_sms.zip",
+    "license": "Public research release requests paper attribution; no explicit SPDX license in repository.",
+    "citation": "Chen and Kan (2013), Creating a Live, Public Short Message Service Corpus: The NUS SMS Corpus, Language Resources and Evaluation 47(2).",
+    "semantics": "Volunteer personal SMS in Simplified and genuine Traditional Chinese; no scam/spam classification labels. Retained archive only, not assigned guessed ground truth.",
+    "archive_sha256": "435670e64ccae68306bffc46bb021e0e9a00faf7cf2abd2c63cd72b8ae35a04a",
+    "archive_bytes": 6722357
+  },
+  "fgrc_scd": {
+    "url": "https://huggingface.co/datasets/Abooooo/FGRC-SCD",
+    "download_url": "https://huggingface.co/datasets/Abooooo/FGRC-SCD/resolve/main/FGRC-SCD-sms.zip?download=true",
+    "archive": "fgrc_sms.zip",
+    "archive_sha256": "7ffe26db5d6648ffcf8d87f21dab2f020d89666bf0d344008227f848b4dbd7b0",
+    "card": "data/raw/fgrc_README.md",
+    "license": "MIT stated in dataset card; underlying source-case terms still apply",
+    "semantics": "Generated SMS from CCF23-EVAL task6 cases; 无风险->normal0, nine named risk categories->scam2. Actual case IDs preserved and kept within one split.",
+    "limitations": "Generated message-form data, not an independent real-SMS corpus. Existing Telecom source lacks case IDs, so cross-source case identity can only be screened using text similarity and cannot be guaranteed completely."
+  }
+}

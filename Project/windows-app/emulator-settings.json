@@ -1,0 +1,16 @@
+{
+  "distribution": "Ubuntu",
+  "sdk": "/home/victor/.local/share/wisemessage-android/android-sdk",
+  "emulator": "/home/victor/.local/share/wisemessage-android/android-sdk/emulator/emulator",
+  "adb": "/home/victor/.local/share/wisemessage-android/android-sdk/platform-tools/adb",
+  "avd": "wisemessage_windows_20261024",
+  "avd_path": "/home/victor/.local/share/wisemessage-android/avd-windows-20261024",
+  "serial": "emulator-5582",
+  "port": 5582,
+  "package": "hk.wisemessage.app",
+  "apk_sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c",
+  "dedicated_windows_demo": true,
+  "apk_file": "apk/WiseMessage-3.2.0-test-arm64.apk",
+  "apk_version_name": "3.2.0-test",
+  "apk_version_code": 5
+}

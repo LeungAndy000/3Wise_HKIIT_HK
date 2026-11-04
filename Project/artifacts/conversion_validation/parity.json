@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "framework": "mindspore",
+  "mindspore_version": "2.10.0",
+  "reference": "official Hugging Face BertModel 4.44.2",
+  "device_target": "CPU",
+  "samples": 8,
+  "scripts": [
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Cantonese",
+    "mixed English"
+  ],
+  "tokenizer_exact_match": true,
+  "max_abs_error": 1.621246337890625e-05,
+  "mean_abs_error": 6.306705131464696e-07,
+  "rtol": 0.0002,
+  "atol": 5e-05,
+  "compared": "all last-layer sequence hidden states",
+  "classifier_untrained_not_compared": true
+}

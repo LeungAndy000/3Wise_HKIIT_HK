@@ -1,0 +1,38 @@
+{
+  "library": "android/app/src/main/jniLibs/arm64-v8a/libwisemessage_native.so",
+  "bytes": 15082672,
+  "sha256": "bf53c782b10741bbfd022d40ba75cd91b6c030199d26143d6cda3b05eba7a875",
+  "pt_load": [
+    {
+      "offset": 0,
+      "virtual_address": 0,
+      "alignment": 16384
+    },
+    {
+      "offset": 2852352,
+      "virtual_address": 2868736,
+      "alignment": 16384
+    },
+    {
+      "offset": 7894912,
+      "virtual_address": 7927680,
+      "alignment": 16384
+    },
+    {
+      "offset": 8101528,
+      "virtual_address": 8150680,
+      "alignment": 16384
+    }
+  ],
+  "supports_16kb_alignment": true,
+  "method": "Real NDK clang/lld link of unchanged official MindSpore Lite 2.7.1 ARM64 static objects, whole-archive kernel registration; static libc++",
+  "ndk": "/home/victor/.local/share/wisemessage-android/android-ndk-r28c",
+  "jni_class": "hk.wisemessage.app.ml.NativeMessageEngine",
+  "report_dir": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/android/native_relink_20261023T040246_063301Z",
+  "input_sha256": {
+    "artifacts/android/tools/mindspore-lite-2.7.1-android-aarch64/runtime/lib/libmindspore-lite.a": "8ebffce1a9d9e480f2ead2c2238326fcf801ba040948b8b495eb6ae6868401f1",
+    "artifacts/android/tools/mindspore-lite-2.7.1-android-aarch64/runtime/third_party/securec/libsecurec.a": "158b8b39c82049602aad40c31fa541919e5795df65f811c02bbbbb42cc628c6f",
+    "android/model-tools/wisemessage_jni.cc": "f1a1068174d67db6a8a70f3213bb028d623ed529671587f0517beaf6fbda4f61"
+  },
+  "compiler_version": "Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)\nTarget: aarch64-unknown-linux-android26\nThread model: posix\nInstalledDir: /home/victor/.local/share/wisemessage-android/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+}

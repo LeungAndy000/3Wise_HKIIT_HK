@@ -1,0 +1,1 @@
+[WARNING] ME(15816:140573494040384,MainProcess):2026-10-26-00:35:40.742.000 [mindspore/run_check/_check_version.py:115] MindSpore version 2.10.0 and cuda version 11.8.89 does not match, CUDA version [['10.1', '11.1', '11.6']] are supported by MindSpore officially. Please refer to the installation guide for version matching information: https://www.mindspore.cn/install.

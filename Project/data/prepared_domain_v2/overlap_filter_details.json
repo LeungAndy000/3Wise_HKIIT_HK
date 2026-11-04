@@ -1,0 +1,6047 @@
+{
+  "protected_original_rows": 25882,
+  "candidate_rows": 67394,
+  "safe_groups": 37955,
+  "safe_rows": 63754,
+  "protected_overlap_excluded_rows": 2466,
+  "excluded_groups": [
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3095"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.train:6558",
+        "mudou_sms:mudou_spam.train:4981",
+        "mudou_sms:mudou_spam.train:6465",
+        "mudou_sms:mudou_spam.train:10316",
+        "mudou_sms:mudou_spam.train:3"
+      ],
+      "protected_splits": [
+        "train"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:928",
+        "mudou_sms:mudou_spam.train:1795",
+        "mudou_sms:mudou_spam.train:3089",
+        "mudou_sms:mudou_spam.train:7498"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.train:5558",
+        "smishing_imc2025:3080",
+        "smishing_imc2025:26628"
+      ],
+      "protected_splits": [
+        "external_unreviewed",
+        "train"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1229",
+        "mudou_sms:mudou_spam.train:5865",
+        "mudou_sms:mudou_spam.train:10558"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:4"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7178",
+        "mudou_sms:mudou_spam.train:9368"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:9"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7649"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:11"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 9,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:206",
+        "mudou_sms:mudou_spam.train:2959",
+        "mudou_sms:mudou_spam.train:3922",
+        "mudou_sms:mudou_spam.train:4916",
+        "mudou_sms:mudou_spam.train:5341",
+        "mudou_sms:mudou_spam.train:6987",
+        "mudou_sms:mudou_spam.train:8823",
+        "mudou_sms:mudou_spam.train:10205",
+        "mudou_sms:mudou_spam.train:10725"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:13"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:30",
+        "mudou_sms:mudou_spam.train:4740"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:16"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2681",
+        "mudou_sms:mudou_spam.train:3005",
+        "mudou_sms:mudou_spam.train:4544",
+        "mudou_sms:mudou_spam.train:4598",
+        "mudou_sms:mudou_spam.train:5028",
+        "mudou_sms:mudou_spam.train:6581",
+        "mudou_sms:mudou_spam.train:10094"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:18"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:64",
+        "mudou_sms:mudou_spam.train:332",
+        "mudou_sms:mudou_spam.train:522",
+        "mudou_sms:mudou_spam.train:9708"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:20"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:182",
+        "mudou_sms:mudou_spam.train:195",
+        "mudou_sms:mudou_spam.train:764",
+        "mudou_sms:mudou_spam.train:1777",
+        "mudou_sms:mudou_spam.train:1891",
+        "mudou_sms:mudou_spam.train:2339",
+        "mudou_sms:mudou_spam.train:3004",
+        "mudou_sms:mudou_spam.train:3404",
+        "mudou_sms:mudou_spam.train:4288",
+        "mudou_sms:mudou_spam.train:8293"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:22",
+        "mudou_sms:mudou_spam.test:1171"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5277",
+        "mudou_sms:mudou_spam.train:9104"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:23"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 15,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:263",
+        "mudou_sms:mudou_spam.train:841",
+        "mudou_sms:mudou_spam.train:1625",
+        "mudou_sms:mudou_spam.train:2381",
+        "mudou_sms:mudou_spam.train:3208",
+        "mudou_sms:mudou_spam.train:6711",
+        "mudou_sms:mudou_spam.train:7193",
+        "mudou_sms:mudou_spam.train:7241",
+        "mudou_sms:mudou_spam.train:7834",
+        "mudou_sms:mudou_spam.train:7924",
+        "mudou_sms:mudou_spam.train:7982",
+        "mudou_sms:mudou_spam.train:8543",
+        "mudou_sms:mudou_spam.train:8660",
+        "mudou_sms:mudou_spam.train:8710",
+        "mudou_sms:mudou_spam.train:10214"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:24"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:386",
+        "mudou_sms:mudou_spam.train:4053",
+        "mudou_sms:mudou_spam.train:5087",
+        "mudou_sms:mudou_spam.train:5624",
+        "mudou_sms:mudou_spam.train:7575",
+        "mudou_sms:mudou_spam.train:9716"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:26"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8508"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:28"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 118,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:126",
+        "mudou_sms:mudou_spam.train:205",
+        "mudou_sms:mudou_spam.train:235",
+        "mudou_sms:mudou_spam.train:324",
+        "mudou_sms:mudou_spam.train:352",
+        "mudou_sms:mudou_spam.train:383",
+        "mudou_sms:mudou_spam.train:395",
+        "mudou_sms:mudou_spam.train:419",
+        "mudou_sms:mudou_spam.train:505",
+        "mudou_sms:mudou_spam.train:525",
+        "mudou_sms:mudou_spam.train:672",
+        "mudou_sms:mudou_spam.train:736",
+        "mudou_sms:mudou_spam.train:787",
+        "mudou_sms:mudou_spam.train:829",
+        "mudou_sms:mudou_spam.train:845",
+        "mudou_sms:mudou_spam.train:1096",
+        "mudou_sms:mudou_spam.train:1122",
+        "mudou_sms:mudou_spam.train:1199",
+        "mudou_sms:mudou_spam.train:1205",
+        "mudou_sms:mudou_spam.train:1231",
+        "mudou_sms:mudou_spam.train:1266",
+        "mudou_sms:mudou_spam.train:1285",
+        "mudou_sms:mudou_spam.train:1302",
+        "mudou_sms:mudou_spam.train:1384",
+        "mudou_sms:mudou_spam.train:1544",
+        "mudou_sms:mudou_spam.train:1926",
+        "mudou_sms:mudou_spam.train:2069",
+        "mudou_sms:mudou_spam.train:2077",
+        "mudou_sms:mudou_spam.train:2168",
+        "mudou_sms:mudou_spam.train:2231",
+        "mudou_sms:mudou_spam.train:2397",
+        "mudou_sms:mudou_spam.train:2477",
+        "mudou_sms:mudou_spam.train:2613",
+        "mudou_sms:mudou_spam.train:2726",
+        "mudou_sms:mudou_spam.train:2951",
+        "mudou_sms:mudou_spam.train:2978",
+        "mudou_sms:mudou_spam.train:3106",
+        "mudou_sms:mudou_spam.train:3281",
+        "mudou_sms:mudou_spam.train:3406",
+        "mudou_sms:mudou_spam.train:3510",
+        "mudou_sms:mudou_spam.train:3548",
+        "mudou_sms:mudou_spam.train:3569",
+        "mudou_sms:mudou_spam.train:3673",
+        "mudou_sms:mudou_spam.train:3722",
+        "mudou_sms:mudou_spam.train:3996",
+        "mudou_sms:mudou_spam.train:4059",
+        "mudou_sms:mudou_spam.train:4197",
+        "mudou_sms:mudou_spam.train:4376",
+        "mudou_sms:mudou_spam.train:4736",
+        "mudou_sms:mudou_spam.train:4762",
+        "mudou_sms:mudou_spam.train:4870",
+        "mudou_sms:mudou_spam.train:5059",
+        "mudou_sms:mudou_spam.train:5089",
+        "mudou_sms:mudou_spam.train:5115",
+        "mudou_sms:mudou_spam.train:5139",
+        "mudou_sms:mudou_spam.train:5245",
+        "mudou_sms:mudou_spam.train:5401",
+        "mudou_sms:mudou_spam.train:5461",
+        "mudou_sms:mudou_spam.train:5693",
+        "mudou_sms:mudou_spam.train:5803",
+        "mudou_sms:mudou_spam.train:5910",
+        "mudou_sms:mudou_spam.train:5992",
+        "mudou_sms:mudou_spam.train:6026",
+        "mudou_sms:mudou_spam.train:6158",
+        "mudou_sms:mudou_spam.train:6292",
+        "mudou_sms:mudou_spam.train:6330",
+        "mudou_sms:mudou_spam.train:6527",
+        "mudou_sms:mudou_spam.train:6547",
+        "mudou_sms:mudou_spam.train:6567",
+        "mudou_sms:mudou_spam.train:6604",
+        "mudou_sms:mudou_spam.train:6767",
+        "mudou_sms:mudou_spam.train:6835",
+        "mudou_sms:mudou_spam.train:6947",
+        "mudou_sms:mudou_spam.train:6954",
+        "mudou_sms:mudou_spam.train:7053",
+        "mudou_sms:mudou_spam.train:7123",
+        "mudou_sms:mudou_spam.train:7310",
+        "mudou_sms:mudou_spam.train:7634",
+        "mudou_sms:mudou_spam.train:7636",
+        "mudou_sms:mudou_spam.train:7681",
+        "mudou_sms:mudou_spam.train:7756",
+        "mudou_sms:mudou_spam.train:7769",
+        "mudou_sms:mudou_spam.train:7836",
+        "mudou_sms:mudou_spam.train:7870",
+        "mudou_sms:mudou_spam.train:7912",
+        "mudou_sms:mudou_spam.train:7931",
+        "mudou_sms:mudou_spam.train:7989",
+        "mudou_sms:mudou_spam.train:8082",
+        "mudou_sms:mudou_spam.train:8161",
+        "mudou_sms:mudou_spam.train:8277",
+        "mudou_sms:mudou_spam.train:8333",
+        "mudou_sms:mudou_spam.train:8462",
+        "mudou_sms:mudou_spam.train:8638",
+        "mudou_sms:mudou_spam.train:8694",
+        "mudou_sms:mudou_spam.train:8721",
+        "mudou_sms:mudou_spam.train:8827",
+        "mudou_sms:mudou_spam.train:8830",
+        "mudou_sms:mudou_spam.train:8925",
+        "mudou_sms:mudou_spam.train:9168",
+        "mudou_sms:mudou_spam.train:9184",
+        "mudou_sms:mudou_spam.train:9199",
+        "mudou_sms:mudou_spam.train:9270",
+        "mudou_sms:mudou_spam.train:9419",
+        "mudou_sms:mudou_spam.train:9502",
+        "mudou_sms:mudou_spam.train:9529",
+        "mudou_sms:mudou_spam.train:9554",
+        "mudou_sms:mudou_spam.train:9747",
+        "mudou_sms:mudou_spam.train:9938",
+        "mudou_sms:mudou_spam.train:10011",
+        "mudou_sms:mudou_spam.train:10119",
+        "mudou_sms:mudou_spam.train:10129",
+        "mudou_sms:mudou_spam.train:10235",
+        "mudou_sms:mudou_spam.train:10290",
+        "mudou_sms:mudou_spam.train:10295",
+        "mudou_sms:mudou_spam.train:10349",
+        "mudou_sms:mudou_spam.train:10374",
+        "mudou_sms:mudou_spam.train:10714",
+        "mudou_sms:mudou_spam.train:10742"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:32"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7829",
+        "mudou_sms:mudou_spam.train:9684"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:33"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5500",
+        "mudou_sms:mudou_spam.train:6851",
+        "mudou_sms:mudou_spam.train:8346",
+        "mudou_sms:mudou_spam.train:9470"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:35",
+        "mudou_sms:mudou_spam.test:332"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3156",
+        "mudou_sms:mudou_spam.train:5092",
+        "mudou_sms:mudou_spam.train:8401",
+        "mudou_sms:mudou_spam.train:8406"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:38",
+        "mudou_sms:mudou_spam.test:111"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 131,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:108",
+        "mudou_sms:mudou_spam.train:136",
+        "mudou_sms:mudou_spam.train:291",
+        "mudou_sms:mudou_spam.train:437",
+        "mudou_sms:mudou_spam.train:566",
+        "mudou_sms:mudou_spam.train:778",
+        "mudou_sms:mudou_spam.train:876",
+        "mudou_sms:mudou_spam.train:917",
+        "mudou_sms:mudou_spam.train:952",
+        "mudou_sms:mudou_spam.train:963",
+        "mudou_sms:mudou_spam.train:987",
+        "mudou_sms:mudou_spam.train:1001",
+        "mudou_sms:mudou_spam.train:1103",
+        "mudou_sms:mudou_spam.train:1127",
+        "mudou_sms:mudou_spam.train:1250",
+        "mudou_sms:mudou_spam.train:1368",
+        "mudou_sms:mudou_spam.train:1465",
+        "mudou_sms:mudou_spam.train:1629",
+        "mudou_sms:mudou_spam.train:1635",
+        "mudou_sms:mudou_spam.train:1665",
+        "mudou_sms:mudou_spam.train:1686",
+        "mudou_sms:mudou_spam.train:1971",
+        "mudou_sms:mudou_spam.train:2123",
+        "mudou_sms:mudou_spam.train:2152",
+        "mudou_sms:mudou_spam.train:2158",
+        "mudou_sms:mudou_spam.train:2225",
+        "mudou_sms:mudou_spam.train:2267",
+        "mudou_sms:mudou_spam.train:2320",
+        "mudou_sms:mudou_spam.train:2487",
+        "mudou_sms:mudou_spam.train:2528",
+        "mudou_sms:mudou_spam.train:2643",
+        "mudou_sms:mudou_spam.train:2679",
+        "mudou_sms:mudou_spam.train:2751",
+        "mudou_sms:mudou_spam.train:3012",
+        "mudou_sms:mudou_spam.train:3177",
+        "mudou_sms:mudou_spam.train:3194",
+        "mudou_sms:mudou_spam.train:3253",
+        "mudou_sms:mudou_spam.train:3328",
+        "mudou_sms:mudou_spam.train:3572",
+        "mudou_sms:mudou_spam.train:3613",
+        "mudou_sms:mudou_spam.train:3698",
+        "mudou_sms:mudou_spam.train:3857",
+        "mudou_sms:mudou_spam.train:3875",
+        "mudou_sms:mudou_spam.train:4052",
+        "mudou_sms:mudou_spam.train:4193",
+        "mudou_sms:mudou_spam.train:4231",
+        "mudou_sms:mudou_spam.train:4277",
+        "mudou_sms:mudou_spam.train:4278",
+        "mudou_sms:mudou_spam.train:4317",
+        "mudou_sms:mudou_spam.train:4539",
+        "mudou_sms:mudou_spam.train:4654",
+        "mudou_sms:mudou_spam.train:4723",
+        "mudou_sms:mudou_spam.train:4839",
+        "mudou_sms:mudou_spam.train:4858",
+        "mudou_sms:mudou_spam.train:4949",
+        "mudou_sms:mudou_spam.train:4962",
+        "mudou_sms:mudou_spam.train:5035",
+        "mudou_sms:mudou_spam.train:5199",
+        "mudou_sms:mudou_spam.train:5294",
+        "mudou_sms:mudou_spam.train:5345",
+        "mudou_sms:mudou_spam.train:5365",
+        "mudou_sms:mudou_spam.train:5366",
+        "mudou_sms:mudou_spam.train:5447",
+        "mudou_sms:mudou_spam.train:5547",
+        "mudou_sms:mudou_spam.train:5579",
+        "mudou_sms:mudou_spam.train:5582",
+        "mudou_sms:mudou_spam.train:5588",
+        "mudou_sms:mudou_spam.train:5637",
+        "mudou_sms:mudou_spam.train:5657",
+        "mudou_sms:mudou_spam.train:5746",
+        "mudou_sms:mudou_spam.train:5857",
+        "mudou_sms:mudou_spam.train:5938",
+        "mudou_sms:mudou_spam.train:5951",
+        "mudou_sms:mudou_spam.train:5956",
+        "mudou_sms:mudou_spam.train:6057",
+        "mudou_sms:mudou_spam.train:6127",
+        "mudou_sms:mudou_spam.train:6184",
+        "mudou_sms:mudou_spam.train:6240",
+        "mudou_sms:mudou_spam.train:6270",
+        "mudou_sms:mudou_spam.train:6283",
+        "mudou_sms:mudou_spam.train:6295",
+        "mudou_sms:mudou_spam.train:6555",
+        "mudou_sms:mudou_spam.train:6641",
+        "mudou_sms:mudou_spam.train:6696",
+        "mudou_sms:mudou_spam.train:6714",
+        "mudou_sms:mudou_spam.train:6759",
+        "mudou_sms:mudou_spam.train:6832",
+        "mudou_sms:mudou_spam.train:6974",
+        "mudou_sms:mudou_spam.train:6994",
+        "mudou_sms:mudou_spam.train:7041",
+        "mudou_sms:mudou_spam.train:7199",
+        "mudou_sms:mudou_spam.train:7226",
+        "mudou_sms:mudou_spam.train:7229",
+        "mudou_sms:mudou_spam.train:7384",
+        "mudou_sms:mudou_spam.train:7512",
+        "mudou_sms:mudou_spam.train:7530",
+        "mudou_sms:mudou_spam.train:7656",
+        "mudou_sms:mudou_spam.train:7664",
+        "mudou_sms:mudou_spam.train:7714",
+        "mudou_sms:mudou_spam.train:7766",
+        "mudou_sms:mudou_spam.train:7767",
+        "mudou_sms:mudou_spam.train:7776",
+        "mudou_sms:mudou_spam.train:7782",
+        "mudou_sms:mudou_spam.train:8070",
+        "mudou_sms:mudou_spam.train:8094",
+        "mudou_sms:mudou_spam.train:8208",
+        "mudou_sms:mudou_spam.train:8313",
+        "mudou_sms:mudou_spam.train:8351",
+        "mudou_sms:mudou_spam.train:8362",
+        "mudou_sms:mudou_spam.train:8452",
+        "mudou_sms:mudou_spam.train:8490",
+        "mudou_sms:mudou_spam.train:8615",
+        "mudou_sms:mudou_spam.train:8669",
+        "mudou_sms:mudou_spam.train:8702",
+        "mudou_sms:mudou_spam.train:8814",
+        "mudou_sms:mudou_spam.train:8935",
+        "mudou_sms:mudou_spam.train:8980",
+        "mudou_sms:mudou_spam.train:9088",
+        "mudou_sms:mudou_spam.train:9391",
+        "mudou_sms:mudou_spam.train:9543",
+        "mudou_sms:mudou_spam.train:9743",
+        "mudou_sms:mudou_spam.train:9864",
+        "mudou_sms:mudou_spam.train:10047",
+        "mudou_sms:mudou_spam.train:10125",
+        "mudou_sms:mudou_spam.train:10237",
+        "mudou_sms:mudou_spam.train:10402",
+        "mudou_sms:mudou_spam.train:10488",
+        "mudou_sms:mudou_spam.train:10592",
+        "mudou_sms:mudou_spam.train:10641",
+        "mudou_sms:mudou_spam.train:10787",
+        "mudou_sms:mudou_spam.train:10796"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:39"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:268",
+        "mudou_sms:mudou_spam.train:1022"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:40"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 11,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:134",
+        "mudou_sms:mudou_spam.train:878",
+        "mudou_sms:mudou_spam.train:1057",
+        "mudou_sms:mudou_spam.train:1905",
+        "mudou_sms:mudou_spam.train:5825",
+        "mudou_sms:mudou_spam.train:6766",
+        "mudou_sms:mudou_spam.train:7635",
+        "mudou_sms:mudou_spam.train:8735",
+        "mudou_sms:mudou_spam.train:9439",
+        "mudou_sms:mudou_spam.train:9874",
+        "mudou_sms:mudou_spam.train:10106"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:43",
+        "mudou_sms:mudou_spam.test:73"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5172",
+        "mudou_sms:mudou_spam.train:7842"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:46"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 16,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:387",
+        "mudou_sms:mudou_spam.train:405",
+        "mudou_sms:mudou_spam.train:885",
+        "mudou_sms:mudou_spam.train:1180",
+        "mudou_sms:mudou_spam.train:1986",
+        "mudou_sms:mudou_spam.train:4067",
+        "mudou_sms:mudou_spam.train:5360",
+        "mudou_sms:mudou_spam.train:5481",
+        "mudou_sms:mudou_spam.train:5584",
+        "mudou_sms:mudou_spam.train:6166",
+        "mudou_sms:mudou_spam.train:7001",
+        "mudou_sms:mudou_spam.train:7034",
+        "mudou_sms:mudou_spam.train:7409",
+        "mudou_sms:mudou_spam.train:7805",
+        "mudou_sms:mudou_spam.train:8461",
+        "mudou_sms:mudou_spam.train:10738"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:53",
+        "mudou_sms:mudou_spam.test:161",
+        "mudou_sms:mudou_spam.test:710",
+        "mudou_sms:mudou_spam.test:923"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4735"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:54"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:549"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:58"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 36,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:319",
+        "mudou_sms:mudou_spam.train:1241",
+        "mudou_sms:mudou_spam.train:1289",
+        "mudou_sms:mudou_spam.train:1332",
+        "mudou_sms:mudou_spam.train:1510",
+        "mudou_sms:mudou_spam.train:1662",
+        "mudou_sms:mudou_spam.train:2103",
+        "mudou_sms:mudou_spam.train:2718",
+        "mudou_sms:mudou_spam.train:2819",
+        "mudou_sms:mudou_spam.train:3057",
+        "mudou_sms:mudou_spam.train:3902",
+        "mudou_sms:mudou_spam.train:4033",
+        "mudou_sms:mudou_spam.train:4129",
+        "mudou_sms:mudou_spam.train:4660",
+        "mudou_sms:mudou_spam.train:4947",
+        "mudou_sms:mudou_spam.train:5410",
+        "mudou_sms:mudou_spam.train:5467",
+        "mudou_sms:mudou_spam.train:5790",
+        "mudou_sms:mudou_spam.train:5959",
+        "mudou_sms:mudou_spam.train:6454",
+        "mudou_sms:mudou_spam.train:6522",
+        "mudou_sms:mudou_spam.train:6849",
+        "mudou_sms:mudou_spam.train:6861",
+        "mudou_sms:mudou_spam.train:6864",
+        "mudou_sms:mudou_spam.train:7273",
+        "mudou_sms:mudou_spam.train:7507",
+        "mudou_sms:mudou_spam.train:8135",
+        "mudou_sms:mudou_spam.train:8856",
+        "mudou_sms:mudou_spam.train:8907",
+        "mudou_sms:mudou_spam.train:8974",
+        "mudou_sms:mudou_spam.train:9103",
+        "mudou_sms:mudou_spam.train:9585",
+        "mudou_sms:mudou_spam.train:9885",
+        "mudou_sms:mudou_spam.train:10029",
+        "mudou_sms:mudou_spam.train:10620",
+        "mudou_sms:mudou_spam.train:10687"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:60"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7329"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:61"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 240,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:111",
+        "mudou_sms:mudou_spam.train:132",
+        "mudou_sms:mudou_spam.train:158",
+        "mudou_sms:mudou_spam.train:160",
+        "mudou_sms:mudou_spam.train:167",
+        "mudou_sms:mudou_spam.train:207",
+        "mudou_sms:mudou_spam.train:243",
+        "mudou_sms:mudou_spam.train:341",
+        "mudou_sms:mudou_spam.train:369",
+        "mudou_sms:mudou_spam.train:378",
+        "mudou_sms:mudou_spam.train:499",
+        "mudou_sms:mudou_spam.train:539",
+        "mudou_sms:mudou_spam.train:731",
+        "mudou_sms:mudou_spam.train:756",
+        "mudou_sms:mudou_spam.train:773",
+        "mudou_sms:mudou_spam.train:789",
+        "mudou_sms:mudou_spam.train:832",
+        "mudou_sms:mudou_spam.train:894",
+        "mudou_sms:mudou_spam.train:915",
+        "mudou_sms:mudou_spam.train:949",
+        "mudou_sms:mudou_spam.train:969",
+        "mudou_sms:mudou_spam.train:1034",
+        "mudou_sms:mudou_spam.train:1076",
+        "mudou_sms:mudou_spam.train:1168",
+        "mudou_sms:mudou_spam.train:1185",
+        "mudou_sms:mudou_spam.train:1190",
+        "mudou_sms:mudou_spam.train:1299",
+        "mudou_sms:mudou_spam.train:1418",
+        "mudou_sms:mudou_spam.train:1425",
+        "mudou_sms:mudou_spam.train:1444",
+        "mudou_sms:mudou_spam.train:1447",
+        "mudou_sms:mudou_spam.train:1449",
+        "mudou_sms:mudou_spam.train:1575",
+        "mudou_sms:mudou_spam.train:1590",
+        "mudou_sms:mudou_spam.train:1738",
+        "mudou_sms:mudou_spam.train:1919",
+        "mudou_sms:mudou_spam.train:1967",
+        "mudou_sms:mudou_spam.train:2026",
+        "mudou_sms:mudou_spam.train:2251",
+        "mudou_sms:mudou_spam.train:2329",
+        "mudou_sms:mudou_spam.train:2372",
+        "mudou_sms:mudou_spam.train:2409",
+        "mudou_sms:mudou_spam.train:2499",
+        "mudou_sms:mudou_spam.train:2517",
+        "mudou_sms:mudou_spam.train:2610",
+        "mudou_sms:mudou_spam.train:2725",
+        "mudou_sms:mudou_spam.train:2788",
+        "mudou_sms:mudou_spam.train:2805",
+        "mudou_sms:mudou_spam.train:2816",
+        "mudou_sms:mudou_spam.train:2822",
+        "mudou_sms:mudou_spam.train:2971",
+        "mudou_sms:mudou_spam.train:3070",
+        "mudou_sms:mudou_spam.train:3075",
+        "mudou_sms:mudou_spam.train:3132",
+        "mudou_sms:mudou_spam.train:3142",
+        "mudou_sms:mudou_spam.train:3149",
+        "mudou_sms:mudou_spam.train:3155",
+        "mudou_sms:mudou_spam.train:3227",
+        "mudou_sms:mudou_spam.train:3237",
+        "mudou_sms:mudou_spam.train:3330",
+        "mudou_sms:mudou_spam.train:3400",
+        "mudou_sms:mudou_spam.train:3422",
+        "mudou_sms:mudou_spam.train:3424",
+        "mudou_sms:mudou_spam.train:3445",
+        "mudou_sms:mudou_spam.train:3456",
+        "mudou_sms:mudou_spam.train:3480",
+        "mudou_sms:mudou_spam.train:3623",
+        "mudou_sms:mudou_spam.train:3805",
+        "mudou_sms:mudou_spam.train:3833",
+        "mudou_sms:mudou_spam.train:3873",
+        "mudou_sms:mudou_spam.train:3881",
+        "mudou_sms:mudou_spam.train:3944",
+        "mudou_sms:mudou_spam.train:3954",
+        "mudou_sms:mudou_spam.train:3966",
+        "mudou_sms:mudou_spam.train:3981",
+        "mudou_sms:mudou_spam.train:3990",
+        "mudou_sms:mudou_spam.train:4008",
+        "mudou_sms:mudou_spam.train:4092",
+        "mudou_sms:mudou_spam.train:4190",
+        "mudou_sms:mudou_spam.train:4201",
+        "mudou_sms:mudou_spam.train:4246",
+        "mudou_sms:mudou_spam.train:4265",
+        "mudou_sms:mudou_spam.train:4293",
+        "mudou_sms:mudou_spam.train:4294",
+        "mudou_sms:mudou_spam.train:4309",
+        "mudou_sms:mudou_spam.train:4323",
+        "mudou_sms:mudou_spam.train:4325",
+        "mudou_sms:mudou_spam.train:4360",
+        "mudou_sms:mudou_spam.train:4373",
+        "mudou_sms:mudou_spam.train:4389",
+        "mudou_sms:mudou_spam.train:4393",
+        "mudou_sms:mudou_spam.train:4416",
+        "mudou_sms:mudou_spam.train:4492",
+        "mudou_sms:mudou_spam.train:4496",
+        "mudou_sms:mudou_spam.train:4576",
+        "mudou_sms:mudou_spam.train:4591",
+        "mudou_sms:mudou_spam.train:4629",
+        "mudou_sms:mudou_spam.train:4741",
+        "mudou_sms:mudou_spam.train:4794",
+        "mudou_sms:mudou_spam.train:4804",
+        "mudou_sms:mudou_spam.train:4979",
+        "mudou_sms:mudou_spam.train:4995",
+        "mudou_sms:mudou_spam.train:5062",
+        "mudou_sms:mudou_spam.train:5100",
+        "mudou_sms:mudou_spam.train:5102",
+        "mudou_sms:mudou_spam.train:5107",
+        "mudou_sms:mudou_spam.train:5118",
+        "mudou_sms:mudou_spam.train:5152",
+        "mudou_sms:mudou_spam.train:5170",
+        "mudou_sms:mudou_spam.train:5208",
+        "mudou_sms:mudou_spam.train:5211",
+        "mudou_sms:mudou_spam.train:5237",
+        "mudou_sms:mudou_spam.train:5271",
+        "mudou_sms:mudou_spam.train:5323",
+        "mudou_sms:mudou_spam.train:5372",
+        "mudou_sms:mudou_spam.train:5384",
+        "mudou_sms:mudou_spam.train:5432",
+        "mudou_sms:mudou_spam.train:5482",
+        "mudou_sms:mudou_spam.train:5492",
+        "mudou_sms:mudou_spam.train:5505",
+        "mudou_sms:mudou_spam.train:5612",
+        "mudou_sms:mudou_spam.train:5616",
+        "mudou_sms:mudou_spam.train:5655",
+        "mudou_sms:mudou_spam.train:5663",
+        "mudou_sms:mudou_spam.train:5700",
+        "mudou_sms:mudou_spam.train:5722",
+        "mudou_sms:mudou_spam.train:5763",
+        "mudou_sms:mudou_spam.train:5811",
+        "mudou_sms:mudou_spam.train:5888",
+        "mudou_sms:mudou_spam.train:5939",
+        "mudou_sms:mudou_spam.train:6106",
+        "mudou_sms:mudou_spam.train:6171",
+        "mudou_sms:mudou_spam.train:6199",
+        "mudou_sms:mudou_spam.train:6225",
+        "mudou_sms:mudou_spam.train:6314",
+        "mudou_sms:mudou_spam.train:6319",
+        "mudou_sms:mudou_spam.train:6332",
+        "mudou_sms:mudou_spam.train:6377",
+        "mudou_sms:mudou_spam.train:6380",
+        "mudou_sms:mudou_spam.train:6416",
+        "mudou_sms:mudou_spam.train:6477",
+        "mudou_sms:mudou_spam.train:6532",
+        "mudou_sms:mudou_spam.train:6610",
+        "mudou_sms:mudou_spam.train:6640",
+        "mudou_sms:mudou_spam.train:6758",
+        "mudou_sms:mudou_spam.train:6779",
+        "mudou_sms:mudou_spam.train:6791",
+        "mudou_sms:mudou_spam.train:6810",
+        "mudou_sms:mudou_spam.train:6814",
+        "mudou_sms:mudou_spam.train:6827",
+        "mudou_sms:mudou_spam.train:6906",
+        "mudou_sms:mudou_spam.train:6924",
+        "mudou_sms:mudou_spam.train:7007",
+        "mudou_sms:mudou_spam.train:7027",
+        "mudou_sms:mudou_spam.train:7043",
+        "mudou_sms:mudou_spam.train:7179",
+        "mudou_sms:mudou_spam.train:7257",
+        "mudou_sms:mudou_spam.train:7258",
+        "mudou_sms:mudou_spam.train:7262",
+        "mudou_sms:mudou_spam.train:7325",
+        "mudou_sms:mudou_spam.train:7474",
+        "mudou_sms:mudou_spam.train:7495",
+        "mudou_sms:mudou_spam.train:7552",
+        "mudou_sms:mudou_spam.train:7584",
+        "mudou_sms:mudou_spam.train:7589",
+        "mudou_sms:mudou_spam.train:7648",
+        "mudou_sms:mudou_spam.train:7657",
+        "mudou_sms:mudou_spam.train:7668",
+        "mudou_sms:mudou_spam.train:7699",
+        "mudou_sms:mudou_spam.train:7807",
+        "mudou_sms:mudou_spam.train:7896",
+        "mudou_sms:mudou_spam.train:7929",
+        "mudou_sms:mudou_spam.train:7961",
+        "mudou_sms:mudou_spam.train:7968",
+        "mudou_sms:mudou_spam.train:7999",
+        "mudou_sms:mudou_spam.train:8018",
+        "mudou_sms:mudou_spam.train:8058",
+        "mudou_sms:mudou_spam.train:8081",
+        "mudou_sms:mudou_spam.train:8194",
+        "mudou_sms:mudou_spam.train:8265",
+        "mudou_sms:mudou_spam.train:8294",
+        "mudou_sms:mudou_spam.train:8309",
+        "mudou_sms:mudou_spam.train:8343",
+        "mudou_sms:mudou_spam.train:8438",
+        "mudou_sms:mudou_spam.train:8483",
+        "mudou_sms:mudou_spam.train:8516",
+        "mudou_sms:mudou_spam.train:8605",
+        "mudou_sms:mudou_spam.train:8722",
+        "mudou_sms:mudou_spam.train:8892",
+        "mudou_sms:mudou_spam.train:8962",
+        "mudou_sms:mudou_spam.train:8970",
+        "mudou_sms:mudou_spam.train:9065",
+        "mudou_sms:mudou_spam.train:9085",
+        "mudou_sms:mudou_spam.train:9130",
+        "mudou_sms:mudou_spam.train:9140",
+        "mudou_sms:mudou_spam.train:9200",
+        "mudou_sms:mudou_spam.train:9245",
+        "mudou_sms:mudou_spam.train:9254",
+        "mudou_sms:mudou_spam.train:9262",
+        "mudou_sms:mudou_spam.train:9277",
+        "mudou_sms:mudou_spam.train:9302",
+        "mudou_sms:mudou_spam.train:9333",
+        "mudou_sms:mudou_spam.train:9389",
+        "mudou_sms:mudou_spam.train:9463",
+        "mudou_sms:mudou_spam.train:9527",
+        "mudou_sms:mudou_spam.train:9556",
+        "mudou_sms:mudou_spam.train:9630",
+        "mudou_sms:mudou_spam.train:9638",
+        "mudou_sms:mudou_spam.train:9651",
+        "mudou_sms:mudou_spam.train:9676",
+        "mudou_sms:mudou_spam.train:9682",
+        "mudou_sms:mudou_spam.train:9753",
+        "mudou_sms:mudou_spam.train:9761",
+        "mudou_sms:mudou_spam.train:9870",
+        "mudou_sms:mudou_spam.train:9892",
+        "mudou_sms:mudou_spam.train:9915",
+        "mudou_sms:mudou_spam.train:9929",
+        "mudou_sms:mudou_spam.train:9965",
+        "mudou_sms:mudou_spam.train:9980",
+        "mudou_sms:mudou_spam.train:10082",
+        "mudou_sms:mudou_spam.train:10108",
+        "mudou_sms:mudou_spam.train:10180",
+        "mudou_sms:mudou_spam.train:10215",
+        "mudou_sms:mudou_spam.train:10247",
+        "mudou_sms:mudou_spam.train:10261",
+        "mudou_sms:mudou_spam.train:10312",
+        "mudou_sms:mudou_spam.train:10333",
+        "mudou_sms:mudou_spam.train:10377",
+        "mudou_sms:mudou_spam.train:10420",
+        "mudou_sms:mudou_spam.train:10422",
+        "mudou_sms:mudou_spam.train:10423",
+        "mudou_sms:mudou_spam.train:10425",
+        "mudou_sms:mudou_spam.train:10475",
+        "mudou_sms:mudou_spam.train:10504",
+        "mudou_sms:mudou_spam.train:10527",
+        "mudou_sms:mudou_spam.train:10545",
+        "mudou_sms:mudou_spam.train:10594",
+        "mudou_sms:mudou_spam.train:10707",
+        "mudou_sms:mudou_spam.train:10710",
+        "mudou_sms:mudou_spam.train:10750"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:68",
+        "mudou_sms:mudou_spam.test:155",
+        "mudou_sms:mudou_spam.test:196",
+        "mudou_sms:mudou_spam.test:277",
+        "mudou_sms:mudou_spam.test:445"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 226,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:17",
+        "mudou_sms:mudou_spam.train:23",
+        "mudou_sms:mudou_spam.train:103",
+        "mudou_sms:mudou_spam.train:107",
+        "mudou_sms:mudou_spam.train:128",
+        "mudou_sms:mudou_spam.train:140",
+        "mudou_sms:mudou_spam.train:150",
+        "mudou_sms:mudou_spam.train:283",
+        "mudou_sms:mudou_spam.train:377",
+        "mudou_sms:mudou_spam.train:464",
+        "mudou_sms:mudou_spam.train:469",
+        "mudou_sms:mudou_spam.train:517",
+        "mudou_sms:mudou_spam.train:524",
+        "mudou_sms:mudou_spam.train:565",
+        "mudou_sms:mudou_spam.train:569",
+        "mudou_sms:mudou_spam.train:578",
+        "mudou_sms:mudou_spam.train:807",
+        "mudou_sms:mudou_spam.train:920",
+        "mudou_sms:mudou_spam.train:958",
+        "mudou_sms:mudou_spam.train:1016",
+        "mudou_sms:mudou_spam.train:1021",
+        "mudou_sms:mudou_spam.train:1101",
+        "mudou_sms:mudou_spam.train:1115",
+        "mudou_sms:mudou_spam.train:1154",
+        "mudou_sms:mudou_spam.train:1351",
+        "mudou_sms:mudou_spam.train:1359",
+        "mudou_sms:mudou_spam.train:1396",
+        "mudou_sms:mudou_spam.train:1470",
+        "mudou_sms:mudou_spam.train:1486",
+        "mudou_sms:mudou_spam.train:1500",
+        "mudou_sms:mudou_spam.train:1529",
+        "mudou_sms:mudou_spam.train:1578",
+        "mudou_sms:mudou_spam.train:1610",
+        "mudou_sms:mudou_spam.train:1654",
+        "mudou_sms:mudou_spam.train:1774",
+        "mudou_sms:mudou_spam.train:1775",
+        "mudou_sms:mudou_spam.train:1856",
+        "mudou_sms:mudou_spam.train:1893",
+        "mudou_sms:mudou_spam.train:1910",
+        "mudou_sms:mudou_spam.train:1927",
+        "mudou_sms:mudou_spam.train:2007",
+        "mudou_sms:mudou_spam.train:2036",
+        "mudou_sms:mudou_spam.train:2049",
+        "mudou_sms:mudou_spam.train:2116",
+        "mudou_sms:mudou_spam.train:2135",
+        "mudou_sms:mudou_spam.train:2167",
+        "mudou_sms:mudou_spam.train:2204",
+        "mudou_sms:mudou_spam.train:2314",
+        "mudou_sms:mudou_spam.train:2332",
+        "mudou_sms:mudou_spam.train:2335",
+        "mudou_sms:mudou_spam.train:2371",
+        "mudou_sms:mudou_spam.train:2388",
+        "mudou_sms:mudou_spam.train:2391",
+        "mudou_sms:mudou_spam.train:2461",
+        "mudou_sms:mudou_spam.train:2464",
+        "mudou_sms:mudou_spam.train:2518",
+        "mudou_sms:mudou_spam.train:2525",
+        "mudou_sms:mudou_spam.train:2579",
+        "mudou_sms:mudou_spam.train:2667",
+        "mudou_sms:mudou_spam.train:2704",
+        "mudou_sms:mudou_spam.train:2763",
+        "mudou_sms:mudou_spam.train:2790",
+        "mudou_sms:mudou_spam.train:2823",
+        "mudou_sms:mudou_spam.train:2854",
+        "mudou_sms:mudou_spam.train:2859",
+        "mudou_sms:mudou_spam.train:2910",
+        "mudou_sms:mudou_spam.train:2928",
+        "mudou_sms:mudou_spam.train:2946",
+        "mudou_sms:mudou_spam.train:2969",
+        "mudou_sms:mudou_spam.train:3056",
+        "mudou_sms:mudou_spam.train:3061",
+        "mudou_sms:mudou_spam.train:3114",
+        "mudou_sms:mudou_spam.train:3164",
+        "mudou_sms:mudou_spam.train:3178",
+        "mudou_sms:mudou_spam.train:3256",
+        "mudou_sms:mudou_spam.train:3317",
+        "mudou_sms:mudou_spam.train:3453",
+        "mudou_sms:mudou_spam.train:3487",
+        "mudou_sms:mudou_spam.train:3544",
+        "mudou_sms:mudou_spam.train:3583",
+        "mudou_sms:mudou_spam.train:3688",
+        "mudou_sms:mudou_spam.train:3723",
+        "mudou_sms:mudou_spam.train:3839",
+        "mudou_sms:mudou_spam.train:3856",
+        "mudou_sms:mudou_spam.train:3867",
+        "mudou_sms:mudou_spam.train:3946",
+        "mudou_sms:mudou_spam.train:3951",
+        "mudou_sms:mudou_spam.train:3953",
+        "mudou_sms:mudou_spam.train:4010",
+        "mudou_sms:mudou_spam.train:4039",
+        "mudou_sms:mudou_spam.train:4044",
+        "mudou_sms:mudou_spam.train:4061",
+        "mudou_sms:mudou_spam.train:4123",
+        "mudou_sms:mudou_spam.train:4148",
+        "mudou_sms:mudou_spam.train:4174",
+        "mudou_sms:mudou_spam.train:4237",
+        "mudou_sms:mudou_spam.train:4255",
+        "mudou_sms:mudou_spam.train:4264",
+        "mudou_sms:mudou_spam.train:4320",
+        "mudou_sms:mudou_spam.train:4342",
+        "mudou_sms:mudou_spam.train:4386",
+        "mudou_sms:mudou_spam.train:4411",
+        "mudou_sms:mudou_spam.train:4493",
+        "mudou_sms:mudou_spam.train:4664",
+        "mudou_sms:mudou_spam.train:4687",
+        "mudou_sms:mudou_spam.train:4793",
+        "mudou_sms:mudou_spam.train:4851",
+        "mudou_sms:mudou_spam.train:4862",
+        "mudou_sms:mudou_spam.train:4960",
+        "mudou_sms:mudou_spam.train:4972",
+        "mudou_sms:mudou_spam.train:4993",
+        "mudou_sms:mudou_spam.train:5020",
+        "mudou_sms:mudou_spam.train:5079",
+        "mudou_sms:mudou_spam.train:5252",
+        "mudou_sms:mudou_spam.train:5259",
+        "mudou_sms:mudou_spam.train:5342",
+        "mudou_sms:mudou_spam.train:5543",
+        "mudou_sms:mudou_spam.train:5562",
+        "mudou_sms:mudou_spam.train:5806",
+        "mudou_sms:mudou_spam.train:5829",
+        "mudou_sms:mudou_spam.train:5901",
+        "mudou_sms:mudou_spam.train:5907",
+        "mudou_sms:mudou_spam.train:5950",
+        "mudou_sms:mudou_spam.train:6007",
+        "mudou_sms:mudou_spam.train:6161",
+        "mudou_sms:mudou_spam.train:6163",
+        "mudou_sms:mudou_spam.train:6193",
+        "mudou_sms:mudou_spam.train:6196",
+        "mudou_sms:mudou_spam.train:6290",
+        "mudou_sms:mudou_spam.train:6305",
+        "mudou_sms:mudou_spam.train:6306",
+        "mudou_sms:mudou_spam.train:6378",
+        "mudou_sms:mudou_spam.train:6473",
+        "mudou_sms:mudou_spam.train:6525",
+        "mudou_sms:mudou_spam.train:6676",
+        "mudou_sms:mudou_spam.train:6690",
+        "mudou_sms:mudou_spam.train:6734",
+        "mudou_sms:mudou_spam.train:6813",
+        "mudou_sms:mudou_spam.train:6848",
+        "mudou_sms:mudou_spam.train:6850",
+        "mudou_sms:mudou_spam.train:6899",
+        "mudou_sms:mudou_spam.train:6964",
+        "mudou_sms:mudou_spam.train:7028",
+        "mudou_sms:mudou_spam.train:7068",
+        "mudou_sms:mudou_spam.train:7078",
+        "mudou_sms:mudou_spam.train:7102",
+        "mudou_sms:mudou_spam.train:7108",
+        "mudou_sms:mudou_spam.train:7132",
+        "mudou_sms:mudou_spam.train:7165",
+        "mudou_sms:mudou_spam.train:7202",
+        "mudou_sms:mudou_spam.train:7217",
+        "mudou_sms:mudou_spam.train:7402",
+        "mudou_sms:mudou_spam.train:7488",
+        "mudou_sms:mudou_spam.train:7538",
+        "mudou_sms:mudou_spam.train:7628",
+        "mudou_sms:mudou_spam.train:7726",
+        "mudou_sms:mudou_spam.train:7734",
+        "mudou_sms:mudou_spam.train:7750",
+        "mudou_sms:mudou_spam.train:7801",
+        "mudou_sms:mudou_spam.train:7855",
+        "mudou_sms:mudou_spam.train:7899",
+        "mudou_sms:mudou_spam.train:7965",
+        "mudou_sms:mudou_spam.train:8002",
+        "mudou_sms:mudou_spam.train:8060",
+        "mudou_sms:mudou_spam.train:8115",
+        "mudou_sms:mudou_spam.train:8131",
+        "mudou_sms:mudou_spam.train:8320",
+        "mudou_sms:mudou_spam.train:8370",
+        "mudou_sms:mudou_spam.train:8481",
+        "mudou_sms:mudou_spam.train:8498",
+        "mudou_sms:mudou_spam.train:8578",
+        "mudou_sms:mudou_spam.train:8597",
+        "mudou_sms:mudou_spam.train:8647",
+        "mudou_sms:mudou_spam.train:8675",
+        "mudou_sms:mudou_spam.train:8708",
+        "mudou_sms:mudou_spam.train:8747",
+        "mudou_sms:mudou_spam.train:8785",
+        "mudou_sms:mudou_spam.train:8800",
+        "mudou_sms:mudou_spam.train:8824",
+        "mudou_sms:mudou_spam.train:8825",
+        "mudou_sms:mudou_spam.train:8951",
+        "mudou_sms:mudou_spam.train:9027",
+        "mudou_sms:mudou_spam.train:9075",
+        "mudou_sms:mudou_spam.train:9134",
+        "mudou_sms:mudou_spam.train:9135",
+        "mudou_sms:mudou_spam.train:9202",
+        "mudou_sms:mudou_spam.train:9272",
+        "mudou_sms:mudou_spam.train:9293",
+        "mudou_sms:mudou_spam.train:9407",
+        "mudou_sms:mudou_spam.train:9483",
+        "mudou_sms:mudou_spam.train:9491",
+        "mudou_sms:mudou_spam.train:9804",
+        "mudou_sms:mudou_spam.train:9805",
+        "mudou_sms:mudou_spam.train:9807",
+        "mudou_sms:mudou_spam.train:9808",
+        "mudou_sms:mudou_spam.train:10008",
+        "mudou_sms:mudou_spam.train:10020",
+        "mudou_sms:mudou_spam.train:10025",
+        "mudou_sms:mudou_spam.train:10052",
+        "mudou_sms:mudou_spam.train:10060",
+        "mudou_sms:mudou_spam.train:10068",
+        "mudou_sms:mudou_spam.train:10109",
+        "mudou_sms:mudou_spam.train:10110",
+        "mudou_sms:mudou_spam.train:10161",
+        "mudou_sms:mudou_spam.train:10199",
+        "mudou_sms:mudou_spam.train:10243",
+        "mudou_sms:mudou_spam.train:10280",
+        "mudou_sms:mudou_spam.train:10281",
+        "mudou_sms:mudou_spam.train:10336",
+        "mudou_sms:mudou_spam.train:10390",
+        "mudou_sms:mudou_spam.train:10397",
+        "mudou_sms:mudou_spam.train:10466",
+        "mudou_sms:mudou_spam.train:10507",
+        "mudou_sms:mudou_spam.train:10519",
+        "mudou_sms:mudou_spam.train:10546",
+        "mudou_sms:mudou_spam.train:10569",
+        "mudou_sms:mudou_spam.train:10573",
+        "mudou_sms:mudou_spam.train:10583",
+        "mudou_sms:mudou_spam.train:10593",
+        "mudou_sms:mudou_spam.train:10596",
+        "mudou_sms:mudou_spam.train:10613",
+        "mudou_sms:mudou_spam.train:10621",
+        "mudou_sms:mudou_spam.train:10672",
+        "mudou_sms:mudou_spam.train:10757",
+        "mudou_sms:mudou_spam.train:10781",
+        "mudou_sms:mudou_spam.train:10843"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:70"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:753",
+        "mudou_sms:mudou_spam.train:4899",
+        "mudou_sms:mudou_spam.train:5884",
+        "mudou_sms:mudou_spam.train:7515",
+        "mudou_sms:mudou_spam.train:8086",
+        "mudou_sms:mudou_spam.train:8249",
+        "mudou_sms:mudou_spam.train:10549"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:74"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3680",
+        "mudou_sms:mudou_spam.train:5244"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:75"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1791"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:77"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4408",
+        "mudou_sms:mudou_spam.train:6311",
+        "mudou_sms:mudou_spam.train:6757"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:84"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1722",
+        "mudou_sms:mudou_spam.train:2488",
+        "mudou_sms:mudou_spam.train:10027",
+        "mudou_sms:mudou_spam.train:10693"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:89"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 31,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:98",
+        "mudou_sms:mudou_spam.train:229",
+        "mudou_sms:mudou_spam.train:597",
+        "mudou_sms:mudou_spam.train:1088",
+        "mudou_sms:mudou_spam.train:1390",
+        "mudou_sms:mudou_spam.train:2217",
+        "mudou_sms:mudou_spam.train:2348",
+        "mudou_sms:mudou_spam.train:3300",
+        "mudou_sms:mudou_spam.train:3859",
+        "mudou_sms:mudou_spam.train:3900",
+        "mudou_sms:mudou_spam.train:3910",
+        "mudou_sms:mudou_spam.train:3983",
+        "mudou_sms:mudou_spam.train:4077",
+        "mudou_sms:mudou_spam.train:4221",
+        "mudou_sms:mudou_spam.train:4873",
+        "mudou_sms:mudou_spam.train:4986",
+        "mudou_sms:mudou_spam.train:5555",
+        "mudou_sms:mudou_spam.train:6327",
+        "mudou_sms:mudou_spam.train:6726",
+        "mudou_sms:mudou_spam.train:7030",
+        "mudou_sms:mudou_spam.train:7049",
+        "mudou_sms:mudou_spam.train:7687",
+        "mudou_sms:mudou_spam.train:7921",
+        "mudou_sms:mudou_spam.train:8338",
+        "mudou_sms:mudou_spam.train:8448",
+        "mudou_sms:mudou_spam.train:8536",
+        "mudou_sms:mudou_spam.train:8880",
+        "mudou_sms:mudou_spam.train:9732",
+        "mudou_sms:mudou_spam.train:9799",
+        "mudou_sms:mudou_spam.train:10014",
+        "mudou_sms:mudou_spam.train:10664"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:91"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 26,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:538",
+        "mudou_sms:mudou_spam.train:1391",
+        "mudou_sms:mudou_spam.train:2194",
+        "mudou_sms:mudou_spam.train:2211",
+        "mudou_sms:mudou_spam.train:2724",
+        "mudou_sms:mudou_spam.train:3706",
+        "mudou_sms:mudou_spam.train:3878",
+        "mudou_sms:mudou_spam.train:4159",
+        "mudou_sms:mudou_spam.train:4286",
+        "mudou_sms:mudou_spam.train:4345",
+        "mudou_sms:mudou_spam.train:4357",
+        "mudou_sms:mudou_spam.train:4974",
+        "mudou_sms:mudou_spam.train:5369",
+        "mudou_sms:mudou_spam.train:5480",
+        "mudou_sms:mudou_spam.train:5914",
+        "mudou_sms:mudou_spam.train:6100",
+        "mudou_sms:mudou_spam.train:6457",
+        "mudou_sms:mudou_spam.train:7097",
+        "mudou_sms:mudou_spam.train:7459",
+        "mudou_sms:mudou_spam.train:8118",
+        "mudou_sms:mudou_spam.train:8701",
+        "mudou_sms:mudou_spam.train:8709",
+        "mudou_sms:mudou_spam.train:8958",
+        "mudou_sms:mudou_spam.train:9492",
+        "mudou_sms:mudou_spam.train:10095",
+        "mudou_sms:mudou_spam.train:10823"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:92",
+        "mudou_sms:mudou_spam.test:584",
+        "mudou_sms:mudou_spam.test:1314"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 204,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:115",
+        "mudou_sms:mudou_spam.train:141",
+        "mudou_sms:mudou_spam.train:418",
+        "mudou_sms:mudou_spam.train:428",
+        "mudou_sms:mudou_spam.train:432",
+        "mudou_sms:mudou_spam.train:456",
+        "mudou_sms:mudou_spam.train:514",
+        "mudou_sms:mudou_spam.train:545",
+        "mudou_sms:mudou_spam.train:902",
+        "mudou_sms:mudou_spam.train:926",
+        "mudou_sms:mudou_spam.train:935",
+        "mudou_sms:mudou_spam.train:954",
+        "mudou_sms:mudou_spam.train:975",
+        "mudou_sms:mudou_spam.train:979",
+        "mudou_sms:mudou_spam.train:1013",
+        "mudou_sms:mudou_spam.train:1201",
+        "mudou_sms:mudou_spam.train:1277",
+        "mudou_sms:mudou_spam.train:1399",
+        "mudou_sms:mudou_spam.train:1405",
+        "mudou_sms:mudou_spam.train:1408",
+        "mudou_sms:mudou_spam.train:1420",
+        "mudou_sms:mudou_spam.train:1429",
+        "mudou_sms:mudou_spam.train:1450",
+        "mudou_sms:mudou_spam.train:1542",
+        "mudou_sms:mudou_spam.train:1560",
+        "mudou_sms:mudou_spam.train:1583",
+        "mudou_sms:mudou_spam.train:1640",
+        "mudou_sms:mudou_spam.train:1815",
+        "mudou_sms:mudou_spam.train:1877",
+        "mudou_sms:mudou_spam.train:1888",
+        "mudou_sms:mudou_spam.train:1956",
+        "mudou_sms:mudou_spam.train:2080",
+        "mudou_sms:mudou_spam.train:2196",
+        "mudou_sms:mudou_spam.train:2208",
+        "mudou_sms:mudou_spam.train:2244",
+        "mudou_sms:mudou_spam.train:2281",
+        "mudou_sms:mudou_spam.train:2341",
+        "mudou_sms:mudou_spam.train:2416",
+        "mudou_sms:mudou_spam.train:2541",
+        "mudou_sms:mudou_spam.train:2557",
+        "mudou_sms:mudou_spam.train:2566",
+        "mudou_sms:mudou_spam.train:2594",
+        "mudou_sms:mudou_spam.train:2670",
+        "mudou_sms:mudou_spam.train:2722",
+        "mudou_sms:mudou_spam.train:2723",
+        "mudou_sms:mudou_spam.train:2730",
+        "mudou_sms:mudou_spam.train:2734",
+        "mudou_sms:mudou_spam.train:2759",
+        "mudou_sms:mudou_spam.train:2938",
+        "mudou_sms:mudou_spam.train:3019",
+        "mudou_sms:mudou_spam.train:3037",
+        "mudou_sms:mudou_spam.train:3043",
+        "mudou_sms:mudou_spam.train:3129",
+        "mudou_sms:mudou_spam.train:3183",
+        "mudou_sms:mudou_spam.train:3190",
+        "mudou_sms:mudou_spam.train:3221",
+        "mudou_sms:mudou_spam.train:3247",
+        "mudou_sms:mudou_spam.train:3296",
+        "mudou_sms:mudou_spam.train:3398",
+        "mudou_sms:mudou_spam.train:3433",
+        "mudou_sms:mudou_spam.train:3478",
+        "mudou_sms:mudou_spam.train:3482",
+        "mudou_sms:mudou_spam.train:3508",
+        "mudou_sms:mudou_spam.train:3552",
+        "mudou_sms:mudou_spam.train:3554",
+        "mudou_sms:mudou_spam.train:3657",
+        "mudou_sms:mudou_spam.train:3664",
+        "mudou_sms:mudou_spam.train:3732",
+        "mudou_sms:mudou_spam.train:3742",
+        "mudou_sms:mudou_spam.train:3903",
+        "mudou_sms:mudou_spam.train:3943",
+        "mudou_sms:mudou_spam.train:3965",
+        "mudou_sms:mudou_spam.train:4098",
+        "mudou_sms:mudou_spam.train:4151",
+        "mudou_sms:mudou_spam.train:4206",
+        "mudou_sms:mudou_spam.train:4276",
+        "mudou_sms:mudou_spam.train:4326",
+        "mudou_sms:mudou_spam.train:4340",
+        "mudou_sms:mudou_spam.train:4381",
+        "mudou_sms:mudou_spam.train:4395",
+        "mudou_sms:mudou_spam.train:4449",
+        "mudou_sms:mudou_spam.train:4506",
+        "mudou_sms:mudou_spam.train:4540",
+        "mudou_sms:mudou_spam.train:4542",
+        "mudou_sms:mudou_spam.train:4555",
+        "mudou_sms:mudou_spam.train:4562",
+        "mudou_sms:mudou_spam.train:4565",
+        "mudou_sms:mudou_spam.train:4641",
+        "mudou_sms:mudou_spam.train:4731",
+        "mudou_sms:mudou_spam.train:4733",
+        "mudou_sms:mudou_spam.train:4913",
+        "mudou_sms:mudou_spam.train:5099",
+        "mudou_sms:mudou_spam.train:5112",
+        "mudou_sms:mudou_spam.train:5210",
+        "mudou_sms:mudou_spam.train:5222",
+        "mudou_sms:mudou_spam.train:5274",
+        "mudou_sms:mudou_spam.train:5282",
+        "mudou_sms:mudou_spam.train:5404",
+        "mudou_sms:mudou_spam.train:5439",
+        "mudou_sms:mudou_spam.train:5545",
+        "mudou_sms:mudou_spam.train:5602",
+        "mudou_sms:mudou_spam.train:5635",
+        "mudou_sms:mudou_spam.train:5645",
+        "mudou_sms:mudou_spam.train:5703",
+        "mudou_sms:mudou_spam.train:5734",
+        "mudou_sms:mudou_spam.train:5751",
+        "mudou_sms:mudou_spam.train:5754",
+        "mudou_sms:mudou_spam.train:5855",
+        "mudou_sms:mudou_spam.train:5913",
+        "mudou_sms:mudou_spam.train:5971",
+        "mudou_sms:mudou_spam.train:5980",
+        "mudou_sms:mudou_spam.train:6071",
+        "mudou_sms:mudou_spam.train:6073",
+        "mudou_sms:mudou_spam.train:6115",
+        "mudou_sms:mudou_spam.train:6224",
+        "mudou_sms:mudou_spam.train:6288",
+        "mudou_sms:mudou_spam.train:6381",
+        "mudou_sms:mudou_spam.train:6409",
+        "mudou_sms:mudou_spam.train:6411",
+        "mudou_sms:mudou_spam.train:6479",
+        "mudou_sms:mudou_spam.train:6480",
+        "mudou_sms:mudou_spam.train:6523",
+        "mudou_sms:mudou_spam.train:6531",
+        "mudou_sms:mudou_spam.train:6632",
+        "mudou_sms:mudou_spam.train:6709",
+        "mudou_sms:mudou_spam.train:6774",
+        "mudou_sms:mudou_spam.train:6778",
+        "mudou_sms:mudou_spam.train:6781",
+        "mudou_sms:mudou_spam.train:6786",
+        "mudou_sms:mudou_spam.train:6795",
+        "mudou_sms:mudou_spam.train:6804",
+        "mudou_sms:mudou_spam.train:6822",
+        "mudou_sms:mudou_spam.train:6871",
+        "mudou_sms:mudou_spam.train:6876",
+        "mudou_sms:mudou_spam.train:6900",
+        "mudou_sms:mudou_spam.train:6955",
+        "mudou_sms:mudou_spam.train:6991",
+        "mudou_sms:mudou_spam.train:7164",
+        "mudou_sms:mudou_spam.train:7201",
+        "mudou_sms:mudou_spam.train:7228",
+        "mudou_sms:mudou_spam.train:7397",
+        "mudou_sms:mudou_spam.train:7398",
+        "mudou_sms:mudou_spam.train:7464",
+        "mudou_sms:mudou_spam.train:7482",
+        "mudou_sms:mudou_spam.train:7559",
+        "mudou_sms:mudou_spam.train:7593",
+        "mudou_sms:mudou_spam.train:7693",
+        "mudou_sms:mudou_spam.train:7785",
+        "mudou_sms:mudou_spam.train:7947",
+        "mudou_sms:mudou_spam.train:7952",
+        "mudou_sms:mudou_spam.train:8004",
+        "mudou_sms:mudou_spam.train:8110",
+        "mudou_sms:mudou_spam.train:8147",
+        "mudou_sms:mudou_spam.train:8228",
+        "mudou_sms:mudou_spam.train:8258",
+        "mudou_sms:mudou_spam.train:8335",
+        "mudou_sms:mudou_spam.train:8441",
+        "mudou_sms:mudou_spam.train:8507",
+        "mudou_sms:mudou_spam.train:8610",
+        "mudou_sms:mudou_spam.train:8643",
+        "mudou_sms:mudou_spam.train:8707",
+        "mudou_sms:mudou_spam.train:8794",
+        "mudou_sms:mudou_spam.train:8914",
+        "mudou_sms:mudou_spam.train:8959",
+        "mudou_sms:mudou_spam.train:8966",
+        "mudou_sms:mudou_spam.train:8997",
+        "mudou_sms:mudou_spam.train:9010",
+        "mudou_sms:mudou_spam.train:9279",
+        "mudou_sms:mudou_spam.train:9287",
+        "mudou_sms:mudou_spam.train:9292",
+        "mudou_sms:mudou_spam.train:9326",
+        "mudou_sms:mudou_spam.train:9370",
+        "mudou_sms:mudou_spam.train:9392",
+        "mudou_sms:mudou_spam.train:9423",
+        "mudou_sms:mudou_spam.train:9442",
+        "mudou_sms:mudou_spam.train:9500",
+        "mudou_sms:mudou_spam.train:9522",
+        "mudou_sms:mudou_spam.train:9685",
+        "mudou_sms:mudou_spam.train:9689",
+        "mudou_sms:mudou_spam.train:9692",
+        "mudou_sms:mudou_spam.train:9726",
+        "mudou_sms:mudou_spam.train:9854",
+        "mudou_sms:mudou_spam.train:10034",
+        "mudou_sms:mudou_spam.train:10079",
+        "mudou_sms:mudou_spam.train:10149",
+        "mudou_sms:mudou_spam.train:10154",
+        "mudou_sms:mudou_spam.train:10231",
+        "mudou_sms:mudou_spam.train:10238",
+        "mudou_sms:mudou_spam.train:10307",
+        "mudou_sms:mudou_spam.train:10341",
+        "mudou_sms:mudou_spam.train:10365",
+        "mudou_sms:mudou_spam.train:10376",
+        "mudou_sms:mudou_spam.train:10386",
+        "mudou_sms:mudou_spam.train:10449",
+        "mudou_sms:mudou_spam.train:10498",
+        "mudou_sms:mudou_spam.train:10530",
+        "mudou_sms:mudou_spam.train:10561",
+        "mudou_sms:mudou_spam.train:10690",
+        "mudou_sms:mudou_spam.train:10745",
+        "mudou_sms:mudou_spam.train:10748",
+        "mudou_sms:mudou_spam.train:10795",
+        "mudou_sms:mudou_spam.train:10852",
+        "mudou_sms:mudou_spam.train:10856",
+        "mudou_sms:mudou_spam.train:10860"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:97",
+        "mudou_sms:mudou_spam.test:182",
+        "mudou_sms:mudou_spam.test:189",
+        "mudou_sms:mudou_spam.test:266",
+        "mudou_sms:mudou_spam.test:291"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1829",
+        "mudou_sms:mudou_spam.train:3166",
+        "mudou_sms:mudou_spam.train:3693",
+        "mudou_sms:mudou_spam.train:3870",
+        "mudou_sms:mudou_spam.train:4619",
+        "mudou_sms:mudou_spam.train:4820",
+        "mudou_sms:mudou_spam.train:5349",
+        "mudou_sms:mudou_spam.train:6214"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:99"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3215",
+        "mudou_sms:mudou_spam.train:5599"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:100"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:720",
+        "mudou_sms:mudou_spam.train:1747"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:102"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1950",
+        "mudou_sms:mudou_spam.train:4553",
+        "mudou_sms:mudou_spam.train:4671"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:107"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6470",
+        "mudou_sms:mudou_spam.train:8344"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:110"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7422"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:114"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4402",
+        "mudou_sms:mudou_spam.train:5818"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:118"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:639",
+        "mudou_sms:mudou_spam.train:1752",
+        "mudou_sms:mudou_spam.train:2866",
+        "mudou_sms:mudou_spam.train:3491",
+        "mudou_sms:mudou_spam.train:7278",
+        "mudou_sms:mudou_spam.train:8837"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:120"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5566",
+        "mudou_sms:mudou_spam.train:9650"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:122"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 28,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:295",
+        "mudou_sms:mudou_spam.train:1152",
+        "mudou_sms:mudou_spam.train:1161",
+        "mudou_sms:mudou_spam.train:1183",
+        "mudou_sms:mudou_spam.train:1448",
+        "mudou_sms:mudou_spam.train:2136",
+        "mudou_sms:mudou_spam.train:2146",
+        "mudou_sms:mudou_spam.train:3342",
+        "mudou_sms:mudou_spam.train:3551",
+        "mudou_sms:mudou_spam.train:3591",
+        "mudou_sms:mudou_spam.train:3684",
+        "mudou_sms:mudou_spam.train:3821",
+        "mudou_sms:mudou_spam.train:4566",
+        "mudou_sms:mudou_spam.train:4801",
+        "mudou_sms:mudou_spam.train:5056",
+        "mudou_sms:mudou_spam.train:5094",
+        "mudou_sms:mudou_spam.train:5949",
+        "mudou_sms:mudou_spam.train:8193",
+        "mudou_sms:mudou_spam.train:8263",
+        "mudou_sms:mudou_spam.train:8393",
+        "mudou_sms:mudou_spam.train:8650",
+        "mudou_sms:mudou_spam.train:8727",
+        "mudou_sms:mudou_spam.train:9043",
+        "mudou_sms:mudou_spam.train:9076",
+        "mudou_sms:mudou_spam.train:9175",
+        "mudou_sms:mudou_spam.train:9396",
+        "mudou_sms:mudou_spam.train:9906",
+        "mudou_sms:mudou_spam.train:10366"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:126"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:820",
+        "mudou_sms:mudou_spam.train:2713",
+        "mudou_sms:mudou_spam.train:4152",
+        "mudou_sms:mudou_spam.train:4703",
+        "mudou_sms:mudou_spam.train:5176",
+        "mudou_sms:mudou_spam.train:6012",
+        "mudou_sms:mudou_spam.train:6152",
+        "mudou_sms:mudou_spam.train:6799",
+        "mudou_sms:mudou_spam.train:7399",
+        "mudou_sms:mudou_spam.train:9968"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:128"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9989"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:133",
+        "mudou_sms:mudou_spam.test:1055"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1197",
+        "mudou_sms:mudou_spam.train:2677"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:135"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7136",
+        "mudou_sms:mudou_spam.train:7311"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:137"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3133",
+        "mudou_sms:mudou_spam.train:3764",
+        "mudou_sms:mudou_spam.train:4031",
+        "mudou_sms:mudou_spam.train:4520",
+        "mudou_sms:mudou_spam.train:5593",
+        "mudou_sms:mudou_spam.train:6040",
+        "mudou_sms:mudou_spam.train:7440"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:142"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:868",
+        "mudou_sms:mudou_spam.train:8116"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:146"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1182",
+        "mudou_sms:mudou_spam.train:1186",
+        "mudou_sms:mudou_spam.train:7611"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:149"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1461",
+        "mudou_sms:mudou_spam.train:5517",
+        "mudou_sms:mudou_spam.train:6142",
+        "mudou_sms:mudou_spam.train:6207",
+        "mudou_sms:mudou_spam.train:6428",
+        "mudou_sms:mudou_spam.train:7032",
+        "mudou_sms:mudou_spam.train:8311",
+        "mudou_sms:mudou_spam.train:8379",
+        "mudou_sms:mudou_spam.train:9863",
+        "mudou_sms:mudou_spam.train:10162"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:151"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:803",
+        "mudou_sms:mudou_spam.train:3160",
+        "mudou_sms:mudou_spam.train:5882"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:162"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:647",
+        "mudou_sms:mudou_spam.train:884",
+        "mudou_sms:mudou_spam.train:4161"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:170"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6113"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:171"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4260",
+        "mudou_sms:mudou_spam.train:10702"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:176"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 11,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:877",
+        "mudou_sms:mudou_spam.train:2096",
+        "mudou_sms:mudou_spam.train:2907",
+        "mudou_sms:mudou_spam.train:5251",
+        "mudou_sms:mudou_spam.train:5454",
+        "mudou_sms:mudou_spam.train:6672",
+        "mudou_sms:mudou_spam.train:7627",
+        "mudou_sms:mudou_spam.train:8665",
+        "mudou_sms:mudou_spam.train:8896",
+        "mudou_sms:mudou_spam.train:9531",
+        "mudou_sms:mudou_spam.train:10789"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:178"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:735",
+        "mudou_sms:mudou_spam.train:999",
+        "mudou_sms:mudou_spam.train:3893"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:183"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8153",
+        "mudou_sms:mudou_spam.train:8855"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:184"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 40,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:118",
+        "mudou_sms:mudou_spam.train:260",
+        "mudou_sms:mudou_spam.train:641",
+        "mudou_sms:mudou_spam.train:874",
+        "mudou_sms:mudou_spam.train:1177",
+        "mudou_sms:mudou_spam.train:1262",
+        "mudou_sms:mudou_spam.train:1357",
+        "mudou_sms:mudou_spam.train:1719",
+        "mudou_sms:mudou_spam.train:1821",
+        "mudou_sms:mudou_spam.train:2651",
+        "mudou_sms:mudou_spam.train:2742",
+        "mudou_sms:mudou_spam.train:2829",
+        "mudou_sms:mudou_spam.train:2880",
+        "mudou_sms:mudou_spam.train:3301",
+        "mudou_sms:mudou_spam.train:3488",
+        "mudou_sms:mudou_spam.train:3532",
+        "mudou_sms:mudou_spam.train:3724",
+        "mudou_sms:mudou_spam.train:3955",
+        "mudou_sms:mudou_spam.train:4400",
+        "mudou_sms:mudou_spam.train:4684",
+        "mudou_sms:mudou_spam.train:4968",
+        "mudou_sms:mudou_spam.train:5318",
+        "mudou_sms:mudou_spam.train:5510",
+        "mudou_sms:mudou_spam.train:5560",
+        "mudou_sms:mudou_spam.train:6135",
+        "mudou_sms:mudou_spam.train:6266",
+        "mudou_sms:mudou_spam.train:7025",
+        "mudou_sms:mudou_spam.train:7324",
+        "mudou_sms:mudou_spam.train:7452",
+        "mudou_sms:mudou_spam.train:7526",
+        "mudou_sms:mudou_spam.train:7843",
+        "mudou_sms:mudou_spam.train:8166",
+        "mudou_sms:mudou_spam.train:8389",
+        "mudou_sms:mudou_spam.train:8568",
+        "mudou_sms:mudou_spam.train:8575",
+        "mudou_sms:mudou_spam.train:8750",
+        "mudou_sms:mudou_spam.train:8834",
+        "mudou_sms:mudou_spam.train:8899",
+        "mudou_sms:mudou_spam.train:9317",
+        "mudou_sms:mudou_spam.train:10115"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:190",
+        "mudou_sms:mudou_spam.test:213",
+        "mudou_sms:mudou_spam.test:308",
+        "mudou_sms:mudou_spam.test:575",
+        "mudou_sms:mudou_spam.test:1163"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3219",
+        "mudou_sms:mudou_spam.train:4656",
+        "mudou_sms:mudou_spam.train:5964",
+        "mudou_sms:mudou_spam.train:10323",
+        "mudou_sms:mudou_spam.train:10595"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:192"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:31",
+        "mudou_sms:mudou_spam.train:2993",
+        "mudou_sms:mudou_spam.train:6834",
+        "mudou_sms:mudou_spam.train:9098",
+        "mudou_sms:mudou_spam.train:10351"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:194"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1553",
+        "mudou_sms:mudou_spam.train:2074",
+        "mudou_sms:mudou_spam.train:3191",
+        "mudou_sms:mudou_spam.train:3707",
+        "mudou_sms:mudou_spam.train:7663",
+        "mudou_sms:mudou_spam.train:8625",
+        "mudou_sms:mudou_spam.train:8634",
+        "mudou_sms:mudou_spam.train:9606",
+        "mudou_sms:mudou_spam.train:10171",
+        "mudou_sms:mudou_spam.train:10271"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:203"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:83"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:204"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1794"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:205"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:414",
+        "mudou_sms:mudou_spam.train:523",
+        "mudou_sms:mudou_spam.train:1054",
+        "mudou_sms:mudou_spam.train:3546",
+        "mudou_sms:mudou_spam.train:5400",
+        "mudou_sms:mudou_spam.train:5431",
+        "mudou_sms:mudou_spam.train:6000",
+        "mudou_sms:mudou_spam.train:10559"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:206"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2767",
+        "mudou_sms:mudou_spam.train:4836",
+        "mudou_sms:mudou_spam.train:5212"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:207"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4167"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:211"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:653"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:217"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1680",
+        "mudou_sms:mudou_spam.train:6616",
+        "mudou_sms:mudou_spam.train:9615"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:221"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2283",
+        "mudou_sms:mudou_spam.train:3442",
+        "mudou_sms:mudou_spam.train:3726",
+        "mudou_sms:mudou_spam.train:7401",
+        "mudou_sms:mudou_spam.train:10200"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:225"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2708",
+        "mudou_sms:mudou_spam.train:7107",
+        "mudou_sms:mudou_spam.train:8953",
+        "mudou_sms:mudou_spam.train:10771"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:226"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 24,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:34",
+        "mudou_sms:mudou_spam.train:305",
+        "mudou_sms:mudou_spam.train:476",
+        "mudou_sms:mudou_spam.train:2060",
+        "mudou_sms:mudou_spam.train:2571",
+        "mudou_sms:mudou_spam.train:2698",
+        "mudou_sms:mudou_spam.train:2699",
+        "mudou_sms:mudou_spam.train:2720",
+        "mudou_sms:mudou_spam.train:2801",
+        "mudou_sms:mudou_spam.train:2913",
+        "mudou_sms:mudou_spam.train:3153",
+        "mudou_sms:mudou_spam.train:3167",
+        "mudou_sms:mudou_spam.train:3543",
+        "mudou_sms:mudou_spam.train:3757",
+        "mudou_sms:mudou_spam.train:5077",
+        "mudou_sms:mudou_spam.train:5228",
+        "mudou_sms:mudou_spam.train:5813",
+        "mudou_sms:mudou_spam.train:7024",
+        "mudou_sms:mudou_spam.train:8883",
+        "mudou_sms:mudou_spam.train:8886",
+        "mudou_sms:mudou_spam.train:9356",
+        "mudou_sms:mudou_spam.train:9793",
+        "mudou_sms:mudou_spam.train:10417",
+        "mudou_sms:mudou_spam.train:10486"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:227"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4673",
+        "mudou_sms:mudou_spam.train:5556",
+        "mudou_sms:mudou_spam.train:6699",
+        "mudou_sms:mudou_spam.train:8801",
+        "mudou_sms:mudou_spam.train:9401"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:230"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1",
+        "mudou_sms:mudou_spam.train:2774",
+        "mudou_sms:mudou_spam.train:3244",
+        "mudou_sms:mudou_spam.train:4087",
+        "mudou_sms:mudou_spam.train:6723",
+        "mudou_sms:mudou_spam.train:8555"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:231"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1098",
+        "mudou_sms:mudou_spam.train:8468"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:235"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:42",
+        "mudou_sms:mudou_spam.train:448",
+        "mudou_sms:mudou_spam.train:1225",
+        "mudou_sms:mudou_spam.train:2676",
+        "mudou_sms:mudou_spam.train:3517",
+        "mudou_sms:mudou_spam.train:4718",
+        "mudou_sms:mudou_spam.train:5613",
+        "mudou_sms:mudou_spam.train:6298",
+        "mudou_sms:mudou_spam.train:6550",
+        "mudou_sms:mudou_spam.train:7557",
+        "mudou_sms:mudou_spam.train:8286",
+        "mudou_sms:mudou_spam.train:8654"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:239"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1642",
+        "mudou_sms:mudou_spam.train:3308",
+        "mudou_sms:mudou_spam.train:4706",
+        "mudou_sms:mudou_spam.train:6340",
+        "mudou_sms:mudou_spam.train:6421",
+        "mudou_sms:mudou_spam.train:8548",
+        "mudou_sms:mudou_spam.train:10393"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:241",
+        "mudou_sms:mudou_spam.test:973",
+        "mudou_sms:mudou_spam.test:1110"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1509",
+        "mudou_sms:mudou_spam.train:3923"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:246"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:382",
+        "mudou_sms:mudou_spam.train:3500",
+        "mudou_sms:mudou_spam.train:3602",
+        "mudou_sms:mudou_spam.train:4420",
+        "mudou_sms:mudou_spam.train:7160",
+        "mudou_sms:mudou_spam.train:7344",
+        "mudou_sms:mudou_spam.train:10847"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:252",
+        "mudou_sms:mudou_spam.test:1066"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7698"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:255"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:306",
+        "mudou_sms:mudou_spam.train:7204",
+        "mudou_sms:mudou_spam.train:8128"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:256"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7054"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:260"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1269",
+        "mudou_sms:mudou_spam.train:1779",
+        "mudou_sms:mudou_spam.train:3107",
+        "mudou_sms:mudou_spam.train:3512",
+        "mudou_sms:mudou_spam.train:5248"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:261"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:562",
+        "mudou_sms:mudou_spam.train:1421",
+        "mudou_sms:mudou_spam.train:3637",
+        "mudou_sms:mudou_spam.train:3889",
+        "mudou_sms:mudou_spam.train:9891"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:263"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7944"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:264"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:622",
+        "mudou_sms:mudou_spam.train:1903",
+        "mudou_sms:mudou_spam.train:4726",
+        "mudou_sms:mudou_spam.train:6931",
+        "mudou_sms:mudou_spam.train:9377"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:269"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2111",
+        "mudou_sms:mudou_spam.train:2126",
+        "mudou_sms:mudou_spam.train:2912",
+        "mudou_sms:mudou_spam.train:5161",
+        "mudou_sms:mudou_spam.train:5225",
+        "mudou_sms:mudou_spam.train:7281",
+        "mudou_sms:mudou_spam.train:7408",
+        "mudou_sms:mudou_spam.train:7509"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:278"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 26,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:613",
+        "mudou_sms:mudou_spam.train:1106",
+        "mudou_sms:mudou_spam.train:1142",
+        "mudou_sms:mudou_spam.train:2445",
+        "mudou_sms:mudou_spam.train:2716",
+        "mudou_sms:mudou_spam.train:2812",
+        "mudou_sms:mudou_spam.train:2902",
+        "mudou_sms:mudou_spam.train:3110",
+        "mudou_sms:mudou_spam.train:3151",
+        "mudou_sms:mudou_spam.train:3231",
+        "mudou_sms:mudou_spam.train:3795",
+        "mudou_sms:mudou_spam.train:4690",
+        "mudou_sms:mudou_spam.train:4850",
+        "mudou_sms:mudou_spam.train:4914",
+        "mudou_sms:mudou_spam.train:5317",
+        "mudou_sms:mudou_spam.train:5453",
+        "mudou_sms:mudou_spam.train:5805",
+        "mudou_sms:mudou_spam.train:6060",
+        "mudou_sms:mudou_spam.train:6746",
+        "mudou_sms:mudou_spam.train:7184",
+        "mudou_sms:mudou_spam.train:7439",
+        "mudou_sms:mudou_spam.train:8386",
+        "mudou_sms:mudou_spam.train:8466",
+        "mudou_sms:mudou_spam.train:9196",
+        "mudou_sms:mudou_spam.train:9564",
+        "mudou_sms:mudou_spam.train:10673"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:279"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2198",
+        "mudou_sms:mudou_spam.train:3527",
+        "mudou_sms:mudou_spam.train:5151"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:284",
+        "mudou_sms:mudou_spam.test:544"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 26,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:184",
+        "mudou_sms:mudou_spam.train:849",
+        "mudou_sms:mudou_spam.train:1004",
+        "mudou_sms:mudou_spam.train:1129",
+        "mudou_sms:mudou_spam.train:1378",
+        "mudou_sms:mudou_spam.train:1664",
+        "mudou_sms:mudou_spam.train:1748",
+        "mudou_sms:mudou_spam.train:1873",
+        "mudou_sms:mudou_spam.train:2078",
+        "mudou_sms:mudou_spam.train:2719",
+        "mudou_sms:mudou_spam.train:3024",
+        "mudou_sms:mudou_spam.train:3088",
+        "mudou_sms:mudou_spam.train:3895",
+        "mudou_sms:mudou_spam.train:4107",
+        "mudou_sms:mudou_spam.train:5321",
+        "mudou_sms:mudou_spam.train:5359",
+        "mudou_sms:mudou_spam.train:6529",
+        "mudou_sms:mudou_spam.train:6574",
+        "mudou_sms:mudou_spam.train:6907",
+        "mudou_sms:mudou_spam.train:7162",
+        "mudou_sms:mudou_spam.train:7197",
+        "mudou_sms:mudou_spam.train:8437",
+        "mudou_sms:mudou_spam.train:8777",
+        "mudou_sms:mudou_spam.train:9124",
+        "mudou_sms:mudou_spam.train:9229",
+        "mudou_sms:mudou_spam.train:10070"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:288"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1028",
+        "mudou_sms:mudou_spam.train:6819"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:293"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5634",
+        "mudou_sms:mudou_spam.train:8220"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:294"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:384",
+        "mudou_sms:mudou_spam.train:5661",
+        "mudou_sms:mudou_spam.train:8904"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:301"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 57,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:548",
+        "mudou_sms:mudou_spam.train:590",
+        "mudou_sms:mudou_spam.train:638",
+        "mudou_sms:mudou_spam.train:792",
+        "mudou_sms:mudou_spam.train:980",
+        "mudou_sms:mudou_spam.train:990",
+        "mudou_sms:mudou_spam.train:1045",
+        "mudou_sms:mudou_spam.train:1218",
+        "mudou_sms:mudou_spam.train:1293",
+        "mudou_sms:mudou_spam.train:1301",
+        "mudou_sms:mudou_spam.train:1502",
+        "mudou_sms:mudou_spam.train:1523",
+        "mudou_sms:mudou_spam.train:1889",
+        "mudou_sms:mudou_spam.train:1977",
+        "mudou_sms:mudou_spam.train:1997",
+        "mudou_sms:mudou_spam.train:2377",
+        "mudou_sms:mudou_spam.train:2501",
+        "mudou_sms:mudou_spam.train:2582",
+        "mudou_sms:mudou_spam.train:3006",
+        "mudou_sms:mudou_spam.train:3263",
+        "mudou_sms:mudou_spam.train:3320",
+        "mudou_sms:mudou_spam.train:3475",
+        "mudou_sms:mudou_spam.train:3530",
+        "mudou_sms:mudou_spam.train:3537",
+        "mudou_sms:mudou_spam.train:3679",
+        "mudou_sms:mudou_spam.train:3929",
+        "mudou_sms:mudou_spam.train:4261",
+        "mudou_sms:mudou_spam.train:4263",
+        "mudou_sms:mudou_spam.train:4275",
+        "mudou_sms:mudou_spam.train:4328",
+        "mudou_sms:mudou_spam.train:4337",
+        "mudou_sms:mudou_spam.train:4343",
+        "mudou_sms:mudou_spam.train:4430",
+        "mudou_sms:mudou_spam.train:4751",
+        "mudou_sms:mudou_spam.train:4854",
+        "mudou_sms:mudou_spam.train:5055",
+        "mudou_sms:mudou_spam.train:5149",
+        "mudou_sms:mudou_spam.train:5390",
+        "mudou_sms:mudou_spam.train:5600",
+        "mudou_sms:mudou_spam.train:5797",
+        "mudou_sms:mudou_spam.train:6984",
+        "mudou_sms:mudou_spam.train:7220",
+        "mudou_sms:mudou_spam.train:7598",
+        "mudou_sms:mudou_spam.train:7771",
+        "mudou_sms:mudou_spam.train:8618",
+        "mudou_sms:mudou_spam.train:8688",
+        "mudou_sms:mudou_spam.train:8770",
+        "mudou_sms:mudou_spam.train:9257",
+        "mudou_sms:mudou_spam.train:9344",
+        "mudou_sms:mudou_spam.train:9385",
+        "mudou_sms:mudou_spam.train:9608",
+        "mudou_sms:mudou_spam.train:9993",
+        "mudou_sms:mudou_spam.train:10001",
+        "mudou_sms:mudou_spam.train:10428",
+        "mudou_sms:mudou_spam.train:10660",
+        "mudou_sms:mudou_spam.train:10663",
+        "mudou_sms:mudou_spam.train:10805"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:303"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4478"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:310"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:704",
+        "mudou_sms:mudou_spam.train:4353",
+        "mudou_sms:mudou_spam.train:5185"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:313"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1163"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:319",
+        "mudou_sms:mudou_spam.test:617"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1559",
+        "mudou_sms:mudou_spam.train:3195",
+        "mudou_sms:mudou_spam.train:7543",
+        "mudou_sms:mudou_spam.train:8968",
+        "mudou_sms:mudou_spam.train:9914",
+        "mudou_sms:mudou_spam.train:10562",
+        "mudou_sms:mudou_spam.train:10736"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:325"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10715"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:326"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4728"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:329"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:389",
+        "mudou_sms:mudou_spam.train:2981",
+        "mudou_sms:mudou_spam.train:4004",
+        "mudou_sms:mudou_spam.train:4992",
+        "mudou_sms:mudou_spam.train:5671",
+        "mudou_sms:mudou_spam.train:7067",
+        "mudou_sms:mudou_spam.train:10123",
+        "mudou_sms:mudou_spam.train:10285"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:333"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:947",
+        "mudou_sms:mudou_spam.train:1850",
+        "mudou_sms:mudou_spam.train:1924",
+        "mudou_sms:mudou_spam.train:3661",
+        "mudou_sms:mudou_spam.train:3899",
+        "mudou_sms:mudou_spam.train:4524",
+        "mudou_sms:mudou_spam.train:4719",
+        "mudou_sms:mudou_spam.train:4901",
+        "mudou_sms:mudou_spam.train:5097",
+        "mudou_sms:mudou_spam.train:8169",
+        "mudou_sms:mudou_spam.train:8561",
+        "mudou_sms:mudou_spam.train:9071"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:346"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2903",
+        "mudou_sms:mudou_spam.train:4153",
+        "mudou_sms:mudou_spam.train:5606",
+        "mudou_sms:mudou_spam.train:8478"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:354"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:192",
+        "mudou_sms:mudou_spam.train:675",
+        "mudou_sms:mudou_spam.train:4659",
+        "mudou_sms:mudou_spam.train:6894",
+        "mudou_sms:mudou_spam.train:8232",
+        "mudou_sms:mudou_spam.train:8742"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:358"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7336"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:359"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5928"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:368"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1704"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:373"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4888"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:376"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6498"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:378"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6657"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:386"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8902",
+        "mudou_sms:mudou_spam.train:9178"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:389"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10241"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:393"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 15,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1989",
+        "mudou_sms:mudou_spam.train:3050",
+        "mudou_sms:mudou_spam.train:3102",
+        "mudou_sms:mudou_spam.train:3438",
+        "mudou_sms:mudou_spam.train:3513",
+        "mudou_sms:mudou_spam.train:4339",
+        "mudou_sms:mudou_spam.train:4441",
+        "mudou_sms:mudou_spam.train:4587",
+        "mudou_sms:mudou_spam.train:4661",
+        "mudou_sms:mudou_spam.train:6510",
+        "mudou_sms:mudou_spam.train:6820",
+        "mudou_sms:mudou_spam.train:7208",
+        "mudou_sms:mudou_spam.train:8749",
+        "mudou_sms:mudou_spam.train:8928",
+        "mudou_sms:mudou_spam.train:10854"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:397",
+        "mudou_sms:mudou_spam.test:867"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1423",
+        "mudou_sms:mudou_spam.train:6985",
+        "mudou_sms:mudou_spam.train:7280"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:402"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6636"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:404"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7613"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:409"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:413",
+        "mudou_sms:mudou_spam.train:6011",
+        "mudou_sms:mudou_spam.train:7683",
+        "mudou_sms:mudou_spam.train:7762",
+        "mudou_sms:mudou_spam.train:8357",
+        "mudou_sms:mudou_spam.train:8613"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:410"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2919"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:417"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6566"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:419"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1630",
+        "mudou_sms:mudou_spam.train:5207",
+        "mudou_sms:mudou_spam.train:9464",
+        "mudou_sms:mudou_spam.train:9496"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:424"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1938",
+        "mudou_sms:mudou_spam.train:6675"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:426"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:785",
+        "mudou_sms:mudou_spam.train:1058",
+        "mudou_sms:mudou_spam.train:1860",
+        "mudou_sms:mudou_spam.train:2054",
+        "mudou_sms:mudou_spam.train:2575",
+        "mudou_sms:mudou_spam.train:3751",
+        "mudou_sms:mudou_spam.train:6221",
+        "mudou_sms:mudou_spam.train:7300",
+        "mudou_sms:mudou_spam.train:7778",
+        "mudou_sms:mudou_spam.train:8084",
+        "mudou_sms:mudou_spam.train:9725",
+        "mudou_sms:mudou_spam.train:10624"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:428"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4171",
+        "mudou_sms:mudou_spam.train:6339",
+        "mudou_sms:mudou_spam.train:6584",
+        "mudou_sms:mudou_spam.train:9220"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:430"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1726",
+        "mudou_sms:mudou_spam.train:1946",
+        "mudou_sms:mudou_spam.train:8645",
+        "mudou_sms:mudou_spam.train:10576"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:431"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:62",
+        "mudou_sms:mudou_spam.train:725",
+        "mudou_sms:mudou_spam.train:2245",
+        "mudou_sms:mudou_spam.train:3430",
+        "mudou_sms:mudou_spam.train:4488",
+        "mudou_sms:mudou_spam.train:5759",
+        "mudou_sms:mudou_spam.train:6651",
+        "mudou_sms:mudou_spam.train:7407",
+        "mudou_sms:mudou_spam.train:8446",
+        "mudou_sms:mudou_spam.train:9224",
+        "mudou_sms:mudou_spam.train:9882",
+        "mudou_sms:mudou_spam.train:10291"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:439"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2331",
+        "mudou_sms:mudou_spam.train:2991",
+        "mudou_sms:mudou_spam.train:6081",
+        "mudou_sms:mudou_spam.train:6429",
+        "mudou_sms:mudou_spam.train:8791",
+        "mudou_sms:mudou_spam.train:10356"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:440"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3031"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:441"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 14,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1260",
+        "mudou_sms:mudou_spam.train:1355",
+        "mudou_sms:mudou_spam.train:1827",
+        "mudou_sms:mudou_spam.train:2443",
+        "mudou_sms:mudou_spam.train:3502",
+        "mudou_sms:mudou_spam.train:4399",
+        "mudou_sms:mudou_spam.train:4676",
+        "mudou_sms:mudou_spam.train:5394",
+        "mudou_sms:mudou_spam.train:5628",
+        "mudou_sms:mudou_spam.train:5683",
+        "mudou_sms:mudou_spam.train:6062",
+        "mudou_sms:mudou_spam.train:6768",
+        "mudou_sms:mudou_spam.train:7427",
+        "mudou_sms:mudou_spam.train:8685"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:442"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1483",
+        "mudou_sms:mudou_spam.train:2273",
+        "mudou_sms:mudou_spam.train:3060"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:444"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2062",
+        "mudou_sms:mudou_spam.train:5614"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:449"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5946"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:456"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3892"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:457"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7244"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:460"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:244"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:466"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6455"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:474"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5093",
+        "mudou_sms:mudou_spam.train:5292",
+        "mudou_sms:mudou_spam.train:7048",
+        "mudou_sms:mudou_spam.train:9053",
+        "mudou_sms:mudou_spam.train:10727"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:475"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 37,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:0",
+        "mudou_sms:mudou_spam.train:165",
+        "mudou_sms:mudou_spam.train:412",
+        "mudou_sms:mudou_spam.train:462",
+        "mudou_sms:mudou_spam.train:695",
+        "mudou_sms:mudou_spam.train:700",
+        "mudou_sms:mudou_spam.train:1015",
+        "mudou_sms:mudou_spam.train:1242",
+        "mudou_sms:mudou_spam.train:1452",
+        "mudou_sms:mudou_spam.train:2003",
+        "mudou_sms:mudou_spam.train:2242",
+        "mudou_sms:mudou_spam.train:2269",
+        "mudou_sms:mudou_spam.train:2535",
+        "mudou_sms:mudou_spam.train:2551",
+        "mudou_sms:mudou_spam.train:2660",
+        "mudou_sms:mudou_spam.train:2662",
+        "mudou_sms:mudou_spam.train:2789",
+        "mudou_sms:mudou_spam.train:2966",
+        "mudou_sms:mudou_spam.train:2988",
+        "mudou_sms:mudou_spam.train:3199",
+        "mudou_sms:mudou_spam.train:3379",
+        "mudou_sms:mudou_spam.train:3553",
+        "mudou_sms:mudou_spam.train:3645",
+        "mudou_sms:mudou_spam.train:3991",
+        "mudou_sms:mudou_spam.train:4199",
+        "mudou_sms:mudou_spam.train:4791",
+        "mudou_sms:mudou_spam.train:5479",
+        "mudou_sms:mudou_spam.train:5706",
+        "mudou_sms:mudou_spam.train:7161",
+        "mudou_sms:mudou_spam.train:7574",
+        "mudou_sms:mudou_spam.train:7741",
+        "mudou_sms:mudou_spam.train:7795",
+        "mudou_sms:mudou_spam.train:8885",
+        "mudou_sms:mudou_spam.train:10382",
+        "mudou_sms:mudou_spam.train:10544",
+        "mudou_sms:mudou_spam.train:10670",
+        "mudou_sms:mudou_spam.train:10739"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:482",
+        "mudou_sms:mudou_spam.test:770"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3621",
+        "mudou_sms:mudou_spam.train:4238",
+        "mudou_sms:mudou_spam.train:4351",
+        "mudou_sms:mudou_spam.train:5682",
+        "mudou_sms:mudou_spam.train:6502",
+        "mudou_sms:mudou_spam.train:7922",
+        "mudou_sms:mudou_spam.train:10643"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:494"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9680"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:503"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5452"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:507"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3038",
+        "mudou_sms:mudou_spam.train:4210",
+        "mudou_sms:mudou_spam.train:6534",
+        "mudou_sms:mudou_spam.train:10703"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:510"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1712"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:515"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3691",
+        "mudou_sms:mudou_spam.train:4468",
+        "mudou_sms:mudou_spam.train:7826",
+        "mudou_sms:mudou_spam.train:10102"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:517"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:434",
+        "mudou_sms:mudou_spam.train:4358",
+        "mudou_sms:mudou_spam.train:5753",
+        "mudou_sms:mudou_spam.train:6489",
+        "mudou_sms:mudou_spam.train:6794",
+        "mudou_sms:mudou_spam.train:7454",
+        "mudou_sms:mudou_spam.train:8571"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:518"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:46",
+        "mudou_sms:mudou_spam.train:5289",
+        "mudou_sms:mudou_spam.train:9618"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:522"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3872"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:525"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:662",
+        "mudou_sms:mudou_spam.train:1143",
+        "mudou_sms:mudou_spam.train:1237",
+        "mudou_sms:mudou_spam.train:3193",
+        "mudou_sms:mudou_spam.train:3785",
+        "mudou_sms:mudou_spam.train:4274",
+        "mudou_sms:mudou_spam.train:5280",
+        "mudou_sms:mudou_spam.train:5399",
+        "mudou_sms:mudou_spam.train:7085",
+        "mudou_sms:mudou_spam.train:7326",
+        "mudou_sms:mudou_spam.train:8040",
+        "mudou_sms:mudou_spam.train:9846"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:530",
+        "mudou_sms:mudou_spam.test:976"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3646",
+        "mudou_sms:mudou_spam.train:7723",
+        "mudou_sms:mudou_spam.train:9625"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:533"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:593",
+        "mudou_sms:mudou_spam.train:908",
+        "mudou_sms:mudou_spam.train:986",
+        "mudou_sms:mudou_spam.train:2016",
+        "mudou_sms:mudou_spam.train:3041",
+        "mudou_sms:mudou_spam.train:4401",
+        "mudou_sms:mudou_spam.train:5268",
+        "mudou_sms:mudou_spam.train:6236",
+        "mudou_sms:mudou_spam.train:7105",
+        "mudou_sms:mudou_spam.train:9508",
+        "mudou_sms:mudou_spam.train:9801",
+        "mudou_sms:mudou_spam.train:10073"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:536"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:290"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:537"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8383"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:547"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:611",
+        "mudou_sms:mudou_spam.train:2561",
+        "mudou_sms:mudou_spam.train:2776"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:551"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3035",
+        "mudou_sms:mudou_spam.train:7224"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:554"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4440"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:557"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3519",
+        "mudou_sms:mudou_spam.train:3677",
+        "mudou_sms:mudou_spam.train:6093",
+        "mudou_sms:mudou_spam.train:6164",
+        "mudou_sms:mudou_spam.train:7966"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:560"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1407",
+        "mudou_sms:mudou_spam.train:1694",
+        "mudou_sms:mudou_spam.train:2495",
+        "mudou_sms:mudou_spam.train:5133",
+        "mudou_sms:mudou_spam.train:7597",
+        "mudou_sms:mudou_spam.train:10388"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:569",
+        "mudou_sms:mudou_spam.test:756"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:269",
+        "mudou_sms:mudou_spam.train:1595",
+        "mudou_sms:mudou_spam.train:2185",
+        "mudou_sms:mudou_spam.train:3002",
+        "mudou_sms:mudou_spam.train:9952"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:570"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:900",
+        "mudou_sms:mudou_spam.train:1644",
+        "mudou_sms:mudou_spam.train:2438",
+        "mudou_sms:mudou_spam.train:4586",
+        "mudou_sms:mudou_spam.train:5423"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:572"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3750"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:576"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5985",
+        "mudou_sms:mudou_spam.train:7908"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:580"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2783",
+        "mudou_sms:mudou_spam.train:3914",
+        "mudou_sms:mudou_spam.train:6273",
+        "mudou_sms:mudou_spam.train:6755",
+        "mudou_sms:mudou_spam.train:7602",
+        "mudou_sms:mudou_spam.train:8403"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:582"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2112",
+        "mudou_sms:mudou_spam.train:3496",
+        "mudou_sms:mudou_spam.train:3776",
+        "mudou_sms:mudou_spam.train:5169",
+        "mudou_sms:mudou_spam.train:5301",
+        "mudou_sms:mudou_spam.train:7591",
+        "mudou_sms:mudou_spam.train:9424"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:588"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4725",
+        "mudou_sms:mudou_spam.train:5398",
+        "mudou_sms:mudou_spam.train:8681"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:590"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:681",
+        "mudou_sms:mudou_spam.train:4179",
+        "mudou_sms:mudou_spam.train:4377",
+        "mudou_sms:mudou_spam.train:5242",
+        "mudou_sms:mudou_spam.train:8689",
+        "mudou_sms:mudou_spam.train:9918"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:592"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5798",
+        "mudou_sms:mudou_spam.train:7209"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:593"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2124",
+        "mudou_sms:mudou_spam.train:2160",
+        "mudou_sms:mudou_spam.train:5784",
+        "mudou_sms:mudou_spam.train:6402"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:607"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4236",
+        "mudou_sms:mudou_spam.train:10329"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:611"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:210",
+        "mudou_sms:mudou_spam.train:5617",
+        "mudou_sms:mudou_spam.train:7675"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:614"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6358"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:624"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4670",
+        "mudou_sms:mudou_spam.train:6956",
+        "mudou_sms:mudou_spam.train:7752",
+        "mudou_sms:mudou_spam.train:9553"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:626"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7585"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:637"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6462"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:638"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:112",
+        "mudou_sms:mudou_spam.train:2607",
+        "mudou_sms:mudou_spam.train:7879",
+        "mudou_sms:mudou_spam.train:8790",
+        "mudou_sms:mudou_spam.train:10141"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:642"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5851",
+        "mudou_sms:mudou_spam.train:8190",
+        "mudou_sms:mudou_spam.train:10494"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:651"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5649",
+        "mudou_sms:mudou_spam.train:8738"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:657"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:734",
+        "mudou_sms:mudou_spam.train:3223",
+        "mudou_sms:mudou_spam.train:3504",
+        "mudou_sms:mudou_spam.train:3547",
+        "mudou_sms:mudou_spam.train:5054",
+        "mudou_sms:mudou_spam.train:10770"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:670"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1692",
+        "mudou_sms:mudou_spam.train:5668"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:673"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6170",
+        "mudou_sms:mudou_spam.train:6844"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:675"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:346",
+        "mudou_sms:mudou_spam.train:4410",
+        "mudou_sms:mudou_spam.train:5425"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:678"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:453",
+        "mudou_sms:mudou_spam.train:5135",
+        "mudou_sms:mudou_spam.train:10649"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:686"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 13,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:317",
+        "mudou_sms:mudou_spam.train:1852",
+        "mudou_sms:mudou_spam.train:3318",
+        "mudou_sms:mudou_spam.train:3419",
+        "mudou_sms:mudou_spam.train:4987",
+        "mudou_sms:mudou_spam.train:5488",
+        "mudou_sms:mudou_spam.train:6005",
+        "mudou_sms:mudou_spam.train:6689",
+        "mudou_sms:mudou_spam.train:6845",
+        "mudou_sms:mudou_spam.train:7930",
+        "mudou_sms:mudou_spam.train:9381",
+        "mudou_sms:mudou_spam.train:9647",
+        "mudou_sms:mudou_spam.train:9950"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:692"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9872"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:694"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:267",
+        "mudou_sms:mudou_spam.train:2847",
+        "mudou_sms:mudou_spam.train:3778",
+        "mudou_sms:mudou_spam.train:4072",
+        "mudou_sms:mudou_spam.train:5533",
+        "mudou_sms:mudou_spam.train:7486",
+        "mudou_sms:mudou_spam.train:7830",
+        "mudou_sms:mudou_spam.train:10203"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:696"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 29,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1174",
+        "mudou_sms:mudou_spam.train:1477",
+        "mudou_sms:mudou_spam.train:1746",
+        "mudou_sms:mudou_spam.train:1861",
+        "mudou_sms:mudou_spam.train:2714",
+        "mudou_sms:mudou_spam.train:2811",
+        "mudou_sms:mudou_spam.train:3014",
+        "mudou_sms:mudou_spam.train:3676",
+        "mudou_sms:mudou_spam.train:4608",
+        "mudou_sms:mudou_spam.train:4800",
+        "mudou_sms:mudou_spam.train:5188",
+        "mudou_sms:mudou_spam.train:5284",
+        "mudou_sms:mudou_spam.train:5991",
+        "mudou_sms:mudou_spam.train:6384",
+        "mudou_sms:mudou_spam.train:6717",
+        "mudou_sms:mudou_spam.train:7133",
+        "mudou_sms:mudou_spam.train:7254",
+        "mudou_sms:mudou_spam.train:8239",
+        "mudou_sms:mudou_spam.train:8577",
+        "mudou_sms:mudou_spam.train:8579",
+        "mudou_sms:mudou_spam.train:8897",
+        "mudou_sms:mudou_spam.train:9132",
+        "mudou_sms:mudou_spam.train:9250",
+        "mudou_sms:mudou_spam.train:9809",
+        "mudou_sms:mudou_spam.train:10221",
+        "mudou_sms:mudou_spam.train:10223",
+        "mudou_sms:mudou_spam.train:10289",
+        "mudou_sms:mudou_spam.train:10406",
+        "mudou_sms:mudou_spam.train:10868"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:697"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:301",
+        "mudou_sms:mudou_spam.train:612",
+        "mudou_sms:mudou_spam.train:1400",
+        "mudou_sms:mudou_spam.train:1663",
+        "mudou_sms:mudou_spam.train:2210",
+        "mudou_sms:mudou_spam.train:4017",
+        "mudou_sms:mudou_spam.train:4522",
+        "mudou_sms:mudou_spam.train:4571"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:699"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1929"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:704"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6131"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:707"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2515",
+        "mudou_sms:mudou_spam.train:2863",
+        "mudou_sms:mudou_spam.train:6815",
+        "mudou_sms:mudou_spam.train:9552",
+        "mudou_sms:mudou_spam.train:9836"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:713"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9060"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:717"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9946"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:719"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1236"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:721"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2706",
+        "mudou_sms:mudou_spam.train:2964",
+        "mudou_sms:mudou_spam.train:3603",
+        "mudou_sms:mudou_spam.train:4652",
+        "mudou_sms:mudou_spam.train:5732",
+        "mudou_sms:mudou_spam.train:6355",
+        "mudou_sms:mudou_spam.train:7342",
+        "mudou_sms:mudou_spam.train:9223",
+        "mudou_sms:mudou_spam.train:9258",
+        "mudou_sms:mudou_spam.train:9469"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:727"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8142"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:731"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:838",
+        "mudou_sms:mudou_spam.train:1437",
+        "mudou_sms:mudou_spam.train:2029",
+        "mudou_sms:mudou_spam.train:3877",
+        "mudou_sms:mudou_spam.train:4359",
+        "mudou_sms:mudou_spam.train:5713",
+        "mudou_sms:mudou_spam.train:7093"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:743"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7057"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:751"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:92",
+        "mudou_sms:mudou_spam.train:1531",
+        "mudou_sms:mudou_spam.train:3069",
+        "mudou_sms:mudou_spam.train:5456",
+        "mudou_sms:mudou_spam.train:7249",
+        "mudou_sms:mudou_spam.train:7979"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:754"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8969"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:765"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1130",
+        "mudou_sms:mudou_spam.train:5491",
+        "mudou_sms:mudou_spam.train:8050",
+        "mudou_sms:mudou_spam.train:10590"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:774"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:667",
+        "mudou_sms:mudou_spam.train:691",
+        "mudou_sms:mudou_spam.train:1430",
+        "mudou_sms:mudou_spam.train:10368"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:777"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:203",
+        "mudou_sms:mudou_spam.train:1586"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:778"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10521"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:795"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:97"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:796"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10165"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:802"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:254",
+        "mudou_sms:mudou_spam.train:618",
+        "mudou_sms:mudou_spam.train:1468",
+        "mudou_sms:mudou_spam.train:3905",
+        "mudou_sms:mudou_spam.train:7938",
+        "mudou_sms:mudou_spam.train:8540",
+        "mudou_sms:mudou_spam.train:8881",
+        "mudou_sms:mudou_spam.train:9416",
+        "mudou_sms:mudou_spam.train:9744",
+        "mudou_sms:mudou_spam.train:10252"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:804"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9",
+        "mudou_sms:mudou_spam.train:4145"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:813"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2373",
+        "mudou_sms:mudou_spam.train:3122",
+        "mudou_sms:mudou_spam.train:4020",
+        "mudou_sms:mudou_spam.train:5039",
+        "mudou_sms:mudou_spam.train:5110",
+        "mudou_sms:mudou_spam.train:5546",
+        "mudou_sms:mudou_spam.train:6208",
+        "mudou_sms:mudou_spam.train:7588",
+        "mudou_sms:mudou_spam.train:9281",
+        "mudou_sms:mudou_spam.train:9661"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:817",
+        "mudou_sms:mudou_spam.test:1107"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6884",
+        "mudou_sms:mudou_spam.train:9567",
+        "mudou_sms:mudou_spam.train:9783",
+        "mudou_sms:mudou_spam.train:10625"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:818"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2357"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:821"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6352"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:824"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6439"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:827"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10345",
+        "mudou_sms:mudou_spam.train:10798"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:828"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4704"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:837"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1038",
+        "mudou_sms:mudou_spam.train:1157",
+        "mudou_sms:mudou_spam.train:1419",
+        "mudou_sms:mudou_spam.train:4782",
+        "mudou_sms:mudou_spam.train:6191",
+        "mudou_sms:mudou_spam.train:8033",
+        "mudou_sms:mudou_spam.train:10722"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:839"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:191",
+        "mudou_sms:mudou_spam.train:478",
+        "mudou_sms:mudou_spam.train:2968"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:842"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8024",
+        "mudou_sms:mudou_spam.train:9905"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:844"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5051",
+        "mudou_sms:mudou_spam.train:8065"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:847"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2834",
+        "mudou_sms:mudou_spam.train:4001",
+        "mudou_sms:mudou_spam.train:4527",
+        "mudou_sms:mudou_spam.train:5144",
+        "mudou_sms:mudou_spam.train:6056",
+        "mudou_sms:mudou_spam.train:7456",
+        "mudou_sms:mudou_spam.train:7941"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:850"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1701",
+        "mudou_sms:mudou_spam.train:2916",
+        "mudou_sms:mudou_spam.train:8672"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:852"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2992"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:856"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4073",
+        "mudou_sms:mudou_spam.train:6497",
+        "mudou_sms:mudou_spam.train:7138",
+        "mudou_sms:mudou_spam.train:9035"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:868"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1605"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:871"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10030"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:880"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5202"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:885"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3465",
+        "mudou_sms:mudou_spam.train:4202",
+        "mudou_sms:mudou_spam.train:6915",
+        "mudou_sms:mudou_spam.train:8527"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:887",
+        "mudou_sms:mudou_spam.test:1010"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3086"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:889"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:799"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:892"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:970",
+        "mudou_sms:mudou_spam.train:3371",
+        "mudou_sms:mudou_spam.train:3933"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:893"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5622",
+        "mudou_sms:mudou_spam.train:10522"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:899"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 9,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:689",
+        "mudou_sms:mudou_spam.train:747",
+        "mudou_sms:mudou_spam.train:1066",
+        "mudou_sms:mudou_spam.train:2392",
+        "mudou_sms:mudou_spam.train:2862",
+        "mudou_sms:mudou_spam.train:3769",
+        "mudou_sms:mudou_spam.train:5200",
+        "mudou_sms:mudou_spam.train:6543",
+        "mudou_sms:mudou_spam.train:9393"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:900"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:526",
+        "mudou_sms:mudou_spam.train:1841",
+        "mudou_sms:mudou_spam.train:5180",
+        "mudou_sms:mudou_spam.train:7261",
+        "mudou_sms:mudou_spam.train:8009"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:914"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:513",
+        "mudou_sms:mudou_spam.train:1667",
+        "mudou_sms:mudou_spam.train:3472",
+        "mudou_sms:mudou_spam.train:9737"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:920"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3373",
+        "mudou_sms:mudou_spam.train:4603",
+        "mudou_sms:mudou_spam.train:5592"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:938"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 9,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:797",
+        "mudou_sms:mudou_spam.train:852",
+        "mudou_sms:mudou_spam.train:4407",
+        "mudou_sms:mudou_spam.train:5385",
+        "mudou_sms:mudou_spam.train:5531",
+        "mudou_sms:mudou_spam.train:6587",
+        "mudou_sms:mudou_spam.train:7354",
+        "mudou_sms:mudou_spam.train:7787",
+        "mudou_sms:mudou_spam.train:8733"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:942"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10338"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:944"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 26,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:443",
+        "mudou_sms:mudou_spam.train:1094",
+        "mudou_sms:mudou_spam.train:2649",
+        "mudou_sms:mudou_spam.train:3127",
+        "mudou_sms:mudou_spam.train:3224",
+        "mudou_sms:mudou_spam.train:3394",
+        "mudou_sms:mudou_spam.train:3625",
+        "mudou_sms:mudou_spam.train:3715",
+        "mudou_sms:mudou_spam.train:4324",
+        "mudou_sms:mudou_spam.train:4329",
+        "mudou_sms:mudou_spam.train:4759",
+        "mudou_sms:mudou_spam.train:5074",
+        "mudou_sms:mudou_spam.train:5926",
+        "mudou_sms:mudou_spam.train:6074",
+        "mudou_sms:mudou_spam.train:6144",
+        "mudou_sms:mudou_spam.train:6375",
+        "mudou_sms:mudou_spam.train:6855",
+        "mudou_sms:mudou_spam.train:8295",
+        "mudou_sms:mudou_spam.train:8565",
+        "mudou_sms:mudou_spam.train:8588",
+        "mudou_sms:mudou_spam.train:9037",
+        "mudou_sms:mudou_spam.train:9446",
+        "mudou_sms:mudou_spam.train:9665",
+        "mudou_sms:mudou_spam.train:10292",
+        "mudou_sms:mudou_spam.train:10523",
+        "mudou_sms:mudou_spam.train:10749"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:946",
+        "mudou_sms:mudou_spam.test:1065"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1855"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:947"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1627"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:955"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7590",
+        "mudou_sms:mudou_spam.train:9359",
+        "mudou_sms:mudou_spam.train:10067"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:968"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5179",
+        "mudou_sms:mudou_spam.train:9379"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:977"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:889",
+        "mudou_sms:mudou_spam.train:974",
+        "mudou_sms:mudou_spam.train:1047",
+        "mudou_sms:mudou_spam.train:2030",
+        "mudou_sms:mudou_spam.train:2249",
+        "mudou_sms:mudou_spam.train:2963",
+        "mudou_sms:mudou_spam.train:3174",
+        "mudou_sms:mudou_spam.train:5072",
+        "mudou_sms:mudou_spam.train:6227",
+        "mudou_sms:mudou_spam.train:7954"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:978"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7168"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:979"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3062",
+        "mudou_sms:mudou_spam.train:4742"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:994"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:174",
+        "mudou_sms:mudou_spam.train:430",
+        "mudou_sms:mudou_spam.train:5417",
+        "mudou_sms:mudou_spam.train:6070"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1004"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1294",
+        "mudou_sms:mudou_spam.train:8109"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1006"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6098"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1011"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6471",
+        "mudou_sms:mudou_spam.train:7317",
+        "mudou_sms:mudou_spam.train:10602"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1013"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8995"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1022"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2758"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1026"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:786",
+        "mudou_sms:mudou_spam.train:3212",
+        "mudou_sms:mudou_spam.train:3368",
+        "mudou_sms:mudou_spam.train:3452",
+        "mudou_sms:mudou_spam.train:3561",
+        "mudou_sms:mudou_spam.train:4205",
+        "mudou_sms:mudou_spam.train:5721",
+        "mudou_sms:mudou_spam.train:7633"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1031"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9451"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1035"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 11,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:16",
+        "mudou_sms:mudou_spam.train:3793",
+        "mudou_sms:mudou_spam.train:4863",
+        "mudou_sms:mudou_spam.train:5984",
+        "mudou_sms:mudou_spam.train:6064",
+        "mudou_sms:mudou_spam.train:7343",
+        "mudou_sms:mudou_spam.train:8521",
+        "mudou_sms:mudou_spam.train:8713",
+        "mudou_sms:mudou_spam.train:9345",
+        "mudou_sms:mudou_spam.train:9723",
+        "mudou_sms:mudou_spam.train:9832"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1040",
+        "mudou_sms:mudou_spam.test:1272"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8321"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1041"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2105",
+        "mudou_sms:mudou_spam.train:2254",
+        "mudou_sms:mudou_spam.train:6004",
+        "mudou_sms:mudou_spam.train:8906",
+        "mudou_sms:mudou_spam.train:10654"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1042"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2187"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1044"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 11,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:563",
+        "mudou_sms:mudou_spam.train:1140",
+        "mudou_sms:mudou_spam.train:1778",
+        "mudou_sms:mudou_spam.train:2883",
+        "mudou_sms:mudou_spam.train:3714",
+        "mudou_sms:mudou_spam.train:4227",
+        "mudou_sms:mudou_spam.train:4609",
+        "mudou_sms:mudou_spam.train:5003",
+        "mudou_sms:mudou_spam.train:6160",
+        "mudou_sms:mudou_spam.train:10035",
+        "mudou_sms:mudou_spam.train:10190"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1049"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2352",
+        "mudou_sms:mudou_spam.train:2516",
+        "mudou_sms:mudou_spam.train:8819",
+        "mudou_sms:mudou_spam.train:10453",
+        "mudou_sms:mudou_spam.train:10473"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1051"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5804",
+        "mudou_sms:mudou_spam.train:10866"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1059"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:362",
+        "mudou_sms:mudou_spam.train:1528",
+        "mudou_sms:mudou_spam.train:4497"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1064"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5011",
+        "mudou_sms:mudou_spam.train:7357",
+        "mudou_sms:mudou_spam.train:8069",
+        "mudou_sms:mudou_spam.train:8089",
+        "mudou_sms:mudou_spam.train:8789",
+        "mudou_sms:mudou_spam.train:10505"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1073"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:6870",
+        "mudou_sms:mudou_spam.train:10589"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1083"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4745"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1086"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8765"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1091"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 16,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1134",
+        "mudou_sms:mudou_spam.train:1633",
+        "mudou_sms:mudou_spam.train:1731",
+        "mudou_sms:mudou_spam.train:3747",
+        "mudou_sms:mudou_spam.train:3826",
+        "mudou_sms:mudou_spam.train:4903",
+        "mudou_sms:mudou_spam.train:6560",
+        "mudou_sms:mudou_spam.train:6674",
+        "mudou_sms:mudou_spam.train:6869",
+        "mudou_sms:mudou_spam.train:7212",
+        "mudou_sms:mudou_spam.train:7291",
+        "mudou_sms:mudou_spam.train:8267",
+        "mudou_sms:mudou_spam.train:9183",
+        "mudou_sms:mudou_spam.train:9289",
+        "mudou_sms:mudou_spam.train:9350",
+        "mudou_sms:mudou_spam.train:9707"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1096"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4681",
+        "mudou_sms:mudou_spam.train:6592"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1109"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2086",
+        "mudou_sms:mudou_spam.train:2309",
+        "mudou_sms:mudou_spam.train:3524",
+        "mudou_sms:mudou_spam.train:3823",
+        "mudou_sms:mudou_spam.train:4051",
+        "mudou_sms:mudou_spam.train:5387",
+        "mudou_sms:mudou_spam.train:7524",
+        "mudou_sms:mudou_spam.train:7548",
+        "mudou_sms:mudou_spam.train:7690",
+        "mudou_sms:mudou_spam.train:8917"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1111"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4253"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1112"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3906",
+        "mudou_sms:mudou_spam.train:4582",
+        "mudou_sms:mudou_spam.train:4658",
+        "mudou_sms:mudou_spam.train:9349"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1115"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:542",
+        "mudou_sms:mudou_spam.train:694",
+        "mudou_sms:mudou_spam.train:1707",
+        "mudou_sms:mudou_spam.train:7455",
+        "mudou_sms:mudou_spam.train:7770"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1119"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 8,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1653",
+        "mudou_sms:mudou_spam.train:2262",
+        "mudou_sms:mudou_spam.train:2817",
+        "mudou_sms:mudou_spam.train:3391",
+        "mudou_sms:mudou_spam.train:4940",
+        "mudou_sms:mudou_spam.train:7692",
+        "mudou_sms:mudou_spam.train:8518",
+        "mudou_sms:mudou_spam.train:9532"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1122"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2239",
+        "mudou_sms:mudou_spam.train:7285"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1141"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1880"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1148"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1151",
+        "mudou_sms:mudou_spam.train:3112",
+        "mudou_sms:mudou_spam.train:3638"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1151"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1883",
+        "mudou_sms:mudou_spam.train:2008",
+        "mudou_sms:mudou_spam.train:4282"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1152"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1814"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1154"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 17,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:193",
+        "mudou_sms:mudou_spam.train:642",
+        "mudou_sms:mudou_spam.train:1346",
+        "mudou_sms:mudou_spam.train:1507",
+        "mudou_sms:mudou_spam.train:1705",
+        "mudou_sms:mudou_spam.train:4302",
+        "mudou_sms:mudou_spam.train:4426",
+        "mudou_sms:mudou_spam.train:5000",
+        "mudou_sms:mudou_spam.train:6682",
+        "mudou_sms:mudou_spam.train:7660",
+        "mudou_sms:mudou_spam.train:8231",
+        "mudou_sms:mudou_spam.train:8414",
+        "mudou_sms:mudou_spam.train:8560",
+        "mudou_sms:mudou_spam.train:8586",
+        "mudou_sms:mudou_spam.train:9770",
+        "mudou_sms:mudou_spam.train:10185",
+        "mudou_sms:mudou_spam.train:10588"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1155"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7277"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1158"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:7131"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1175"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5705"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1177"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:82",
+        "mudou_sms:mudou_spam.train:6338",
+        "mudou_sms:mudou_spam.train:8146"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1185"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:582"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1192"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5769"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1196"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4015",
+        "mudou_sms:mudou_spam.train:9472"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1197"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5075",
+        "mudou_sms:mudou_spam.train:8888"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1198"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:355"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1218"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:943",
+        "mudou_sms:mudou_spam.train:3635",
+        "mudou_sms:mudou_spam.train:5257"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1222"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1540",
+        "mudou_sms:mudou_spam.train:4705",
+        "mudou_sms:mudou_spam.train:9197"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1230"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3581",
+        "mudou_sms:mudou_spam.train:5948"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1235"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:9243",
+        "mudou_sms:mudou_spam.train:9648"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1236"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 12,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:96",
+        "mudou_sms:mudou_spam.train:1622",
+        "mudou_sms:mudou_spam.train:2051",
+        "mudou_sms:mudou_spam.train:7088",
+        "mudou_sms:mudou_spam.train:7951",
+        "mudou_sms:mudou_spam.train:8049",
+        "mudou_sms:mudou_spam.train:9767",
+        "mudou_sms:mudou_spam.train:9889",
+        "mudou_sms:mudou_spam.train:10114",
+        "mudou_sms:mudou_spam.train:10242",
+        "mudou_sms:mudou_spam.train:10683",
+        "mudou_sms:mudou_spam.train:10797"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1238"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 13,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:202",
+        "mudou_sms:mudou_spam.train:828",
+        "mudou_sms:mudou_spam.train:2692",
+        "mudou_sms:mudou_spam.train:4187",
+        "mudou_sms:mudou_spam.train:4617",
+        "mudou_sms:mudou_spam.train:4830",
+        "mudou_sms:mudou_spam.train:6983",
+        "mudou_sms:mudou_spam.train:8001",
+        "mudou_sms:mudou_spam.train:8034",
+        "mudou_sms:mudou_spam.train:9046",
+        "mudou_sms:mudou_spam.train:9288",
+        "mudou_sms:mudou_spam.train:10501",
+        "mudou_sms:mudou_spam.train:10581"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1262"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5270",
+        "mudou_sms:mudou_spam.train:5936",
+        "mudou_sms:mudou_spam.train:7754",
+        "mudou_sms:mudou_spam.train:7911",
+        "mudou_sms:mudou_spam.train:8808",
+        "mudou_sms:mudou_spam.train:9701"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1278"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:328",
+        "mudou_sms:mudou_spam.train:4082",
+        "mudou_sms:mudou_spam.train:5091",
+        "mudou_sms:mudou_spam.train:8857"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1282"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 15,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:28",
+        "mudou_sms:mudou_spam.train:648",
+        "mudou_sms:mudou_spam.train:751",
+        "mudou_sms:mudou_spam.train:760",
+        "mudou_sms:mudou_spam.train:1393",
+        "mudou_sms:mudou_spam.train:1492",
+        "mudou_sms:mudou_spam.train:3163",
+        "mudou_sms:mudou_spam.train:3565",
+        "mudou_sms:mudou_spam.train:5354",
+        "mudou_sms:mudou_spam.train:6267",
+        "mudou_sms:mudou_spam.train:7095",
+        "mudou_sms:mudou_spam.train:7232",
+        "mudou_sms:mudou_spam.train:7458",
+        "mudou_sms:mudou_spam.train:7913",
+        "mudou_sms:mudou_spam.train:10626"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1305"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3283"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1306"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 16,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1254",
+        "mudou_sms:mudou_spam.train:1757",
+        "mudou_sms:mudou_spam.train:2574",
+        "mudou_sms:mudou_spam.train:3200",
+        "mudou_sms:mudou_spam.train:3937",
+        "mudou_sms:mudou_spam.train:5126",
+        "mudou_sms:mudou_spam.train:6568",
+        "mudou_sms:mudou_spam.train:6582",
+        "mudou_sms:mudou_spam.train:7040",
+        "mudou_sms:mudou_spam.train:8037",
+        "mudou_sms:mudou_spam.train:8364",
+        "mudou_sms:mudou_spam.train:8420",
+        "mudou_sms:mudou_spam.train:8752",
+        "mudou_sms:mudou_spam.train:8975",
+        "mudou_sms:mudou_spam.train:9079",
+        "mudou_sms:mudou_spam.train:10696"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1307"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1980",
+        "mudou_sms:mudou_spam.train:3361",
+        "mudou_sms:mudou_spam.train:6390"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1308"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4897"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1311"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 6,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3865",
+        "mudou_sms:mudou_spam.train:4028",
+        "mudou_sms:mudou_spam.train:5273",
+        "mudou_sms:mudou_spam.train:5446",
+        "mudou_sms:mudou_spam.train:7298",
+        "mudou_sms:mudou_spam.train:9818"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1320"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 7,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4680",
+        "mudou_sms:mudou_spam.train:5331",
+        "mudou_sms:mudou_spam.train:6336",
+        "mudou_sms:mudou_spam.train:6386",
+        "mudou_sms:mudou_spam.train:7520",
+        "mudou_sms:mudou_spam.train:8054",
+        "mudou_sms:mudou_spam.train:8390"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1326"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 4,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:336",
+        "mudou_sms:mudou_spam.train:1773",
+        "mudou_sms:mudou_spam.train:8270",
+        "mudou_sms:mudou_spam.train:9601"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1327"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2063",
+        "mudou_sms:mudou_spam.train:8520"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1331"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4500"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1336"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5167",
+        "mudou_sms:mudou_spam.train:9429"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1345"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:729",
+        "mudou_sms:mudou_spam.train:1166",
+        "mudou_sms:mudou_spam.train:6707",
+        "mudou_sms:mudou_spam.train:9626",
+        "mudou_sms:mudou_spam.train:9690"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1348"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:321"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1349"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1011",
+        "mudou_sms:mudou_spam.train:1078",
+        "mudou_sms:mudou_spam.train:1844",
+        "mudou_sms:mudou_spam.train:2653",
+        "mudou_sms:mudou_spam.train:3010",
+        "mudou_sms:mudou_spam.train:7104",
+        "mudou_sms:mudou_spam.train:7713",
+        "mudou_sms:mudou_spam.train:10066",
+        "mudou_sms:mudou_spam.train:10414",
+        "mudou_sms:mudou_spam.train:10726"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1354"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:8664",
+        "mudou_sms:mudou_spam.train:10719"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1358"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:5772",
+        "mudou_sms:mudou_spam.train:9784"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1361"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:4176"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1362"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 2,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:840",
+        "mudou_sms:mudou_spam.train:8119"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1368"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 5,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:1901",
+        "mudou_sms:mudou_spam.train:3080",
+        "mudou_sms:mudou_spam.train:4245",
+        "mudou_sms:mudou_spam.train:4998",
+        "mudou_sms:mudou_spam.train:5427"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1371"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 10,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:490",
+        "mudou_sms:mudou_spam.train:606",
+        "mudou_sms:mudou_spam.train:1072",
+        "mudou_sms:mudou_spam.train:1202",
+        "mudou_sms:mudou_spam.train:2469",
+        "mudou_sms:mudou_spam.train:6817",
+        "mudou_sms:mudou_spam.train:8163",
+        "mudou_sms:mudou_spam.train:9634",
+        "mudou_sms:mudou_spam.train:9736",
+        "mudou_sms:mudou_spam.train:10804"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1372"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 3,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:3632",
+        "mudou_sms:mudou_spam.train:7345",
+        "mudou_sms:mudou_spam.train:9209"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1374"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:2133"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1375"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    },
+    {
+      "candidate_rows": 1,
+      "candidate_ids": [
+        "mudou_sms:mudou_spam.train:10790"
+      ],
+      "matched_protected_examples": [
+        "mudou_sms:mudou_spam.test:1380"
+      ],
+      "protected_splits": [
+        "external_mudou_binary"
+      ]
+    }
+  ],
+  "coarse_risk_conflict_groups": [
+    {
+      "candidate_ids": [
+        "fgrc_scd:finetuning_initial:20268",
+        "fgrc_scd:finetuning_initial:20269"
+      ],
+      "contradictory_canonical_hashes": [
+        "3a524f6c7682928bef2fd1b94b646bffbb9e65ab6c94e25aa2cc9ae153c257c9"
+      ]
+    },
+    {
+      "candidate_ids": [
+        "fgrc_scd:finetuning_initial:60186",
+        "fgrc_scd:finetuning_initial:60187"
+      ],
+      "contradictory_canonical_hashes": [
+        "886f2ccb75791be51568aef923644a6de234566dbe1047c132374d532bc85320"
+      ]
+    }
+  ],
+  "filter_policy": "Joint union of canonical, normalized template, 256-token input, SimHash near duplicates and FGRC case ID. Exclude every candidate group connected transitively to any baseline train/validation/test or external diagnostic row. Neither labels nor predictions determine overlap exclusion."
+}

@@ -1,0 +1,43 @@
+# Materials excluded from this repository
+/Documents/
+/Promotion Video/
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.mp4
+*.mkv
+*.mov
+*.webm
+
+# Credentials and private signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+test-signing.properties
+local.properties
+credentials.json
+id_rsa
+id_ed25519
+
+# Developer environments and generated caches
+.idea/
+.vscode/
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+node_modules/
+Thumbs.db
+.DS_Store

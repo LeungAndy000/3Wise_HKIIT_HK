@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "model_id": "wisemessage-minirbt-h256-step1221",
+  "model_file": "model.ms",
+  "model_sha256": "5f5af31d7aec95abe514203e547b7fdcf0df83e70f6c3924481907c487b332de",
+  "vocab_file": "vocab.txt",
+  "vocab_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+  "source_checkpoint_sha256": "940913e59a1142aa36679d1b885b71183e0464b075c792c26204c27bd75775ae",
+  "source_framework": "mindspore",
+  "source_framework_version": "2.10.0",
+  "runtime": "MindSpore Lite",
+  "runtime_version": "2.7.1",
+  "model_format": "MINDIR_LITE",
+  "device": "CPU",
+  "enable_fp16": false,
+  "max_length": 256,
+  "vocab_size": 21128,
+  "do_lower_case": true,
+  "input_names": [
+    "input_ids",
+    "attention_mask",
+    "token_type_ids"
+  ],
+  "input_shape": [
+    1,
+    256
+  ],
+  "input_dtype": "int32",
+  "output_shape": [
+    1,
+    3
+  ],
+  "output_dtype": "float32",
+  "output_semantics": "logits_softmax_required",
+  "labels": [
+    "normal",
+    "spam",
+    "scam"
+  ],
+  "unwanted_threshold": 0.5,
+  "scam_decision": "argmax_scam",
+  "scam_threshold": 0.5,
+  "scam_threshold_note": "Reserved UI setting; validated three-class decision uses argmax_scam, without an extra probability cutoff.",
+  "conversion_validation": {
+    "runtime": "mindspore-lite-2.7.1-end-side-linux-x64",
+    "samples": 96,
+    "max_abs_logit_difference": 2.1457672119140625e-05,
+    "max_abs_probability_difference": 7.808208465576172e-06,
+    "argmax_agreement": 1.0,
+    "model_sha256": "5f5af31d7aec95abe514203e547b7fdcf0df83e70f6c3924481907c487b332de",
+    "source_checkpoint_sha256": "940913e59a1142aa36679d1b885b71183e0464b075c792c26204c27bd75775ae",
+    "rtol": 0.001,
+    "atol": 0.001,
+    "passed": true
+  },
+  "limitations": [
+    "Host x86 CPU parity does not establish Samsung device latency or ARM64 runtime behavior.",
+    "Classifier scores are estimates, not verified sender identity.",
+    "Messages longer than 254 WordPiece tokens are truncated."
+  ],
+  "license": "Research prototype; see NOTICE.txt and dataset source terms."
+}

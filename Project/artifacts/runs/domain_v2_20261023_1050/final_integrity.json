@@ -1,0 +1,15 @@
+﻿{
+    "checked_at":  "2026-10-23T11:05:31.0033089+08:00",
+    "linkwise_checked_files":  42,
+    "linkwise_unchanged":  true,
+    "linkwise_differences":  [
+
+                             ],
+    "checkpoint_matches_manifest":  true,
+    "checkpoint_matches_runtime":  true,
+    "runtime_passed":  true,
+    "device_parity_passed":  true,
+    "validation_passed":  true,
+    "dataset_checks_passed":  true,
+    "production_ready":  false
+}

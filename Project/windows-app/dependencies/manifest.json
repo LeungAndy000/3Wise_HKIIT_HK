@@ -1,0 +1,19 @@
+{
+  "source": "Ubuntu noble amd64 packages, obtained by apt-get download; original packages and copyright notices retained",
+  "system_install_performed": false,
+  "records": [
+    {
+      "package": "libxcb-cursor0_0.1.4-1build1_amd64.deb",
+      "sha256": "137cf52479b5a9d8c5926d70d311af04be41941a32ee777340d704cc458c06d8",
+      "files": 4,
+      "links_materialized_as_regular_files": true
+    },
+    {
+      "package": "libxkbfile1_1%3a1.1.0-1build4_amd64.deb",
+      "sha256": "22ac5b7dca740e606261cebdfaf1a07738e92ad3d123570694374ddb4d5afea2",
+      "files": 4,
+      "links_materialized_as_regular_files": true
+    }
+  ],
+  "files_deleted": 0
+}

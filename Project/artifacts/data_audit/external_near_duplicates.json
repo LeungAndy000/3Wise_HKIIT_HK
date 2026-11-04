@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-23T02:27:54.759857+00:00",
+  "policy": "Pure text identity exclusion before external evaluation: same script-independent normalized template as data.TextIdentity.template; 64-bit character-trigram SimHash with 4x16-bit LSH candidate bands, Hamming distance <=6, length difference <=max(10,20percent), character-trigram Jaccard >=0.75 against all main train/validation/test originals. No model predictions, probabilities, thresholds, performance, or labels used for filtering.",
+  "pure_text_filter_policy": "Pure text identity exclusion before external evaluation: same script-independent normalized template as data.TextIdentity.template; 64-bit character-trigram SimHash with 4x16-bit LSH candidate bands, Hamming distance <=6, length difference <=max(10,20percent), character-trigram Jaccard >=0.75 against all main train/validation/test originals. No model predictions, probabilities, thresholds, performance, or labels used for filtering.",
+  "excluded_record_ids": [
+    "mudou_sms:mudou_spam.test:1077",
+    "mudou_sms:mudou_spam.test:1299",
+    "mudou_sms:mudou_spam.test:553",
+    "mudou_sms:mudou_spam.test:709"
+  ],
+  "matches": [
+    {
+      "record_id": "mudou_sms:mudou_spam.test:553",
+      "training_match_id": "mudou_sms:mudou_spam.train:10270",
+      "matched_split": "train",
+      "similarity": 0.875,
+      "hamming_distance": 6
+    },
+    {
+      "record_id": "mudou_sms:mudou_spam.test:709",
+      "training_match_id": "mudou_sms:mudou_spam.train:1105",
+      "matched_split": "train",
+      "similarity": 0.9534883720930233,
+      "hamming_distance": 4
+    },
+    {
+      "record_id": "mudou_sms:mudou_spam.test:1077",
+      "training_match_id": "mudou_sms:mudou_spam.train:10270",
+      "matched_split": "train",
+      "similarity": 0.8873239436619719,
+      "hamming_distance": 4
+    },
+    {
+      "record_id": "mudou_sms:mudou_spam.test:1299",
+      "training_match_id": "mudou_sms:mudou_spam.train:4710",
+      "matched_split": "train",
+      "similarity": 0.8356164383561644,
+      "hamming_distance": 3
+    }
+  ],
+  "original_rows": 959,
+  "evaluated_rows": 955,
+  "source_jsonl_sha256": "8e40fb40883d0a93095ccc3b305267074fca38828de6369f3527748a332db951",
+  "evaluated_record_order_sha256": "b0c9c057f7d02942ded7d46051ca754b943f6ce8c6b238361e6f10a0121e74c9",
+  "order_hash_serialization": "UTF-8 record_id lines in original order, final newline",
+  "main_cross_split_near_duplicate_pairs": 0,
+  "main_cross_split_near_duplicate_examples": [],
+  "main_actual_canonical_and_tokenized_256_overlap_audit": {
+    "train:validation": 0,
+    "train:test": 0,
+    "validation:test": 0
+  },
+  "prepared_files_modified": false
+}

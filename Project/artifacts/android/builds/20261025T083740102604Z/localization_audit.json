@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "translated_strings_per_language": 215,
+  "languages": [
+    "en",
+    "zh-Hant",
+    "zh-Hans"
+  ],
+  "format_arguments_match": true,
+  "legacy_simplified_matches": true,
+  "android_system_language_configured": true,
+  "internet_permission": false,
+  "scope": "UI localization only; no claim of English SMS model accuracy or physical-device execution"
+}

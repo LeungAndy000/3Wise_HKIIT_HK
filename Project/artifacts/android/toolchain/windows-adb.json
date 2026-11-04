@@ -1,0 +1,11 @@
+{
+  "url": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+  "archive": "artifacts/android/toolchain/downloads/platform-tools-windows-build-20261023.zip",
+  "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99",
+  "bytes": 8044989,
+  "adb": "artifacts/android/toolchain/windows-platform-tools/platform-tools/adb.exe",
+  "source_properties": [
+    "Pkg.UserSrc=false",
+    "Pkg.Revision=37.0.1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "framework": "mindspore",
+  "checkpoint_type": "pretrained_encoder",
+  "task": "pretraining",
+  "model_id": "wisemessage-minirbt-h256-pretrained",
+  "checkpoint": "model.ckpt",
+  "config": "config.json",
+  "vocab": "vocab.txt",
+  "checkpoint_sha256": "ba92ba741f3fa8991fb4bfb61a1e99c5769353ec3b5fcb45bc918e96431840a4",
+  "config_fingerprint": "759e22302884a0735027a038f4fd25e6421f47354b5ad0e821c87722f8a5db37",
+  "tokenizer_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+  "source_checkpoint_sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+  "source": {
+    "repository": "hfl/minirbt-h256",
+    "revision": "446e1b4012b10946f479563005700c54c9db3f7c",
+    "license": "apache-2.0",
+    "files": {
+      "config.json": {
+        "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/config.json",
+        "sha256": "02cc77ba23f292bf5265d76fff662ae8a8057bf85ee9723ba30342bf9ed30746",
+        "bytes": 598
+      },
+      "vocab.txt": {
+        "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/vocab.txt",
+        "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+        "bytes": 109540
+      },
+      "README.md": {
+        "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/README.md",
+        "sha256": "667be60e0b89d63d308d3d1e76f906d056ad4a2c56e6a2f785544098e220f3eb",
+        "bytes": 974
+      },
+      "pytorch_model.bin": {
+        "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/pytorch_model.bin",
+        "sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+        "bytes": 41514155
+      }
+    },
+    "downloaded_at": "2026-10-23T02:20:57.105870+00:00"
+  },
+  "converted_encoder_tensors": 101,
+  "encoder_parameters": 10279424,
+  "discarded_source_keys": [
+    "bert.embeddings.position_ids",
+    "cls.predictions.bias",
+    "cls.predictions.decoder.bias",
+    "cls.predictions.decoder.weight",
+    "cls.predictions.transform.LayerNorm.bias",
+    "cls.predictions.transform.LayerNorm.weight",
+    "cls.predictions.transform.dense.bias",
+    "cls.predictions.transform.dense.weight"
+  ],
+  "classifier_trained": false,
+  "label_map": {
+    "0": "normal",
+    "1": "spam",
+    "2": "scam"
+  },
+  "created_at": "2026-10-23T02:22:12.004781+00:00",
+  "notes": "Only pretrained encoder. The three-class SMS head must be supervised-finetuned."
+}

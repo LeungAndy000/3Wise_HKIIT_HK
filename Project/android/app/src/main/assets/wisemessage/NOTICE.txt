@@ -1,0 +1,21 @@
+WiseMessage is a separate Chinese SMS spam/scam research project.
+
+The native BERT encoder and checkpoint mapping were adapted from the local
+LinkWise MindSpore implementation. Apache License 2.0 terms are in LICENSE.txt.
+WiseMessage does not import or require the LinkWise project at runtime.
+
+The pretrained MiniRBT model is by the Joint Laboratory of HIT and iFLYTEK
+Research (HFL), released under Apache License 2.0. Model source, immutable
+revision, hashes and discarded pretraining components are recorded in
+artifacts/pretrained/manifest.json.
+
+Dataset terms differ from the source-code and pretrained-model license.
+See data/prepared/source_documentation.json and data/prepared/manifest.json.
+The revised message-domain dataset is documented separately in
+data/prepared_domain_v2/source_documentation.json and its manifest. It adds
+partially labelled Mudou unwanted SMS and FGRC-SCD generated message-form
+examples. FGRC-SCD's dataset card declares MIT; it describes generated data,
+not independently captured real SMS. Existing source-specific restrictions
+continue to apply to the combined model.
+The current dataset combination and trained artifacts are a research prototype;
+unresolved dataset permissions and domain-validation gaps remain.

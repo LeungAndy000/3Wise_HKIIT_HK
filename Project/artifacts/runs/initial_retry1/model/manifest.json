@@ -1,0 +1,199 @@
+{
+  "format_version": 1,
+  "framework": "mindspore",
+  "framework_version": "2.10.0",
+  "task": "sms_spam_scam_detection",
+  "checkpoint_type": "message_classifier",
+  "model_id": "wisemessage-minirbt-h256-step1572",
+  "checkpoint": "model.ckpt",
+  "config": "config.json",
+  "vocab": "vocab.txt",
+  "checkpoint_sha256": "9bf53e199383a1d9be1586df3c5f42a3eb20488a1868259f1aa7356e3879cc33",
+  "config_sha256": "aa456a082374e5eb7f7955eca9d3c1cb42333580c7c75bd9aeeaddb0b3aea7f4",
+  "tokenizer_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+  "config_fingerprint": "759e22302884a0735027a038f4fd25e6421f47354b5ad0e821c87722f8a5db37",
+  "id2label": {
+    "0": "normal",
+    "1": "spam",
+    "2": "scam"
+  },
+  "max_length": 256,
+  "do_lower_case": true,
+  "thresholds": {
+    "spam": 0.5,
+    "scam": 0.5
+  },
+  "threshold_selection": {
+    "thresholds": {
+      "spam": 0.5,
+      "scam": 0.5
+    },
+    "review_metrics": {
+      "samples": 2489,
+      "accuracy": 0.9979911611088791,
+      "precision": 0.9986111111111111,
+      "recall": 0.9979181124219292,
+      "f1": 0.9982644914960084,
+      "false_positive_rate": 0.0019083969465648854,
+      "confusion_matrix": {
+        "tn": 1046,
+        "fp": 2,
+        "fn": 3,
+        "tp": 1438
+      }
+    },
+    "selection": "validation_only_maximum_unwanted_f1_with_normal_false_positive_cap",
+    "max_normal_false_positive_rate": 0.1
+  },
+  "validation_metrics": {
+    "samples": 2489,
+    "accuracy": 0.9971876255524307,
+    "macro_f1": 0.9970230445964958,
+    "macro_f1_present_classes": 0.9970230445964958,
+    "present_classes": [
+      "normal",
+      "spam",
+      "scam"
+    ],
+    "balanced_accuracy": 0.9968752392616401,
+    "scam_recall": 0.9937888198757764,
+    "normal_false_positive_rate": 0.0019083969465648854,
+    "per_class": {
+      "normal": {
+        "support": 1048,
+        "precision": 0.9971401334604385,
+        "recall": 0.9980916030534351,
+        "f1": 0.9976156413924655
+      },
+      "spam": {
+        "support": 797,
+        "precision": 0.9974937343358395,
+        "recall": 0.998745294855709,
+        "f1": 0.9981191222570533
+      },
+      "scam": {
+        "support": 644,
+        "precision": 0.9968847352024922,
+        "recall": 0.9937888198757764,
+        "f1": 0.9953343701399688
+      }
+    },
+    "confusion_matrix": [
+      [
+        1046,
+        0,
+        2
+      ],
+      [
+        1,
+        796,
+        0
+      ],
+      [
+        2,
+        2,
+        640
+      ]
+    ],
+    "confusion_matrix_order": [
+      "normal",
+      "spam",
+      "scam"
+    ]
+  },
+  "provisional_quality_requirements": {
+    "macro_f1": 0.8,
+    "scam_recall": 0.8,
+    "max_normal_false_positive_rate": 0.1
+  },
+  "validation_requirements_passed": true,
+  "pretrained": {
+    "format_version": 1,
+    "framework": "mindspore",
+    "checkpoint_type": "pretrained_encoder",
+    "task": "pretraining",
+    "model_id": "wisemessage-minirbt-h256-pretrained",
+    "checkpoint": "model.ckpt",
+    "config": "config.json",
+    "vocab": "vocab.txt",
+    "checkpoint_sha256": "ba92ba741f3fa8991fb4bfb61a1e99c5769353ec3b5fcb45bc918e96431840a4",
+    "config_fingerprint": "759e22302884a0735027a038f4fd25e6421f47354b5ad0e821c87722f8a5db37",
+    "tokenizer_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+    "source_checkpoint_sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+    "source": {
+      "repository": "hfl/minirbt-h256",
+      "revision": "446e1b4012b10946f479563005700c54c9db3f7c",
+      "license": "apache-2.0",
+      "files": {
+        "config.json": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/config.json",
+          "sha256": "02cc77ba23f292bf5265d76fff662ae8a8057bf85ee9723ba30342bf9ed30746",
+          "bytes": 598
+        },
+        "vocab.txt": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/vocab.txt",
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540
+        },
+        "README.md": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/README.md",
+          "sha256": "667be60e0b89d63d308d3d1e76f906d056ad4a2c56e6a2f785544098e220f3eb",
+          "bytes": 974
+        },
+        "pytorch_model.bin": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/pytorch_model.bin",
+          "sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+          "bytes": 41514155
+        }
+      },
+      "downloaded_at": "2026-10-23T02:20:57.105870+00:00"
+    },
+    "converted_encoder_tensors": 101,
+    "encoder_parameters": 10279424,
+    "discarded_source_keys": [
+      "bert.embeddings.position_ids",
+      "cls.predictions.bias",
+      "cls.predictions.decoder.bias",
+      "cls.predictions.decoder.weight",
+      "cls.predictions.transform.LayerNorm.bias",
+      "cls.predictions.transform.LayerNorm.weight",
+      "cls.predictions.transform.dense.bias",
+      "cls.predictions.transform.dense.weight"
+    ],
+    "classifier_trained": false,
+    "label_map": {
+      "0": "normal",
+      "1": "spam",
+      "2": "scam"
+    },
+    "created_at": "2026-10-23T02:22:12.004781+00:00",
+    "notes": "Only pretrained encoder. The three-class SMS head must be supervised-finetuned."
+  },
+  "trainable_parameters": 10280195,
+  "training": {
+    "all_encoder_layers_trainable": true,
+    "classifier_trainable": true,
+    "selected_epoch": 6,
+    "completed_epochs": 6,
+    "global_step": 1572,
+    "learning_rate": 5e-05,
+    "max_epochs": 6,
+    "seed": 2026,
+    "class_weights": [
+      0.8762083759961015,
+      1.0047770196540688,
+      1.1190146043498295
+    ],
+    "training_rows": 39774,
+    "train_sha256": "0e51d1675d6aa77a6f6bf7edb36fdeeb0bc24622f6078addd9bc0ccd4047aa8e",
+    "validation_sha256": "32bf06feb87cb174f0b60f37e38460d620e218c2a8518df9fa9a524b310f9294",
+    "test_used_for_selection": false
+  },
+  "languages": [
+    "Traditional Chinese",
+    "Simplified Chinese"
+  ],
+  "decision_note": "Class scores are model estimates, not verified sender identity or calibrated safety guarantees",
+  "usage": "Research prototype; dataset source terms and external evaluation limitations apply",
+  "created_at": "2026-10-23T02:41:33.126693+00:00"
+}

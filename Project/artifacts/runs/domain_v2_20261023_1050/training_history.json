@@ -1,0 +1,299 @@
+[
+  {
+    "epoch": 1,
+    "global_step": 407,
+    "examples_seen": 65336,
+    "training_loss": 0.1180083754878458,
+    "validation": {
+      "samples": 3989,
+      "accuracy": 0.9894710453747807,
+      "macro_f1": 0.9900696736866332,
+      "macro_f1_present_classes": 0.9900696736866332,
+      "present_classes": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "balanced_accuracy": 0.9904798315054998,
+      "scam_recall": 0.9927360774818402,
+      "normal_false_positive_rate": 0.01753246753246753,
+      "per_class": {
+        "normal": {
+          "support": 1540,
+          "precision": 0.9940867279894875,
+          "recall": 0.9824675324675325,
+          "f1": 0.9882429784454604
+        },
+        "spam": {
+          "support": 797,
+          "precision": 0.9900249376558603,
+          "recall": 0.9962358845671268,
+          "f1": 0.9931207004377736
+        },
+        "scam": {
+          "support": 1652,
+          "precision": 0.984984984984985,
+          "recall": 0.9927360774818402,
+          "f1": 0.9888453421766656
+        }
+      },
+      "confusion_matrix": [
+        [
+          1513,
+          4,
+          23
+        ],
+        [
+          1,
+          794,
+          2
+        ],
+        [
+          8,
+          4,
+          1640
+        ]
+      ],
+      "confusion_matrix_order": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "validation_samples_total": 4339,
+      "fully_labelled_samples": 3989,
+      "partial_label_samples": 350,
+      "binary_unwanted": {
+        "samples": 4339,
+        "accuracy": 0.9831758469693478,
+        "precision": 0.9899352983465133,
+        "recall": 0.9839228295819936,
+        "f1": 0.9869199068267336,
+        "false_positive_rate": 0.01818181818181818,
+        "confusion_matrix": {
+          "tn": 1512,
+          "fp": 28,
+          "fn": 45,
+          "tp": 2754
+        }
+      },
+      "three_class_label_semantics": "normal/spam/scam on fully labelled rows only",
+      "binary_decision": "P(spam)+P(scam)>=0.5",
+      "partial_binary": {
+        "samples": 1890,
+        "accuracy": 0.9661375661375662,
+        "precision": 0.9181286549707602,
+        "recall": 0.8971428571428571,
+        "f1": 0.9075144508670521,
+        "false_positive_rate": 0.01818181818181818,
+        "confusion_matrix": {
+          "tn": 1512,
+          "fp": 28,
+          "fn": 36,
+          "tp": 314
+        }
+      },
+      "partial_unwanted_recall": 0.8971428571428571,
+      "partial_binary_label_semantics": "known normal versus unwanted with unknown spam/scam subtype",
+      "quality_requirements_passed": true
+    },
+    "checkpoint": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/runs/domain_v2_20261023_1050/checkpoints/epoch_01_step_00407/model.ckpt"
+  },
+  {
+    "epoch": 2,
+    "global_step": 814,
+    "examples_seen": 130672,
+    "training_loss": 0.025053533747107483,
+    "validation": {
+      "samples": 3989,
+      "accuracy": 0.9907244923539734,
+      "macro_f1": 0.991648528309342,
+      "macro_f1_present_classes": 0.991648528309342,
+      "present_classes": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "balanced_accuracy": 0.9916904944646688,
+      "scam_recall": 0.9957627118644068,
+      "normal_false_positive_rate": 0.01818181818181818,
+      "per_class": {
+        "normal": {
+          "support": 1540,
+          "precision": 0.9973614775725593,
+          "recall": 0.9818181818181818,
+          "f1": 0.9895287958115183
+        },
+        "spam": {
+          "support": 797,
+          "precision": 0.9949937421777222,
+          "recall": 0.9974905897114178,
+          "f1": 0.9962406015037594
+        },
+        "scam": {
+          "support": 1652,
+          "precision": 0.9826762246117084,
+          "recall": 0.9957627118644068,
+          "f1": 0.9891761876127481
+        }
+      },
+      "confusion_matrix": [
+        [
+          1512,
+          0,
+          28
+        ],
+        [
+          1,
+          795,
+          1
+        ],
+        [
+          3,
+          4,
+          1645
+        ]
+      ],
+      "confusion_matrix_order": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "validation_samples_total": 4339,
+      "fully_labelled_samples": 3989,
+      "partial_label_samples": 350,
+      "binary_unwanted": {
+        "samples": 4339,
+        "accuracy": 0.988015671813782,
+        "precision": 0.9900107028184089,
+        "recall": 0.9914255091103966,
+        "f1": 0.9907176008568368,
+        "false_positive_rate": 0.01818181818181818,
+        "confusion_matrix": {
+          "tn": 1512,
+          "fp": 28,
+          "fn": 24,
+          "tp": 2775
+        }
+      },
+      "three_class_label_semantics": "normal/spam/scam on fully labelled rows only",
+      "binary_decision": "P(spam)+P(scam)>=0.5",
+      "partial_binary": {
+        "samples": 1890,
+        "accuracy": 0.9746031746031746,
+        "precision": 0.9217877094972067,
+        "recall": 0.9428571428571428,
+        "f1": 0.9322033898305084,
+        "false_positive_rate": 0.01818181818181818,
+        "confusion_matrix": {
+          "tn": 1512,
+          "fp": 28,
+          "fn": 20,
+          "tp": 330
+        }
+      },
+      "partial_unwanted_recall": 0.9428571428571428,
+      "partial_binary_label_semantics": "known normal versus unwanted with unknown spam/scam subtype",
+      "quality_requirements_passed": true
+    },
+    "checkpoint": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/runs/domain_v2_20261023_1050/checkpoints/epoch_02_step_00814/model.ckpt"
+  },
+  {
+    "epoch": 3,
+    "global_step": 1221,
+    "examples_seen": 196008,
+    "training_loss": 0.012009021655112364,
+    "validation": {
+      "samples": 3989,
+      "accuracy": 0.9929806969165205,
+      "macro_f1": 0.9936325098911333,
+      "macro_f1_present_classes": 0.9936325098911333,
+      "present_classes": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "balanced_accuracy": 0.9936385464127208,
+      "scam_recall": 0.9957627118644068,
+      "normal_false_positive_rate": 0.012337662337662338,
+      "per_class": {
+        "normal": {
+          "support": 1540,
+          "precision": 0.9967234600262124,
+          "recall": 0.9876623376623377,
+          "f1": 0.9921722113502937
+        },
+        "spam": {
+          "support": 797,
+          "precision": 0.9962406015037594,
+          "recall": 0.9974905897114178,
+          "f1": 0.9968652037617555
+        },
+        "scam": {
+          "support": 1652,
+          "precision": 0.987987987987988,
+          "recall": 0.9957627118644068,
+          "f1": 0.9918601145613507
+        }
+      },
+      "confusion_matrix": [
+        [
+          1521,
+          0,
+          19
+        ],
+        [
+          1,
+          795,
+          1
+        ],
+        [
+          4,
+          3,
+          1645
+        ]
+      ],
+      "confusion_matrix_order": [
+        "normal",
+        "spam",
+        "scam"
+      ],
+      "validation_samples_total": 4339,
+      "fully_labelled_samples": 3989,
+      "partial_label_samples": 350,
+      "binary_unwanted": {
+        "samples": 4339,
+        "accuracy": 0.9900898824613966,
+        "precision": 0.9931997136721546,
+        "recall": 0.9914255091103966,
+        "f1": 0.992311818344359,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 24,
+          "tp": 2775
+        }
+      },
+      "three_class_label_semantics": "normal/spam/scam on fully labelled rows only",
+      "binary_decision": "P(spam)+P(scam)>=0.5",
+      "partial_binary": {
+        "samples": 1890,
+        "accuracy": 0.9798941798941799,
+        "precision": 0.9457142857142857,
+        "recall": 0.9457142857142857,
+        "f1": 0.9457142857142857,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 19,
+          "tp": 331
+        }
+      },
+      "partial_unwanted_recall": 0.9457142857142857,
+      "partial_binary_label_semantics": "known normal versus unwanted with unknown spam/scam subtype",
+      "quality_requirements_passed": true
+    },
+    "checkpoint": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/runs/domain_v2_20261023_1050/checkpoints/epoch_03_step_01221/model.ckpt"
+  }
+]

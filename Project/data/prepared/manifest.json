@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-23T02:22:55.490692+00:00",
+  "seed": 20261023,
+  "label_names": {
+    "0": "normal",
+    "1": "spam",
+    "2": "scam"
+  },
+  "raw_counts": {
+    "fbs_sms:1": 8327,
+    "fbs_sms:2": 3069,
+    "mudou_official_test:0": 431,
+    "mudou_official_test:1": 885,
+    "mudou_sms:0": 3511,
+    "telecom_fraud_5:0": 7730,
+    "telecom_fraud_5:2": 4000,
+    "smishing_imc2025:unreviewed": 45
+  },
+  "preparation": {
+    "filtered_original_rows": 26530,
+    "deduplicated_rows": 24878,
+    "original_train_rows": 19901,
+    "traditional_training_augmentation_rows": 19873,
+    "split": "80/10/10 stratifiedbylabelandsource, intacttemplate/near-duplicategroups",
+    "grouping": {
+      "method": "script-independent URL/contact/number-normalized templates + 64bit character-trigram SimHash,4x16bit LSH,Hamming<=6,Jaccard>=0.75",
+      "near_duplicate_union_edges": 90400,
+      "raw_groups": 23326,
+      "ambiguous_label_groups_excluded": [
+        {
+          "group_id": "e454bc42ddbc628e6c20910c4f8863ed1336aa96de8b490ee1c6e3ac930bf541",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "9da0a0cba17d68476ce8c778cd76f1b44a2f35f09fa92c01f4fa6919a668b10e",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "c6c73f5c8f1934e7ee21432704be303a2873e2abbdb06e206d184cd7e76264f3",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "007e2d7edd495cc652900c696253af3767fb924ef72d4de563f103c8489afe29",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "78fc8b7e844a6c40dbddc2c1e0076cc2f00bb6e3384bbf7f6ebe47fd748f0ad2",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "ec9b155ff46029eed9afc5c2fa0d1feab822e8b40524ebf70159f6233ecd6d25",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "ed3cae77089a9bab9ea74883e47bdde47ef2400048b76e4486215780aafa7e7c",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "05acaba2098f8f0be24d9c4843ba4fad75ac72f1ae12650e6dcdf0da656ee9e8",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "d7ba163ab276d6cc1a457beeb022f7c6dc42915d33f11145c0b8a9e8d6d24fc7",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "b55a4fe57c1e8028a27155f9d7bc03536e71300ac11b0decbecec65276399b69",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "1e1a1843be3c7578ed7310737cada5c126fb309c94d903e75f5c3bcb97d6c937",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "b99917d577efecd172a45dd08c81243ab121ab1bbb117b69e1c28e81034f24ce",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        },
+        {
+          "group_id": "34c1c1b3694166dee2583842b9ae1e85165b2e202a191a1852a066a91c1bd485",
+          "rows": 2,
+          "labels": [
+            0,
+            1
+          ]
+        }
+      ],
+      "exact_duplicates_excluded": 1626
+    },
+    "cross_split_overlap": {
+      "train:validation": {
+        "group_overlap": 0,
+        "template_overlap": 0,
+        "canonical_overlap": 0
+      },
+      "train:test": {
+        "group_overlap": 0,
+        "template_overlap": 0,
+        "canonical_overlap": 0
+      },
+      "validation:test": {
+        "group_overlap": 0,
+        "template_overlap": 0,
+        "canonical_overlap": 0
+      }
+    }
+  },
+  "files": {
+    "train": {
+      "path": "data/prepared/train.jsonl",
+      "filename": "train.jsonl",
+      "sha256": "0e51d1675d6aa77a6f6bf7edb36fdeeb0bc24622f6078addd9bc0ccd4047aa8e",
+      "rows": 39774,
+      "labels": {
+        "1": 12743,
+        "0": 16757,
+        "2": 10274
+      },
+      "sources": {
+        "fbs_sms": 16623,
+        "telecom_fraud_5": 18424,
+        "mudou_sms": 4727
+      },
+      "source_labels": {
+        "fbs_sms:1": 12743,
+        "telecom_fraud_5:0": 12030,
+        "fbs_sms:2": 3880,
+        "mudou_sms:0": 4727,
+        "telecom_fraud_5:2": 6394
+      },
+      "scripts": {
+        "simplified": 19682,
+        "mixed": 191,
+        "shared_or_other": 20,
+        "traditional": 8,
+        "traditional_converted": 19873
+      },
+      "groups": 18659,
+      "mean_characters": 92.49052144617086
+    },
+    "validation": {
+      "path": "data/prepared/validation.jsonl",
+      "filename": "validation.jsonl",
+      "sha256": "32bf06feb87cb174f0b60f37e38460d620e218c2a8518df9fa9a524b310f9294",
+      "rows": 2489,
+      "labels": {
+        "1": 797,
+        "0": 1048,
+        "2": 644
+      },
+      "sources": {
+        "fbs_sms": 1041,
+        "telecom_fraud_5": 1152,
+        "mudou_sms": 296
+      },
+      "source_labels": {
+        "fbs_sms:1": 797,
+        "telecom_fraud_5:0": 752,
+        "mudou_sms:0": 296,
+        "telecom_fraud_5:2": 400,
+        "fbs_sms:2": 244
+      },
+      "scripts": {
+        "simplified": 2470,
+        "mixed": 18,
+        "shared_or_other": 1
+      },
+      "groups": 2324,
+      "mean_characters": 92.76978706307754
+    },
+    "test": {
+      "path": "data/prepared/test.jsonl",
+      "filename": "test.jsonl",
+      "sha256": "e8204a5226afc6c230b2dad2bc276bc4f6923268969ec98065f772c3e695dcb2",
+      "rows": 2488,
+      "labels": {
+        "2": 643,
+        "0": 1048,
+        "1": 797
+      },
+      "sources": {
+        "fbs_sms": 1040,
+        "telecom_fraud_5": 1152,
+        "mudou_sms": 296
+      },
+      "source_labels": {
+        "fbs_sms:2": 243,
+        "telecom_fraud_5:0": 752,
+        "mudou_sms:0": 296,
+        "telecom_fraud_5:2": 400,
+        "fbs_sms:1": 797
+      },
+      "scripts": {
+        "simplified": 2462,
+        "mixed": 23,
+        "traditional": 3
+      },
+      "groups": 2330,
+      "mean_characters": 94.06591639871382
+    },
+    "test_traditional_converted": {
+      "path": "data/prepared/test_traditional_converted.jsonl",
+      "filename": "test_traditional_converted.jsonl",
+      "sha256": "6d5e3f3164a6ec3a47d0b1a9ef3e0e25552f45d784b0eac7456d4c4b61e3fdec",
+      "rows": 2488,
+      "labels": {
+        "2": 643,
+        "0": 1048,
+        "1": 797
+      },
+      "sources": {
+        "fbs_sms": 1040,
+        "telecom_fraud_5": 1152,
+        "mudou_sms": 296
+      },
+      "source_labels": {
+        "fbs_sms:2": 243,
+        "telecom_fraud_5:0": 752,
+        "mudou_sms:0": 296,
+        "telecom_fraud_5:2": 400,
+        "fbs_sms:1": 797
+      },
+      "scripts": {
+        "traditional_converted": 2488
+      },
+      "groups": 2330,
+      "mean_characters": 94.06591639871382
+    },
+    "external_mudou_binary": {
+      "path": "data/prepared/external_mudou_binary.jsonl",
+      "filename": "external_mudou_binary.jsonl",
+      "sha256": "8e40fb40883d0a93095ccc3b305267074fca38828de6369f3527748a332db951",
+      "rows": 959,
+      "labels": {
+        "0": 219,
+        "None": 740
+      },
+      "sources": {
+        "mudou_sms": 959
+      },
+      "source_labels": {
+        "mudou_sms:0": 219,
+        "mudou_sms:None": 740
+      },
+      "scripts": {
+        "simplified": 942,
+        "mixed": 11,
+        "traditional": 6
+      },
+      "groups": 886,
+      "mean_characters": 73.65380604796663,
+      "risk_label_counts": {
+        "0": 219,
+        "1": 740
+      },
+      "task": "binary_only: score risk=1-P(normal), compare against original spam/normal labels; do not compute3classscammetrics"
+    },
+    "external_unreviewed": {
+      "path": "data/prepared/external_unreviewed.jsonl",
+      "filename": "external_unreviewed.jsonl",
+      "sha256": "cef3b93246587d1b88ca83f947bb160c80c869b6a88a66b34c04c14069df17a4",
+      "rows": 45,
+      "labels": {
+        "None": 45
+      },
+      "sources": {
+        "smishing_imc2025": 45
+      },
+      "source_labels": {
+        "smishing_imc2025:None": 45
+      },
+      "scripts": {
+        "simplified": 26,
+        "shared_or_other": 7,
+        "traditional": 12
+      },
+      "groups": 40,
+      "mean_characters": 67.13333333333334
+    }
+  },
+  "sources": {
+    "fbs_sms": {
+      "url": "https://github.com/Cypher-Z/FBS_SMS_Dataset",
+      "archive_url": "https://codeload.github.com/Cypher-Z/FBS_SMS_Dataset/zip/refs/heads/master",
+      "archive": "fbs_sms.zip",
+      "license": "No explicit SPDX license; public research release requests source attribution and CCS2020 citation.",
+      "citation": "Zhang et al. (2020), Lies in the Air: Characterizing Fake-base-station Spam Ecosystem in China, doi:10.1145/3372297.3417257",
+      "semantics": "Real de-identified fake-base-station SMS. AD:* means advertising spam; FR:* means fraud. IL:* and Other are excluded because they do not define the requested three-class target.",
+      "limitations": "Spam reflects unsolicited fake-base-station delivery, which text alone cannot always establish. Word segmentation and anonymization are source preprocessing artifacts.",
+      "archive_sha256": "4696beb7f3142cdb146392a97325c6614b39fc50b610108942c5abc76dd96fe0",
+      "archive_bytes": 716032
+    },
+    "mudou_sms": {
+      "url": "https://github.com/shaonianruntu/Spam-Message-Classification",
+      "archive_url": "https://codeload.github.com/shaonianruntu/Spam-Message-Classification/zip/refs/heads/master",
+      "archive": "mudou_mirror.zip",
+      "license": "No license is specified in this public mirror. Upstream provenance and redistribution/commercial rights are unresolved; local research prototype only.",
+      "semantics": "Chinese SMS: 0 normal, 1 spam. Only original training-file normal rows enter three-class training; spam rows cannot be reliably divided into fraud versus advertising and are excluded. Original test file is reserved for binary external evaluation only.",
+      "limitations": "Mirror rather than original data collector. Some normal-labelled rows contain marketing, so class labels reflect source annotation, not consent inferred from wording.",
+      "archive_sha256": "a59c713ad931ada0a0df954545a8cbc6cbe29cf167bfae89c51db2b6a7d26e5b",
+      "archive_bytes": 1906864
+    },
+    "telecom_fraud_5": {
+      "url": "https://github.com/ChangMianRen/Telecom_Fraud_Texts_5",
+      "archive_url": "https://codeload.github.com/ChangMianRen/Telecom_Fraud_Texts_5/zip/refs/heads/main",
+      "archive": "telecom_fraud_5.zip",
+      "license": "Repository GPL-3.0 plus README explicitly restricts dataset to university/research-institution scientific research and prohibits commercial use.",
+      "semantics": "label00 normal ->0; label01 government impersonation, label02 loans, label03 customer-service impersonation, label04 acquaintance impersonation ->2.",
+      "limitations": "Mixed normal SMS and case-derived/generated fraud messages or phone dialogue; these are not all independently captured real SMS. Do not interpret combined test performance as real-SMS-only deployment accuracy.",
+      "paper": "https://doi.org/10.3390/app142411628",
+      "archive_sha256": "2afc5f34146a4657ecf136b8f6e9a42cd6f95b8d5416046f5fc86805a089ded5",
+      "archive_bytes": 1244433
+    },
+    "smishing_imc2025": {
+      "url": "https://github.com/reportsmishing/Smishing-Dataset-IMC25",
+      "archive_url": "https://codeload.github.com/reportsmishing/Smishing-Dataset-IMC25/zip/refs/heads/main",
+      "archive": "smishing_imc.zip",
+      "license": "CC-BY-4.0",
+      "citation": "Agarwal et al. (2025), Fishing for Smishing: Understanding SMS Phishing Infrastructure and Strategies by Mining Public User Reports, doi:10.1145/3730567.3764431",
+      "semantics": "Preserve Chinese-language public reports as unlabelled external diagnostics. scam_type is a topical field and is NOT a validated normal/spam/scam label.",
+      "limitations": "Chinese subset includes anti-fraud notices, genuine-looking appointments, truncated messages, and ambiguous wrong-number contacts. All-scam mapping would corrupt the benchmark. No formal accuracy metric is justified without independent label review.",
+      "archive_sha256": "88c0fc0593f530fe120554eddc61f808388ce8223acf48dc61249ef6a732a79e",
+      "archive_bytes": 3118506
+    },
+    "nus_sms": {
+      "url": "https://github.com/kite1988/nus-sms-corpus",
+      "archive_url": "https://codeload.github.com/kite1988/nus-sms-corpus/zip/refs/heads/master",
+      "archive": "nus_sms.zip",
+      "license": "Public research release requests paper attribution; no explicit SPDX license in repository.",
+      "citation": "Chen and Kan (2013), Creating a Live, Public Short Message Service Corpus: The NUS SMS Corpus, Language Resources and Evaluation 47(2).",
+      "semantics": "Volunteer personal SMS in Simplified and genuine Traditional Chinese; no scam/spam classification labels. Retained archive only, not assigned guessed ground truth.",
+      "archive_sha256": "435670e64ccae68306bffc46bb021e0e9a00faf7cf2abd2c63cd72b8ae35a04a",
+      "archive_bytes": 6722357
+    }
+  },
+  "external_official_test_overlap_rows_excluded": 357,
+  "external_excluded_record_ids": [
+    "mudou_sms:mudou_spam.test:30",
+    "mudou_sms:mudou_spam.test:31",
+    "mudou_sms:mudou_spam.test:48",
+    "mudou_sms:mudou_spam.test:51",
+    "mudou_sms:mudou_spam.test:59",
+    "mudou_sms:mudou_spam.test:71",
+    "mudou_sms:mudou_spam.test:87",
+    "mudou_sms:mudou_spam.test:94",
+    "mudou_sms:mudou_spam.test:105",
+    "mudou_sms:mudou_spam.test:108",
+    "mudou_sms:mudou_spam.test:109",
+    "mudou_sms:mudou_spam.test:115",
+    "mudou_sms:mudou_spam.test:123",
+    "mudou_sms:mudou_spam.test:129",
+    "mudou_sms:mudou_spam.test:132",
+    "mudou_sms:mudou_spam.test:136",
+    "mudou_sms:mudou_spam.test:140",
+    "mudou_sms:mudou_spam.test:145",
+    "mudou_sms:mudou_spam.test:169",
+    "mudou_sms:mudou_spam.test:177",
+    "mudou_sms:mudou_spam.test:179",
+    "mudou_sms:mudou_spam.test:180",
+    "mudou_sms:mudou_spam.test:181",
+    "mudou_sms:mudou_spam.test:186",
+    "mudou_sms:mudou_spam.test:187",
+    "mudou_sms:mudou_spam.test:193",
+    "mudou_sms:mudou_spam.test:197",
+    "mudou_sms:mudou_spam.test:202",
+    "mudou_sms:mudou_spam.test:208",
+    "mudou_sms:mudou_spam.test:222",
+    "mudou_sms:mudou_spam.test:229",
+    "mudou_sms:mudou_spam.test:234",
+    "mudou_sms:mudou_spam.test:237",
+    "mudou_sms:mudou_spam.test:243",
+    "mudou_sms:mudou_spam.test:247",
+    "mudou_sms:mudou_spam.test:250",
+    "mudou_sms:mudou_spam.test:254",
+    "mudou_sms:mudou_spam.test:258",
+    "mudou_sms:mudou_spam.test:267",
+    "mudou_sms:mudou_spam.test:268",
+    "mudou_sms:mudou_spam.test:272",
+    "mudou_sms:mudou_spam.test:273",
+    "mudou_sms:mudou_spam.test:274",
+    "mudou_sms:mudou_spam.test:281",
+    "mudou_sms:mudou_spam.test:286",
+    "mudou_sms:mudou_spam.test:290",
+    "mudou_sms:mudou_spam.test:295",
+    "mudou_sms:mudou_spam.test:296",
+    "mudou_sms:mudou_spam.test:298",
+    "mudou_sms:mudou_spam.test:302",
+    "mudou_sms:mudou_spam.test:304",
+    "mudou_sms:mudou_spam.test:312",
+    "mudou_sms:mudou_spam.test:316",
+    "mudou_sms:mudou_spam.test:321",
+    "mudou_sms:mudou_spam.test:330",
+    "mudou_sms:mudou_spam.test:335",
+    "mudou_sms:mudou_spam.test:338",
+    "mudou_sms:mudou_spam.test:340",
+    "mudou_sms:mudou_spam.test:341",
+    "mudou_sms:mudou_spam.test:352",
+    "mudou_sms:mudou_spam.test:355",
+    "mudou_sms:mudou_spam.test:356",
+    "mudou_sms:mudou_spam.test:357",
+    "mudou_sms:mudou_spam.test:360",
+    "mudou_sms:mudou_spam.test:365",
+    "mudou_sms:mudou_spam.test:366",
+    "mudou_sms:mudou_spam.test:369",
+    "mudou_sms:mudou_spam.test:375",
+    "mudou_sms:mudou_spam.test:377",
+    "mudou_sms:mudou_spam.test:379",
+    "mudou_sms:mudou_spam.test:380",
+    "mudou_sms:mudou_spam.test:381",
+    "mudou_sms:mudou_spam.test:382",
+    "mudou_sms:mudou_spam.test:387",
+    "mudou_sms:mudou_spam.test:388",
+    "mudou_sms:mudou_spam.test:390",
+    "mudou_sms:mudou_spam.test:398",
+    "mudou_sms:mudou_spam.test:403",
+    "mudou_sms:mudou_spam.test:408",
+    "mudou_sms:mudou_spam.test:411",
+    "mudou_sms:mudou_spam.test:414",
+    "mudou_sms:mudou_spam.test:418",
+    "mudou_sms:mudou_spam.test:421",
+    "mudou_sms:mudou_spam.test:422",
+    "mudou_sms:mudou_spam.test:423",
+    "mudou_sms:mudou_spam.test:425",
+    "mudou_sms:mudou_spam.test:427",
+    "mudou_sms:mudou_spam.test:432",
+    "mudou_sms:mudou_spam.test:434",
+    "mudou_sms:mudou_spam.test:435",
+    "mudou_sms:mudou_spam.test:446",
+    "mudou_sms:mudou_spam.test:451",
+    "mudou_sms:mudou_spam.test:452",
+    "mudou_sms:mudou_spam.test:454",
+    "mudou_sms:mudou_spam.test:458",
+    "mudou_sms:mudou_spam.test:459",
+    "mudou_sms:mudou_spam.test:461",
+    "mudou_sms:mudou_spam.test:462",
+    "mudou_sms:mudou_spam.test:463",
+    "mudou_sms:mudou_spam.test:465",
+    "mudou_sms:mudou_spam.test:468",
+    "mudou_sms:mudou_spam.test:472",
+    "mudou_sms:mudou_spam.test:473",
+    "mudou_sms:mudou_spam.test:478",
+    "mudou_sms:mudou_spam.test:479",
+    "mudou_sms:mudou_spam.test:484",
+    "mudou_sms:mudou_spam.test:488",
+    "mudou_sms:mudou_spam.test:490",
+    "mudou_sms:mudou_spam.test:491",
+    "mudou_sms:mudou_spam.test:500",
+    "mudou_sms:mudou_spam.test:502",
+    "mudou_sms:mudou_spam.test:506",
+    "mudou_sms:mudou_spam.test:512",
+    "mudou_sms:mudou_spam.test:516",
+    "mudou_sms:mudou_spam.test:523",
+    "mudou_sms:mudou_spam.test:535",
+    "mudou_sms:mudou_spam.test:539",
+    "mudou_sms:mudou_spam.test:549",
+    "mudou_sms:mudou_spam.test:552",
+    "mudou_sms:mudou_spam.test:555",
+    "mudou_sms:mudou_spam.test:559",
+    "mudou_sms:mudou_spam.test:564",
+    "mudou_sms:mudou_spam.test:567",
+    "mudou_sms:mudou_spam.test:574",
+    "mudou_sms:mudou_spam.test:577",
+    "mudou_sms:mudou_spam.test:579",
+    "mudou_sms:mudou_spam.test:581",
+    "mudou_sms:mudou_spam.test:586",
+    "mudou_sms:mudou_spam.test:587",
+    "mudou_sms:mudou_spam.test:591",
+    "mudou_sms:mudou_spam.test:595",
+    "mudou_sms:mudou_spam.test:597",
+    "mudou_sms:mudou_spam.test:619",
+    "mudou_sms:mudou_spam.test:628",
+    "mudou_sms:mudou_spam.test:630",
+    "mudou_sms:mudou_spam.test:634",
+    "mudou_sms:mudou_spam.test:636",
+    "mudou_sms:mudou_spam.test:639",
+    "mudou_sms:mudou_spam.test:645",
+    "mudou_sms:mudou_spam.test:648",
+    "mudou_sms:mudou_spam.test:658",
+    "mudou_sms:mudou_spam.test:661",
+    "mudou_sms:mudou_spam.test:664",
+    "mudou_sms:mudou_spam.test:665",
+    "mudou_sms:mudou_spam.test:666",
+    "mudou_sms:mudou_spam.test:671",
+    "mudou_sms:mudou_spam.test:683",
+    "mudou_sms:mudou_spam.test:689",
+    "mudou_sms:mudou_spam.test:695",
+    "mudou_sms:mudou_spam.test:701",
+    "mudou_sms:mudou_spam.test:706",
+    "mudou_sms:mudou_spam.test:712",
+    "mudou_sms:mudou_spam.test:714",
+    "mudou_sms:mudou_spam.test:720",
+    "mudou_sms:mudou_spam.test:729",
+    "mudou_sms:mudou_spam.test:735",
+    "mudou_sms:mudou_spam.test:737",
+    "mudou_sms:mudou_spam.test:740",
+    "mudou_sms:mudou_spam.test:741",
+    "mudou_sms:mudou_spam.test:748",
+    "mudou_sms:mudou_spam.test:752",
+    "mudou_sms:mudou_spam.test:753",
+    "mudou_sms:mudou_spam.test:757",
+    "mudou_sms:mudou_spam.test:760",
+    "mudou_sms:mudou_spam.test:761",
+    "mudou_sms:mudou_spam.test:763",
+    "mudou_sms:mudou_spam.test:773",
+    "mudou_sms:mudou_spam.test:779",
+    "mudou_sms:mudou_spam.test:785",
+    "mudou_sms:mudou_spam.test:787",
+    "mudou_sms:mudou_spam.test:788",
+    "mudou_sms:mudou_spam.test:791",
+    "mudou_sms:mudou_spam.test:792",
+    "mudou_sms:mudou_spam.test:797",
+    "mudou_sms:mudou_spam.test:801",
+    "mudou_sms:mudou_spam.test:807",
+    "mudou_sms:mudou_spam.test:808",
+    "mudou_sms:mudou_spam.test:812",
+    "mudou_sms:mudou_spam.test:816",
+    "mudou_sms:mudou_spam.test:820",
+    "mudou_sms:mudou_spam.test:822",
+    "mudou_sms:mudou_spam.test:823",
+    "mudou_sms:mudou_spam.test:825",
+    "mudou_sms:mudou_spam.test:831",
+    "mudou_sms:mudou_spam.test:835",
+    "mudou_sms:mudou_spam.test:843",
+    "mudou_sms:mudou_spam.test:845",
+    "mudou_sms:mudou_spam.test:846",
+    "mudou_sms:mudou_spam.test:848",
+    "mudou_sms:mudou_spam.test:849",
+    "mudou_sms:mudou_spam.test:853",
+    "mudou_sms:mudou_spam.test:854",
+    "mudou_sms:mudou_spam.test:858",
+    "mudou_sms:mudou_spam.test:859",
+    "mudou_sms:mudou_spam.test:860",
+    "mudou_sms:mudou_spam.test:865",
+    "mudou_sms:mudou_spam.test:866",
+    "mudou_sms:mudou_spam.test:875",
+    "mudou_sms:mudou_spam.test:876",
+    "mudou_sms:mudou_spam.test:886",
+    "mudou_sms:mudou_spam.test:890",
+    "mudou_sms:mudou_spam.test:894",
+    "mudou_sms:mudou_spam.test:897",
+    "mudou_sms:mudou_spam.test:902",
+    "mudou_sms:mudou_spam.test:903",
+    "mudou_sms:mudou_spam.test:908",
+    "mudou_sms:mudou_spam.test:910",
+    "mudou_sms:mudou_spam.test:915",
+    "mudou_sms:mudou_spam.test:917",
+    "mudou_sms:mudou_spam.test:919",
+    "mudou_sms:mudou_spam.test:924",
+    "mudou_sms:mudou_spam.test:928",
+    "mudou_sms:mudou_spam.test:931",
+    "mudou_sms:mudou_spam.test:932",
+    "mudou_sms:mudou_spam.test:934",
+    "mudou_sms:mudou_spam.test:949",
+    "mudou_sms:mudou_spam.test:951",
+    "mudou_sms:mudou_spam.test:952",
+    "mudou_sms:mudou_spam.test:956",
+    "mudou_sms:mudou_spam.test:957",
+    "mudou_sms:mudou_spam.test:959",
+    "mudou_sms:mudou_spam.test:960",
+    "mudou_sms:mudou_spam.test:961",
+    "mudou_sms:mudou_spam.test:962",
+    "mudou_sms:mudou_spam.test:963",
+    "mudou_sms:mudou_spam.test:965",
+    "mudou_sms:mudou_spam.test:966",
+    "mudou_sms:mudou_spam.test:967",
+    "mudou_sms:mudou_spam.test:972",
+    "mudou_sms:mudou_spam.test:974",
+    "mudou_sms:mudou_spam.test:983",
+    "mudou_sms:mudou_spam.test:986",
+    "mudou_sms:mudou_spam.test:991",
+    "mudou_sms:mudou_spam.test:996",
+    "mudou_sms:mudou_spam.test:997",
+    "mudou_sms:mudou_spam.test:999",
+    "mudou_sms:mudou_spam.test:1000",
+    "mudou_sms:mudou_spam.test:1001",
+    "mudou_sms:mudou_spam.test:1003",
+    "mudou_sms:mudou_spam.test:1007",
+    "mudou_sms:mudou_spam.test:1008",
+    "mudou_sms:mudou_spam.test:1014",
+    "mudou_sms:mudou_spam.test:1016",
+    "mudou_sms:mudou_spam.test:1018",
+    "mudou_sms:mudou_spam.test:1025",
+    "mudou_sms:mudou_spam.test:1028",
+    "mudou_sms:mudou_spam.test:1029",
+    "mudou_sms:mudou_spam.test:1032",
+    "mudou_sms:mudou_spam.test:1033",
+    "mudou_sms:mudou_spam.test:1038",
+    "mudou_sms:mudou_spam.test:1046",
+    "mudou_sms:mudou_spam.test:1047",
+    "mudou_sms:mudou_spam.test:1048",
+    "mudou_sms:mudou_spam.test:1052",
+    "mudou_sms:mudou_spam.test:1054",
+    "mudou_sms:mudou_spam.test:1057",
+    "mudou_sms:mudou_spam.test:1060",
+    "mudou_sms:mudou_spam.test:1062",
+    "mudou_sms:mudou_spam.test:1067",
+    "mudou_sms:mudou_spam.test:1074",
+    "mudou_sms:mudou_spam.test:1075",
+    "mudou_sms:mudou_spam.test:1079",
+    "mudou_sms:mudou_spam.test:1080",
+    "mudou_sms:mudou_spam.test:1082",
+    "mudou_sms:mudou_spam.test:1099",
+    "mudou_sms:mudou_spam.test:1102",
+    "mudou_sms:mudou_spam.test:1103",
+    "mudou_sms:mudou_spam.test:1108",
+    "mudou_sms:mudou_spam.test:1114",
+    "mudou_sms:mudou_spam.test:1118",
+    "mudou_sms:mudou_spam.test:1120",
+    "mudou_sms:mudou_spam.test:1121",
+    "mudou_sms:mudou_spam.test:1126",
+    "mudou_sms:mudou_spam.test:1127",
+    "mudou_sms:mudou_spam.test:1129",
+    "mudou_sms:mudou_spam.test:1130",
+    "mudou_sms:mudou_spam.test:1133",
+    "mudou_sms:mudou_spam.test:1134",
+    "mudou_sms:mudou_spam.test:1135",
+    "mudou_sms:mudou_spam.test:1143",
+    "mudou_sms:mudou_spam.test:1156",
+    "mudou_sms:mudou_spam.test:1157",
+    "mudou_sms:mudou_spam.test:1159",
+    "mudou_sms:mudou_spam.test:1162",
+    "mudou_sms:mudou_spam.test:1172",
+    "mudou_sms:mudou_spam.test:1174",
+    "mudou_sms:mudou_spam.test:1179",
+    "mudou_sms:mudou_spam.test:1180",
+    "mudou_sms:mudou_spam.test:1183",
+    "mudou_sms:mudou_spam.test:1191",
+    "mudou_sms:mudou_spam.test:1194",
+    "mudou_sms:mudou_spam.test:1208",
+    "mudou_sms:mudou_spam.test:1209",
+    "mudou_sms:mudou_spam.test:1210",
+    "mudou_sms:mudou_spam.test:1212",
+    "mudou_sms:mudou_spam.test:1215",
+    "mudou_sms:mudou_spam.test:1217",
+    "mudou_sms:mudou_spam.test:1219",
+    "mudou_sms:mudou_spam.test:1225",
+    "mudou_sms:mudou_spam.test:1226",
+    "mudou_sms:mudou_spam.test:1227",
+    "mudou_sms:mudou_spam.test:1229",
+    "mudou_sms:mudou_spam.test:1231",
+    "mudou_sms:mudou_spam.test:1232",
+    "mudou_sms:mudou_spam.test:1234",
+    "mudou_sms:mudou_spam.test:1243",
+    "mudou_sms:mudou_spam.test:1245",
+    "mudou_sms:mudou_spam.test:1246",
+    "mudou_sms:mudou_spam.test:1247",
+    "mudou_sms:mudou_spam.test:1248",
+    "mudou_sms:mudou_spam.test:1249",
+    "mudou_sms:mudou_spam.test:1251",
+    "mudou_sms:mudou_spam.test:1252",
+    "mudou_sms:mudou_spam.test:1255",
+    "mudou_sms:mudou_spam.test:1257",
+    "mudou_sms:mudou_spam.test:1259",
+    "mudou_sms:mudou_spam.test:1264",
+    "mudou_sms:mudou_spam.test:1266",
+    "mudou_sms:mudou_spam.test:1270",
+    "mudou_sms:mudou_spam.test:1271",
+    "mudou_sms:mudou_spam.test:1274",
+    "mudou_sms:mudou_spam.test:1275",
+    "mudou_sms:mudou_spam.test:1280",
+    "mudou_sms:mudou_spam.test:1283",
+    "mudou_sms:mudou_spam.test:1284",
+    "mudou_sms:mudou_spam.test:1287",
+    "mudou_sms:mudou_spam.test:1292",
+    "mudou_sms:mudou_spam.test:1293",
+    "mudou_sms:mudou_spam.test:1295",
+    "mudou_sms:mudou_spam.test:1300",
+    "mudou_sms:mudou_spam.test:1309",
+    "mudou_sms:mudou_spam.test:1313",
+    "mudou_sms:mudou_spam.test:1315",
+    "mudou_sms:mudou_spam.test:1319",
+    "mudou_sms:mudou_spam.test:1322",
+    "mudou_sms:mudou_spam.test:1323",
+    "mudou_sms:mudou_spam.test:1324",
+    "mudou_sms:mudou_spam.test:1325",
+    "mudou_sms:mudou_spam.test:1329",
+    "mudou_sms:mudou_spam.test:1330",
+    "mudou_sms:mudou_spam.test:1332",
+    "mudou_sms:mudou_spam.test:1335",
+    "mudou_sms:mudou_spam.test:1337",
+    "mudou_sms:mudou_spam.test:1338",
+    "mudou_sms:mudou_spam.test:1339",
+    "mudou_sms:mudou_spam.test:1343",
+    "mudou_sms:mudou_spam.test:1344",
+    "mudou_sms:mudou_spam.test:1350",
+    "mudou_sms:mudou_spam.test:1351",
+    "mudou_sms:mudou_spam.test:1355",
+    "mudou_sms:mudou_spam.test:1356",
+    "mudou_sms:mudou_spam.test:1359",
+    "mudou_sms:mudou_spam.test:1360",
+    "mudou_sms:mudou_spam.test:1364",
+    "mudou_sms:mudou_spam.test:1376",
+    "mudou_sms:mudou_spam.test:1377",
+    "mudou_sms:mudou_spam.test:1381"
+  ],
+  "limitations": [
+    "Research prototype only: dataset permissions are mixed, including explicit noncommercial research restrictions and unresolved mirror licensing.",
+    "Main evaluation mixes real de-identified SMS with case-derived/generated fraud messages/dialogue; report per-source results as well as combinedmetrics.",
+    "Converted Traditional Chinese test is a paired orthographic robustness test, not an independent native Hong Kong/Taiwan SMS benchmark.",
+    "Script inference uses OpenCC change detection; shared characters do not establish a speaker's region or language variety.",
+    "Template clustering is a documented heuristic and cannot guarantee separation of all semantic campaigns/paraphrases.",
+    "External Mudou is an original held-out file from a source also contributing normal training rows, not a completely independent source for the normal class.",
+    "External IMC Chinese reports are retained unreviewed and are not valid ground truth merely because they were reported as suspicious.",
+    "Absence of sender identity or consent prevents determination of legal legitimacy from text alone."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-23T02:24:00.730312+00:00",
+  "checked_files": {
+    "train": {
+      "rows": 39774,
+      "sha256": "0e51d1675d6aa77a6f6bf7edb36fdeeb0bc24622f6078addd9bc0ccd4047aa8e"
+    },
+    "validation": {
+      "rows": 2489,
+      "sha256": "32bf06feb87cb174f0b60f37e38460d620e218c2a8518df9fa9a524b310f9294"
+    },
+    "test": {
+      "rows": 2488,
+      "sha256": "e8204a5226afc6c230b2dad2bc276bc4f6923268969ec98065f772c3e695dcb2"
+    },
+    "test_traditional_converted": {
+      "rows": 2488,
+      "sha256": "6d5e3f3164a6ec3a47d0b1a9ef3e0e25552f45d784b0eac7456d4c4b61e3fdec"
+    },
+    "external_mudou_binary": {
+      "rows": 959,
+      "sha256": "8e40fb40883d0a93095ccc3b305267074fca38828de6369f3527748a332db951"
+    },
+    "external_unreviewed": {
+      "rows": 45,
+      "sha256": "cef3b93246587d1b88ca83f947bb160c80c869b6a88a66b34c04c14069df17a4"
+    }
+  },
+  "cross_split_overlap": {
+    "train:validation": {
+      "group_id": 0,
+      "canonical_sha256": 0,
+      "template_sha256": 0
+    },
+    "train:test": {
+      "group_id": 0,
+      "canonical_sha256": 0,
+      "template_sha256": 0
+    },
+    "validation:test": {
+      "group_id": 0,
+      "canonical_sha256": 0,
+      "template_sha256": 0
+    }
+  },
+  "training_augmentation_origin_verified": true,
+  "paired_traditional_test_verified": true,
+  "unreviewed_external_not_treated_as_gold": true,
+  "external_spam_not_forced_to_scam": true,
+  "formal_native_traditional_test_rows": 3,
+  "limitations": [
+    "Research prototype only: dataset permissions are mixed, including explicit noncommercial research restrictions and unresolved mirror licensing.",
+    "Main evaluation mixes real de-identified SMS with case-derived/generated fraud messages/dialogue; report per-source results as well as combinedmetrics.",
+    "Converted Traditional Chinese test is a paired orthographic robustness test, not an independent native Hong Kong/Taiwan SMS benchmark.",
+    "Script inference uses OpenCC change detection; shared characters do not establish a speaker's region or language variety.",
+    "Template clustering is a documented heuristic and cannot guarantee separation of all semantic campaigns/paraphrases.",
+    "External Mudou is an original held-out file from a source also contributing normal training rows, not a completely independent source for the normal class.",
+    "External IMC Chinese reports are retained unreviewed and are not valid ground truth merely because they were reported as suspicious.",
+    "Absence of sender identity or consent prevents determination of legal legitimacy from text alone."
+  ]
+}

@@ -1,0 +1,8 @@
+# Native training and inference; the source checkpoint is converted separately.
+mindspore==2.10.0
+numpy>=1.26,<2
+tokenizers==0.20.3
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pydantic>=2.9,<3
+opencc-python-reimplemented==0.1.7

@@ -1,0 +1,23 @@
+{
+  "texts": [
+    "您好，您的快递已到驿站，请凭取件码领取。",
+    "您好，您的快遞已到服務站，請憑取件碼領取。",
+    "您的銀行帳戶需要驗證，請立即登入 https://example.com。",
+    "妈妈，我换了电话号码，急需你转钱。",
+    "阿媽，我換咗電話，急需你轉錢。",
+    "【Bank】Your OTP 驗證碼 123456，切勿向任何人透露。",
+    "超值促销！全场五折，立即选购。",
+    "今晚七點見。"
+  ],
+  "torch_version": "2.8.0+cpu",
+  "transformers_version": "4.44.2",
+  "reference": "transformers.BertModel official eager implementation",
+  "max_length": 96,
+  "samples": 8,
+  "hidden_shape": [
+    8,
+    96,
+    256
+  ],
+  "safe_weights_only": true
+}

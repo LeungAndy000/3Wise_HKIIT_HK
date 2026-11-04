@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "created_at": "2026-10-23T02:51:44.647467+00:00",
+  "all_prepared_hashes_verified": true,
+  "cross_split_overlap": {
+    "train:validation": {
+      "canonical": 0,
+      "template": 0,
+      "tokenized_256": 0,
+      "group": 0,
+      "fgrc_case": 0
+    },
+    "train:test": {
+      "canonical": 0,
+      "template": 0,
+      "tokenized_256": 0,
+      "group": 0,
+      "fgrc_case": 0
+    },
+    "validation:test": {
+      "canonical": 0,
+      "template": 0,
+      "tokenized_256": 0,
+      "group": 0,
+      "fgrc_case": 0
+    }
+  },
+  "new_source_case_and_near_groups_split_before_caps_and_augmentation": true,
+  "partial_spam_not_mislabelled_as_scam": true,
+  "baseline_files_preserved": true,
+  "baseline_unchanged_test_hashes": {
+    "test": true,
+    "test_traditional_converted": true,
+    "external_mudou_binary": true,
+    "external_unreviewed": true
+  },
+  "selected": {
+    "train": {
+      "fgrc": 10000,
+      "mudou": 2801
+    },
+    "validation": {
+      "fgrc": 1500,
+      "mudou": 350
+    },
+    "test": {
+      "fgrc": 1500,
+      "mudou": 350
+    }
+  },
+  "filtered_candidate_rows": 2466,
+  "source_limitations": "Generated message-form data, not an independent real-SMS corpus. Existing Telecom source lacks case IDs, so cross-source case identity can only be screened using text similarity and cannot be guaranteed completely."
+}

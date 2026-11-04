@@ -1,0 +1,73 @@
+{
+  "examples": [
+    {
+      "message": "明天上午十點覆診，請帶同身份證。",
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "normal",
+      "scores": {
+        "normal": 0.9990432858467102,
+        "spam": 5.495353616424836e-05,
+        "scam": 0.0009017838165163994
+      },
+      "unwanted_score": 0.0009567373526806477,
+      "decision": "below_threshold",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "message": "明天上午十点复诊，请带同身份证。",
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "normal",
+      "scores": {
+        "normal": 0.9978272318840027,
+        "spam": 5.2010349463671446e-05,
+        "scam": 0.0021207386162132025
+      },
+      "unwanted_score": 0.002172748965676874,
+      "decision": "below_threshold",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "message": "您的账户异常，请立即提供验证码以免冻结。",
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "scam",
+      "scores": {
+        "normal": 0.01295237522572279,
+        "spam": 5.9991034504491836e-05,
+        "scam": 0.9869875907897949
+      },
+      "unwanted_score": 0.9870475818242994,
+      "decision": "flag_for_review",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    },
+    {
+      "message": "您的帳戶異常，請立即提供驗證碼以免凍結。",
+      "model_id": "wisemessage-minirbt-h256-step1221",
+      "predicted_label": "scam",
+      "scores": {
+        "normal": 0.014468626119196415,
+        "spam": 6.0487931477837265e-05,
+        "scam": 0.9854708909988403
+      },
+      "unwanted_score": 0.9855313789303182,
+      "decision": "flag_for_review",
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      }
+    }
+  ],
+  "purpose": "runtime demonstration; not accuracy ground truth"
+}

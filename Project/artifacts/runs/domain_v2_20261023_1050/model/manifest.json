@@ -1,0 +1,328 @@
+{
+  "format_version": 1,
+  "framework": "mindspore",
+  "framework_version": "2.10.0",
+  "task": "sms_spam_scam_detection",
+  "checkpoint_type": "message_classifier",
+  "model_id": "wisemessage-minirbt-h256-step1221",
+  "checkpoint": "model.ckpt",
+  "config": "config.json",
+  "vocab": "vocab.txt",
+  "checkpoint_sha256": "940913e59a1142aa36679d1b885b71183e0464b075c792c26204c27bd75775ae",
+  "config_sha256": "aa456a082374e5eb7f7955eca9d3c1cb42333580c7c75bd9aeeaddb0b3aea7f4",
+  "tokenizer_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+  "config_fingerprint": "759e22302884a0735027a038f4fd25e6421f47354b5ad0e821c87722f8a5db37",
+  "id2label": {
+    "0": "normal",
+    "1": "spam",
+    "2": "scam"
+  },
+  "max_length": 256,
+  "do_lower_case": true,
+  "thresholds": {
+    "spam": 1.0,
+    "scam": 1.0,
+    "unwanted": 0.5
+  },
+  "threshold_selection": {
+    "thresholds": {
+      "spam": 1.0,
+      "scam": 1.0,
+      "unwanted": 0.5
+    },
+    "review_metrics": {
+      "samples": 4339,
+      "accuracy": 0.9900898824613966,
+      "precision": 0.9931997136721546,
+      "recall": 0.9914255091103966,
+      "f1": 0.992311818344359,
+      "false_positive_rate": 0.012337662337662338,
+      "confusion_matrix": {
+        "tn": 1521,
+        "fp": 19,
+        "fn": 24,
+        "tp": 2775
+      }
+    },
+    "selection": "validation_only_maximum_unwanted_f1_using_sum_of_spam_and_scam_probabilities",
+    "max_normal_false_positive_rate": 0.1,
+    "partial_label_samples": 350,
+    "binary_label_semantics": "normal versus unwanted, including unknown unwanted subtypes",
+    "proposed_review_audit": {
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      },
+      "binary_unwanted": {
+        "samples": 4339,
+        "accuracy": 0.9900898824613966,
+        "precision": 0.9931997136721546,
+        "recall": 0.9914255091103966,
+        "f1": 0.992311818344359,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 24,
+          "tp": 2775
+        }
+      },
+      "quality_requirements_passed": true,
+      "partial_binary": {
+        "samples": 1890,
+        "accuracy": 0.9798941798941799,
+        "precision": 0.9457142857142857,
+        "recall": 0.9457142857142857,
+        "f1": 0.9457142857142857,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 19,
+          "tp": 331
+        }
+      }
+    },
+    "selected_review_audit": {
+      "thresholds": {
+        "spam": 1.0,
+        "scam": 1.0,
+        "unwanted": 0.5
+      },
+      "binary_unwanted": {
+        "samples": 4339,
+        "accuracy": 0.9900898824613966,
+        "precision": 0.9931997136721546,
+        "recall": 0.9914255091103966,
+        "f1": 0.992311818344359,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 24,
+          "tp": 2775
+        }
+      },
+      "quality_requirements_passed": true,
+      "partial_binary": {
+        "samples": 1890,
+        "accuracy": 0.9798941798941799,
+        "precision": 0.9457142857142857,
+        "recall": 0.9457142857142857,
+        "f1": 0.9457142857142857,
+        "false_positive_rate": 0.012337662337662338,
+        "confusion_matrix": {
+          "tn": 1521,
+          "fp": 19,
+          "fn": 19,
+          "tp": 331
+        }
+      }
+    },
+    "review_quality_requirements_passed": true,
+    "quality_requirements_passed": true
+  },
+  "validation_metrics": {
+    "samples": 3989,
+    "accuracy": 0.9929806969165205,
+    "macro_f1": 0.9936325098911333,
+    "macro_f1_present_classes": 0.9936325098911333,
+    "present_classes": [
+      "normal",
+      "spam",
+      "scam"
+    ],
+    "balanced_accuracy": 0.9936385464127208,
+    "scam_recall": 0.9957627118644068,
+    "normal_false_positive_rate": 0.012337662337662338,
+    "per_class": {
+      "normal": {
+        "support": 1540,
+        "precision": 0.9967234600262124,
+        "recall": 0.9876623376623377,
+        "f1": 0.9921722113502937
+      },
+      "spam": {
+        "support": 797,
+        "precision": 0.9962406015037594,
+        "recall": 0.9974905897114178,
+        "f1": 0.9968652037617555
+      },
+      "scam": {
+        "support": 1652,
+        "precision": 0.987987987987988,
+        "recall": 0.9957627118644068,
+        "f1": 0.9918601145613507
+      }
+    },
+    "confusion_matrix": [
+      [
+        1521,
+        0,
+        19
+      ],
+      [
+        1,
+        795,
+        1
+      ],
+      [
+        4,
+        3,
+        1645
+      ]
+    ],
+    "confusion_matrix_order": [
+      "normal",
+      "spam",
+      "scam"
+    ],
+    "validation_samples_total": 4339,
+    "fully_labelled_samples": 3989,
+    "partial_label_samples": 350,
+    "binary_unwanted": {
+      "samples": 4339,
+      "accuracy": 0.9900898824613966,
+      "precision": 0.9931997136721546,
+      "recall": 0.9914255091103966,
+      "f1": 0.992311818344359,
+      "false_positive_rate": 0.012337662337662338,
+      "confusion_matrix": {
+        "tn": 1521,
+        "fp": 19,
+        "fn": 24,
+        "tp": 2775
+      }
+    },
+    "three_class_label_semantics": "normal/spam/scam on fully labelled rows only",
+    "binary_decision": "P(spam)+P(scam)>=0.5",
+    "partial_binary": {
+      "samples": 1890,
+      "accuracy": 0.9798941798941799,
+      "precision": 0.9457142857142857,
+      "recall": 0.9457142857142857,
+      "f1": 0.9457142857142857,
+      "false_positive_rate": 0.012337662337662338,
+      "confusion_matrix": {
+        "tn": 1521,
+        "fp": 19,
+        "fn": 19,
+        "tp": 331
+      }
+    },
+    "partial_unwanted_recall": 0.9457142857142857,
+    "partial_binary_label_semantics": "known normal versus unwanted with unknown spam/scam subtype",
+    "quality_requirements_passed": true,
+    "calibrated_review_quality_requirements_passed": true
+  },
+  "provisional_quality_requirements": {
+    "macro_f1": 0.8,
+    "scam_recall": 0.8,
+    "max_normal_false_positive_rate": 0.1,
+    "binary_unwanted_f1_when_partial_labels_present": 0.8,
+    "binary_unwanted_recall_when_partial_labels_present": 0.8,
+    "partial_binary_f1_when_partial_labels_present": 0.8,
+    "partial_binary_recall_when_partial_labels_present": 0.8
+  },
+  "validation_requirements_passed": true,
+  "pretrained": {
+    "format_version": 1,
+    "framework": "mindspore",
+    "checkpoint_type": "pretrained_encoder",
+    "task": "pretraining",
+    "model_id": "wisemessage-minirbt-h256-pretrained",
+    "checkpoint": "model.ckpt",
+    "config": "config.json",
+    "vocab": "vocab.txt",
+    "checkpoint_sha256": "ba92ba741f3fa8991fb4bfb61a1e99c5769353ec3b5fcb45bc918e96431840a4",
+    "config_fingerprint": "759e22302884a0735027a038f4fd25e6421f47354b5ad0e821c87722f8a5db37",
+    "tokenizer_sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+    "source_checkpoint_sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+    "source": {
+      "repository": "hfl/minirbt-h256",
+      "revision": "446e1b4012b10946f479563005700c54c9db3f7c",
+      "license": "apache-2.0",
+      "files": {
+        "config.json": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/config.json",
+          "sha256": "02cc77ba23f292bf5265d76fff662ae8a8057bf85ee9723ba30342bf9ed30746",
+          "bytes": 598
+        },
+        "vocab.txt": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/vocab.txt",
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540
+        },
+        "README.md": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/README.md",
+          "sha256": "667be60e0b89d63d308d3d1e76f906d056ad4a2c56e6a2f785544098e220f3eb",
+          "bytes": 974
+        },
+        "pytorch_model.bin": {
+          "url": "https://huggingface.co/hfl/minirbt-h256/resolve/446e1b4012b10946f479563005700c54c9db3f7c/pytorch_model.bin",
+          "sha256": "6728ca573fd5197f28198eb7e6119a76e4d5dc626f953fca8c0dc5ba2798f9fc",
+          "bytes": 41514155
+        }
+      },
+      "downloaded_at": "2026-10-23T02:20:57.105870+00:00"
+    },
+    "converted_encoder_tensors": 101,
+    "encoder_parameters": 10279424,
+    "discarded_source_keys": [
+      "bert.embeddings.position_ids",
+      "cls.predictions.bias",
+      "cls.predictions.decoder.bias",
+      "cls.predictions.decoder.weight",
+      "cls.predictions.transform.LayerNorm.bias",
+      "cls.predictions.transform.LayerNorm.weight",
+      "cls.predictions.transform.dense.bias",
+      "cls.predictions.transform.dense.weight"
+    ],
+    "classifier_trained": false,
+    "label_map": {
+      "0": "normal",
+      "1": "spam",
+      "2": "scam"
+    },
+    "created_at": "2026-10-23T02:22:12.004781+00:00",
+    "notes": "Only pretrained encoder. The three-class SMS head must be supervised-finetuned."
+  },
+  "trainable_parameters": 10280195,
+  "training": {
+    "all_encoder_layers_trainable": true,
+    "classifier_trainable": true,
+    "selected_epoch": 3,
+    "completed_epochs": 3,
+    "global_step": 1221,
+    "learning_rate": 5e-05,
+    "max_epochs": 3,
+    "seed": 2026,
+    "class_weights": [
+      0.8943451046943665,
+      1.2134560346603394,
+      0.8921988606452942
+    ],
+    "training_rows": 65336,
+    "partial_label_training_samples": 5562,
+    "partial_label_sample_weight": 1.0049285888671875,
+    "loss": "normalized weighted exact-label cross_entropy plus partial-label negative_log_unwanted_probability",
+    "initialization": {
+      "model_dir": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/runs/initial_retry1/model",
+      "model_id": "wisemessage-minirbt-h256-step1572",
+      "checkpoint_sha256": "9bf53e199383a1d9be1586df3c5f42a3eb20488a1868259f1aa7356e3879cc33",
+      "all_encoder_and_classifier_parameters_loaded": true,
+      "optimizer_state_reinitialized": true
+    },
+    "train_sha256": "4a7a2185f61de47feb6ac07cc9026ac84f4c4c6954222cfacdfff2d510f5e2e7",
+    "validation_sha256": "fac79599f45598eb264118ee491a9910122afc9de56bba0ad6870f0e1d0ff80b",
+    "test_used_for_selection": false
+  },
+  "languages": [
+    "Traditional Chinese",
+    "Simplified Chinese"
+  ],
+  "decision_note": "Class scores are model estimates, not verified sender identity or calibrated safety guarantees",
+  "usage": "Research prototype; dataset source terms and external evaluation limitations apply",
+  "created_at": "2026-10-23T03:02:55.063817+00:00"
+}

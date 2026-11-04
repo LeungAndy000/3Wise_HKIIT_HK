@@ -1,0 +1,25 @@
+{
+  "project": "WiseMessage",
+  "framework": "MindSpore",
+  "model": "hfl/minirbt-h256",
+  "budget_minutes": 35,
+  "max_epochs": 3,
+  "learning_rate": 5e-05,
+  "max_length": 256,
+  "data_dir": "/mnt/f/Z_SnareBert/WiseMessage/data/prepared_domain_v2",
+  "init_model_dir": "/mnt/f/Z_SnareBert/WiseMessage/artifacts/runs/initial_retry1/model",
+  "labels": [
+    "normal",
+    "spam",
+    "scam"
+  ],
+  "all_encoder_layers_trainable": true,
+  "data_manifest_sha256": "0e70cfdb3a7adfc62cd307f82afd04ed21b7e535ea2c72caad690a4a16a4ba80",
+  "provisional_quality_requirements": {
+    "macro_f1": 0.8,
+    "scam_recall": 0.8,
+    "max_normal_false_positive_rate": 0.1
+  },
+  "test_selection_policy": "No held-out rows train the model. Initial external baseline failure motivated domain repair; the original external test is now a seen diagnostic, and new domain tests are reserved before training.",
+  "all_files_retained": true
+}
