@@ -1,0 +1,168 @@
+{
+  "created_at_utc": "2026-10-25T08:39:31.879713+00:00",
+  "passed": true,
+  "checks": {
+    "distribution_signature_exit_zero": true,
+    "baseline_signature_exit_zero": true,
+    "distribution_zipalign_16kb_exit_zero": true,
+    "distribution_badging_exit_zero": true,
+    "distribution_permissions_exit_zero": true,
+    "same_release_certificate_as_3_1": true,
+    "actual_package_and_version": true,
+    "offline_native_reuse_requested": true,
+    "runtime_preservation_based_on_3_1": true,
+    "distribution_matches_release_and_report": true,
+    "baseline_apk_preserved": true,
+    "no_internet_or_send_sms": true,
+    "permissions_unchanged_from_3_1": true,
+    "apk_zip_integrity": true,
+    "asset_and_native_entries_unchanged": true,
+    "all_model_tokenizer_native_asset_bytes_identical_to_3_1": true,
+    "native_elf64_arm64_header": true,
+    "independent_elf_and_zip_native_16kb_alignment": true,
+    "all_inference_source_files_unchanged": true,
+    "signing_files_byte_identical": true,
+    "all_earlier_distribution_apks_preserved": true,
+    "protected_java_sources_identical_to_3_1": true,
+    "manifest_source_identical_to_3_1": true,
+    "jvm_unit_tests_passed": true,
+    "lint_no_errors": true,
+    "localization_passed": true,
+    "host_sqlite_passed_and_sources_match": true
+  },
+  "details": {
+    "same_release_certificate_as_3_1": "f773ccdbb2888fd85aa3fb721d2e7ddac9f522f3ee94776e9b8c91fc299a51f4",
+    "actual_package_and_version": {
+      "package": "hk.wisemessage.app",
+      "version_code": 5,
+      "version_name": "3.2.0-test"
+    },
+    "no_internet_or_send_sms": [
+      "android.permission.RECEIVE_SMS",
+      "android.permission.READ_SMS",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED"
+    ],
+    "all_model_tokenizer_native_asset_bytes_identical_to_3_1": {
+      "assets/wisemessage/LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "assets/wisemessage/NOTICE.txt": "f5071ef4036686fd724fd80b141e19c9fdc4ca64ba522c5ad23c231bde8c9323",
+      "assets/wisemessage/manifest.json": "7de2cc77633ab2c79ed3aa83a68f35633b50a4449122c6bcc411a18b542cdc45",
+      "assets/wisemessage/model.ms": "5f5af31d7aec95abe514203e547b7fdcf0df83e70f6c3924481907c487b332de",
+      "assets/wisemessage/parity_cases.json": "3a604f947421eecce1720200906c6fe90667dfba4149aa14197d9100a866939f",
+      "assets/wisemessage/vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "lib/arm64-v8a/libwisemessage_native.so": "be27c3ce9d11a44552999769e1a6e65d9721877477f4b9dbfe174275f2d4f3a4"
+    },
+    "independent_elf_and_zip_native_16kb_alignment": [
+      {
+        "path": "lib/arm64-v8a/libwisemessage_native.so",
+        "uncompressed": true,
+        "zip_data_offset": 65536,
+        "zip_data_aligned_16kb": true,
+        "load_segments": [
+          {
+            "offset": 0,
+            "vaddr": 0,
+            "alignment": 16384,
+            "compatible_16kb": true
+          },
+          {
+            "offset": 2852352,
+            "vaddr": 2868736,
+            "alignment": 16384,
+            "compatible_16kb": true
+          },
+          {
+            "offset": 7894912,
+            "vaddr": 7927680,
+            "alignment": 16384,
+            "compatible_16kb": true
+          },
+          {
+            "offset": 8101528,
+            "vaddr": 8150680,
+            "alignment": 16384,
+            "compatible_16kb": true
+          }
+        ]
+      }
+    ],
+    "all_inference_source_files_unchanged": {
+      "files": 11,
+      "changed": []
+    },
+    "signing_files_byte_identical": {
+      "files": 2,
+      "changed": []
+    },
+    "all_earlier_distribution_apks_preserved": {
+      "files": 4,
+      "changed": []
+    },
+    "protected_java_sources_identical_to_3_1": {
+      "files": 17,
+      "changed": []
+    },
+    "jvm_unit_tests_passed": {
+      "tests": 28,
+      "failures": 0,
+      "errors": 0
+    },
+    "lint_no_errors": {
+      "warnings": 70,
+      "baseline_warnings": 65,
+      "warning_counts_match_baseline": false,
+      "issue_counts": [
+        {
+          "id": "AndroidGradlePluginVersion",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "id": "ChromeOsAbiSupport",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "id": "PluralsCandidate",
+          "severity": "Warning",
+          "count": 4
+        },
+        {
+          "id": "UnusedAttribute",
+          "severity": "Warning",
+          "count": 1
+        },
+        {
+          "id": "UnusedResources",
+          "severity": "Warning",
+          "count": 63
+        }
+      ]
+    },
+    "localization_passed": {
+      "passed": true,
+      "translated_strings_per_language": 215,
+      "languages": [
+        "en",
+        "zh-Hant",
+        "zh-Hans"
+      ],
+      "format_arguments_match": true,
+      "legacy_simplified_matches": true,
+      "android_system_language_configured": true,
+      "internet_permission": false,
+      "scope": "UI localization only; no claim of English SMS model accuracy or physical-device execution"
+    },
+    "host_sqlite_passed_and_sources_match": {
+      "passed": 11,
+      "failed": 0,
+      "scope": "Python host SQLite, synthetic in-memory records; not Android device/UI execution"
+    }
+  },
+  "apk": "artifacts/android/WiseMessage-3.2.0-test-arm64.apk",
+  "sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c",
+  "bytes": 49562714,
+  "build_report": "artifacts/android/builds/20261025T083740102604Z/build_report.json",
+  "baseline_report": "artifacts/android/builds/20261023T082801157725Z/build_report.json",
+  "scope": "Local offline build and host/package audit; emulator validation reported separately; no physical phone validation, uploads, or deletes performed."
+}

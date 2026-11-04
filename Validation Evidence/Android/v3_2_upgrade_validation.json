@@ -1,0 +1,115 @@
+{
+  "created_at_utc": "2026-10-25T08:51:22.479275+00:00",
+  "passed": true,
+  "version": "3.2.0-test",
+  "version_code": 5,
+  "package": "hk.wisemessage.app",
+  "apk": "artifacts/android/WiseMessage-3.2.0-test-arm64.apk",
+  "bytes": 49562714,
+  "sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c",
+  "build_report": "artifacts/android/builds/20261025T083740102604Z/build_report.json",
+  "independent_build_audit": "artifacts/android/ui-v3_2-build-audit/post_build_audit.json",
+  "native_ui_validation_report": "artifacts/android/ui-v3_2-validation/run-20261025T083909Z/validation_report.json",
+  "offline_build": true,
+  "ui_changes": [
+    "Explanatory notes moved from main flows into Settings; actionable guidance and consent retained.",
+    "Four dashboard actions share the maximum natural measured height and equal width; adaptive single column for larger text.",
+    "Raw internal backbone model identifier and technical timing removed from user-facing results; WiseMessage model branding in Settings.",
+    "Statistics use aligned Metric / Today / All records rows plus a seven-day Date / Checked table."
+  ],
+  "identity": {
+    "same_application_id": true,
+    "same_release_signing_certificate": true,
+    "certificate_sha256": "f773ccdbb2888fd85aa3fb721d2e7ddac9f522f3ee94776e9b8c91fc299a51f4",
+    "upgrade_with_install_r": true,
+    "do_not_uninstall_or_clear_data": true
+  },
+  "host_checks": {
+    "independent_checks_passed": 27,
+    "jvm_tests_passed": 28,
+    "host_sqlite_checks_passed": 11,
+    "translated_strings_per_language": 215,
+    "lint_errors": 0,
+    "lint_warnings": 70,
+    "lint_warning_note": "Increase from 65 is unused resources; no new error.",
+    "signature_verified": true,
+    "elf_and_zip_16kb_alignment_verified": true
+  },
+  "emulator_checks": {
+    "runtime": "Dedicated visible WSLg Android 11/API 30 x86_64 emulator with ARM64 translation",
+    "avd": "wisemessage_windows_20261024",
+    "serial": "emulator-5582",
+    "language_font_cases": [
+      "en-font-1.0",
+      "zh-Hant-font-1.0",
+      "zh-Hans-font-1.0",
+      "en-font-1.3",
+      "zh-Hant-font-1.3",
+      "zh-Hans-font-1.3"
+    ],
+    "extra_large_font_single_column_passed": true,
+    "real_chinese_manual_ui_checks": 2,
+    "manual_scope": "Functional Unicode entry, real button inference, display, and preserved results; expected class labels were not asserted.",
+    "model_accuracy_asserted": false,
+    "baseline_records_retained": 2,
+    "records_after_two_manual_checks": 4,
+    "settings_restored": true,
+    "actual_results_and_limitations": "artifacts/android/ui-v3_2-validation/run-20261025T083909Z/validation_report.json"
+  },
+  "preservation": {
+    "model_tokenizer_and_native_asset_sha256": {
+      "assets/wisemessage/LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "assets/wisemessage/NOTICE.txt": "f5071ef4036686fd724fd80b141e19c9fdc4ca64ba522c5ad23c231bde8c9323",
+      "assets/wisemessage/manifest.json": "7de2cc77633ab2c79ed3aa83a68f35633b50a4449122c6bcc411a18b542cdc45",
+      "assets/wisemessage/model.ms": "5f5af31d7aec95abe514203e547b7fdcf0df83e70f6c3924481907c487b332de",
+      "assets/wisemessage/parity_cases.json": "3a604f947421eecce1720200906c6fe90667dfba4149aa14197d9100a866939f",
+      "assets/wisemessage/vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+      "lib/arm64-v8a/libwisemessage_native.so": "be27c3ce9d11a44552999769e1a6e65d9721877477f4b9dbfe174275f2d4f3a4"
+    },
+    "inference_sources_unchanged": true,
+    "database_source_schema_unchanged": true,
+    "notification_and_sms_decisions_unchanged": true,
+    "permissions_unchanged": true,
+    "earlier_apks_preserved": true,
+    "private_records_and_preferences_preserved_in_emulator": true,
+    "files_deleted": 0,
+    "stored_records_deleted": 0
+  },
+  "permissions": [
+    "android.permission.RECEIVE_SMS",
+    "android.permission.READ_SMS",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "windows_emulator_delivery": {
+    "apk": "windows-app/apk/WiseMessage-3.2.0-test-arm64.apk",
+    "launcher": "windows-app/Launch-WiseMessage.cmd",
+    "smoke_command": "powershell -ExecutionPolicy Bypass -File .\\windows-app\\Start-WiseMessage.ps1 -NoInstall",
+    "smoke_exit_code": 0,
+    "run_state": "windows-app/run/emulator-session.json",
+    "reused_existing_emulator": true,
+    "native_stderr_handling_fix": "PowerShell launcher captures native stderr and checks ADB exit status; an already-open Activity warning no longer causes a false failure.",
+    "prior_failed_smoke_log_retained": true
+  },
+  "physical_samsung_s26_ultra_tested": false,
+  "model_retrained": false,
+  "new_accuracy_evaluation_performed": false,
+  "project_code_or_models_uploaded": false,
+  "huawei_upload_build_or_deployment_performed_for_this_update": false,
+  "limitations": [
+    "No Samsung physical device is connected; OEM/carrier/battery behavior was not tested.",
+    "Counts are real existing plus two preserved fictional manual checks; high-volume four-digit counts were not seeded.",
+    "Geometry and native screenshots cover API 30 ARM64 translation on the dedicated 1080x2400 emulator.",
+    "The English-prefixed fictional dental fixture returned scam 93.6%; this is retained as actual functional evidence and is not a model accuracy benchmark."
+  ],
+  "source_sha256": {
+    "android/app/build.gradle": "5c30d519ca788b5230da464676268d887dd87143596580680ab4603a46e82670",
+    "android/app/src/main/java/hk/wisemessage/app/MainActivity.java": "ac8d5a1b7852eb4dc47556b8cf3494e662f47e2cc57119d8254a36fe2d3fbae5",
+    "android/app/src/main/java/hk/wisemessage/app/EqualHeightActionGrid.java": "c297270b43b1ae4f30a2cd6c0f50acb1649031b8209e30c4b9080d3ef5bab73b",
+    "android/app/src/main/res/values/ids.xml": "db5c8d8759d66971d69d6999b1eefd252aec1356a727142861e07c162b250830",
+    "android/app/src/main/res/values/strings.xml": "579798290bdbb8f3242f7e68606e6eee96fa867c344bcfb8c5ce60a1a3169aa6",
+    "android/app/src/main/res/values-b+zh+Hans/strings.xml": "c73e28534704e18316bbf2916c2221cb60734fb8e538b0fe32d2e91ec0eb880e",
+    "android/app/src/main/res/values-b+zh+Hant/strings.xml": "1a99a18086a321db404ed5874fb448a17f98963bea53197ac778434089641369",
+    "android/app/src/main/res/values-zh-rCN/strings.xml": "c73e28534704e18316bbf2916c2221cb60734fb8e538b0fe32d2e91ec0eb880e"
+  }
+}

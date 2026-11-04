@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=WiseMessage Local Test, O=WiseMessage, C=HK
+Signer #1 certificate SHA-256 digest: f773ccdbb2888fd85aa3fb721d2e7ddac9f522f3ee94776e9b8c91fc299a51f4
+Signer #1 certificate SHA-1 digest: 26870ea19d823bb1209b72ecb20b512667863769
+Signer #1 certificate MD5 digest: afbc8b69217eedec2e6bc2cc22a523ea
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 3e9f2c6e1ce9b4e3e3052c3515d061cbaa8a0fc1a0f04b6ea14346f7a4191505
+Signer #1 public key SHA-1 digest: 4aa533fcfeb23ef60ee045e22aa1bc092640dd12
+Signer #1 public key MD5 digest: 7bdf8ee69b301cdcca9ac0d97673a69a

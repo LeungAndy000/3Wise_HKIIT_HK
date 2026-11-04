@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "completed_at_utc": "2026-10-25T08:50:07.649110+00:00",
+  "app": {
+    "package": "hk.wisemessage.app",
+    "version_name": "3.2.0-test",
+    "version_code": 5,
+    "apk": "artifacts\\android\\WiseMessage-3.2.0-test-arm64.apk",
+    "sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c",
+    "installed_base_apk_sha256": "9518176fd845938b81de4da928500408fefc7d72a50d30c190fb92d37b0ac68c"
+  },
+  "matrix_report": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\report.json",
+  "matrix_cases_passed": [
+    "en-font-1.0",
+    "zh-Hant-font-1.0",
+    "zh-Hans-font-1.0",
+    "en-font-1.3",
+    "zh-Hant-font-1.3",
+    "zh-Hans-font-1.3"
+  ],
+  "adaptive_150_percent_report": "artifacts\\android\\ui-v3_2-validation\\large-font-20261025T084901Z\\report.json",
+  "adaptive_single_column_passed": true,
+  "two_real_chinese_manual_ui_checks_passed": true,
+  "manual_check_scope": "Functional Unicode entry, real button inference, display, and preserved results; expected class labels were not asserted.",
+  "inference_accuracy_asserted": false,
+  "records_preserved_before": 2,
+  "records_preserved_after_two_fictional_manual_checks": 4,
+  "today_completed_checks_after_manual": 2,
+  "actual_statistics_after_manual": {
+    "checked": {
+      "today": "2",
+      "all_records": "4"
+    },
+    "normal": {
+      "today": "0",
+      "all_records": "1"
+    },
+    "spam": {
+      "today": "0",
+      "all_records": "0"
+    },
+    "scam": {
+      "today": "2",
+      "all_records": "3"
+    },
+    "review": {
+      "today": "0",
+      "all_records": "0"
+    },
+    "pending": {
+      "today": "—",
+      "all_records": "0"
+    },
+    "failed": {
+      "today": "—",
+      "all_records": "0"
+    }
+  },
+  "font_language_protection_permissions_restored": true,
+  "restored_settings": {
+    "font_scale_setting": "1.0",
+    "font_scale_effective": "1.0 (original system default)",
+    "font_scale_storage_note": "Initial raw-setting equality check returned false because Android materialized its original default as 1.0 after settings delete. Effective default font scale and original protection-title geometry match; all adaptive layout assertions had passed.",
+    "language_selection": "Use phone language",
+    "ui_language": "English",
+    "protection": "on",
+    "sms_runtime_permissions": {
+      "android.permission.READ_SMS": "true",
+      "android.permission.RECEIVE_SMS": "true"
+    }
+  },
+  "restoration_harness_recovery": "All six UI cases and both manual checks completed. Initial finalizer tried settings put font_scale null; Android rejected the unset value. Corrected helper removes only the temporary font-scale override with settings delete system font_scale, restores original English selection, confirms protection and SMS permissions unchanged, and reconstructs manual/count evidence from saved native XML without repeating any inference.",
+  "screenshots": {
+    "english_dashboard": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\en-font-1.0-home-2.png",
+      "sha256": "2815c58cc3496dd0b3e9d2df84ad75b58812cfe5c88fe61bb71dba8da8600e30",
+      "native_android_capture": true
+    },
+    "english_statistics": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\en-font-1.0-statistics-0.png",
+      "sha256": "3b9362ca66a0658add8747292781e7bd4235e72c7862250ff25cfa35bda29b25",
+      "native_android_capture": true
+    },
+    "english_large_font_dashboard": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\en-font-1.3-home-3.png",
+      "sha256": "3c8648b0552a8d0668ecf6783556d70b2d723e38bbad48b0cf353a98cbe553e1",
+      "native_android_capture": true
+    },
+    "english_large_font_statistics": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\en-font-1.3-statistics-0.png",
+      "sha256": "7d38c53a13970808b0b2f0301476dbac023e315f0663d9f4d2820b9bead6cb24",
+      "native_android_capture": true
+    },
+    "traditional_dashboard": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\zh-Hant-font-1.0-home-1.png",
+      "sha256": "13e71c34e29d4bf2e52a589b1c61e24e9412e7bed152d19bafd0ed96ba8a8af9",
+      "native_android_capture": true
+    },
+    "traditional_statistics": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\zh-Hant-font-1.0-statistics-0.png",
+      "sha256": "3cada19d66264aa205c74c045bf20db5fd0bc8e7f7e7b915606c7da33609b5c6",
+      "native_android_capture": true
+    },
+    "traditional_manual_result": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\traditional-manual-result-0.png",
+      "sha256": "d5800a5ad7b3afab57ff2f3ced2af71083921bcc29acd01bf966b53bb22c059d",
+      "native_android_capture": true
+    },
+    "simplified_manual_result": {
+      "file": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z\\simplified-manual-result-0.png",
+      "sha256": "f129712d48ee5ac8e744934926ed522f8a785d9ffd4c45d6907989814789334d",
+      "native_android_capture": true
+    }
+  },
+  "secure_detail_dialog_screenshots_taken": false,
+  "files_deleted": 0,
+  "stored_records_deleted": 0,
+  "incoming_sms_sent": 0,
+  "physical_phone_accessed": false,
+  "limitations": [
+    "No Samsung physical device is connected; OEM/carrier/battery behavior was not tested.",
+    "Counts are real existing plus two preserved fictional manual checks; high-volume four-digit counts were not seeded.",
+    "Geometry and native screenshots cover API 30 ARM64 translation on the dedicated 1080x2400 emulator.",
+    "The English-prefixed fictional dental fixture returned scam 93.6%; this is retained as actual functional evidence and is not a model accuracy benchmark."
+  ]
+}

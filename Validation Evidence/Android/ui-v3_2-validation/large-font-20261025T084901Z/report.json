@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "font_scale": 1.5,
+  "language": "en",
+  "scope": "Actual one-column adaptive dashboard branch; no model checks or record writes.",
+  "files_deleted": 0,
+  "records_added": 0,
+  "dashboard": {
+    "equal_card_sizes": true,
+    "cards": {
+      "scan_all_button": {
+        "bounds": [
+          61,
+          959,
+          1019,
+          1397
+        ],
+        "size": [
+          958,
+          438
+        ]
+      },
+      "read_sms_button": {
+        "bounds": [
+          61,
+          1425,
+          1019,
+          1863
+        ],
+        "size": [
+          958,
+          438
+        ]
+      },
+      "manual_nav_button": {
+        "bounds": [
+          61,
+          1077,
+          1019,
+          1515
+        ],
+        "size": [
+          958,
+          438
+        ]
+      },
+      "statistics_button": {
+        "bounds": [
+          61,
+          1543,
+          1019,
+          1981
+        ],
+        "size": [
+          958,
+          438
+        ]
+      }
+    },
+    "home_explanations_removed": true,
+    "raw_model_id_absent": true
+  },
+  "single_column_confirmed": true,
+  "all_titles_and_descriptions_inside_cards": true,
+  "font_scale_restored": true,
+  "original_language_restored": "Use phone language",
+  "protection_unchanged": true,
+  "completed_at_utc": "2026-10-25T08:49:25.623877+00:00",
+  "evidence_directory": "artifacts\\android\\ui-v3_2-validation\\large-font-20261025T084901Z",
+  "original_font_scale_setting": "null",
+  "restored_font_scale_setting": "1.0",
+  "font_scale_storage_note": "Initial raw-setting equality check returned false because Android materialized its original default as 1.0 after settings delete. Effective default font scale and original protection-title geometry match; all adaptive layout assertions had passed."
+}

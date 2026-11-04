@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "protected_java_sources_compared_to_3_1": 17,
+  "changed_protected_java_sources": [],
+  "source_manifest_permissions": [
+    "android.permission.RECEIVE_SMS",
+    "android.permission.READ_SMS",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "source_manifest_sha256": "b7ae99d0a37256e7202c4b12ded5bb95edafc163cb64e70e679935ed2c019839",
+  "manifest_unchanged_from_3_1": true,
+  "ready_command": "powershell -NoProfile -File scripts/build_android.ps1 -Offline -ReuseNative",
+  "build_not_started": true
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Python host SQLite, synthetic in-memory records; not Android device/UI execution",
+  "sqlite_version": "3.45.1",
+  "passed": 11,
+  "failed": 0,
+  "checks": [
+    "older_harmful_records_visible_beyond_125_newer_normal_records",
+    "categories_partition_all_records_including_null_and_unknown_labels",
+    "uncertain_normal_pending_failed_unknown_stay_in_review",
+    "low_risk_excludes_scam_unwanted_missing_and_invalid_flags",
+    "25_row_keyset_pages_cover_every_matching_row_once",
+    "new_insertions_do_not_shift_or_duplicate_older_cursor_page",
+    "requested_page_size_is_clamped_to_1_through_25",
+    "exclusive_cursor_after_oldest_record_returns_empty_page",
+    "newest_record_id_order_is_independent_of_received_timestamp",
+    "completion_reclassifies_same_record_without_duplication",
+    "production_query_uses_bounded_limit_keyset_and_snapshot"
+  ],
+  "source_sha256": {
+    "MessageStore.java": "6e921649109e44b88ca8138dbb62466c65b1da2e4c9b9bb1038c01e51b3d76ab",
+    "ResultFilter.java": "d35a43c4c1187f24ed0975e1c9dcd19f27d779730f8473b63aba93bd075310b5"
+  },
+  "sql_predicates_extracted_from_java": {
+    "HARMFUL": "(state='complete' AND (COALESCE(label,'') IN ('spam','scam') OR COALESCE(is_scam,0)=1))",
+    "LOW_RISK": "(state='complete' AND COALESCE(label,'')='normal' AND COALESCE(is_unwanted,-1)=0 AND COALESCE(is_scam,-1)=0)",
+    "REVIEW": "NOT ((state='complete' AND (COALESCE(label,'') IN ('spam','scam') OR COALESCE(is_scam,0)=1)) OR (state='complete' AND COALESCE(label,'')='normal' AND COALESCE(is_unwanted,-1)=0 AND COALESCE(is_scam,-1)=0))",
+    "ALL": "1=1"
+  },
+  "fixtures": "57 older harmful +125 newer normal +uncertain/unfinished/legacy cases; no SMS/user files touched"
+}

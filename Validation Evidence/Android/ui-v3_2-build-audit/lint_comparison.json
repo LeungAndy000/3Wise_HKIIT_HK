@@ -1,0 +1,210 @@
+{
+  "baseline_warning_count": 65,
+  "current_warning_count": 70,
+  "added": [
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.local_badge` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.model_timing` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.model_loading` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.model_ready` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.statistics_subtitle` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.daily_received_scope` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.daily_checked_scope` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.scan_all_scope` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.offline_short` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.detection_results_subtitle` appears to be unused",
+      "count": 1
+    }
+  ],
+  "removed": [
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.daily_received_note` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.daily_checked_note` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.stats_retention_note` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.count_unknown` appears to be unused",
+      "count": 1
+    },
+    {
+      "id": "UnusedResources",
+      "severity": "Warning",
+      "message": "The resource `R.string.stats_unknown_date` appears to be unused",
+      "count": 1
+    }
+  ],
+  "added_issue_locations": [
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.local_badge` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "5",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.model_timing` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "38",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.model_loading` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "69",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.model_ready` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "70",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.statistics_subtitle` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "128",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.daily_received_scope` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "155",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.daily_checked_scope` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "156",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.scan_all_scope` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "164",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.offline_short` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "169",
+          "column": "13"
+        }
+      ]
+    },
+    {
+      "id": "UnusedResources",
+      "message": "The resource `R.string.detection_results_subtitle` appears to be unused",
+      "locations": [
+        {
+          "file": "/mnt/f/Z_SnareBert/WiseMessage/android/app/src/main/res/values/strings.xml",
+          "line": "195",
+          "column": "13"
+        }
+      ]
+    }
+  ]
+}

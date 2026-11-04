@@ -1,0 +1,2066 @@
+{
+  "passed": true,
+  "started_at_utc": "2026-10-25T08:39:14.340823+00:00",
+  "runtime": {
+    "avd": "wisemessage_windows_20261024",
+    "serial": "emulator-5582",
+    "api": "30",
+    "abis": "x86_64,x86,arm64-v8a,armeabi-v7a,armeabi",
+    "native_bridge": "libndk_translation.so",
+    "physical_device": false
+  },
+  "cases": {
+    "en-font-1.0": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              1016,
+              526,
+              1489
+            ],
+            "size": [
+              465,
+              473
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              1016,
+              1019,
+              1489
+            ],
+            "size": [
+              465,
+              473
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1517,
+              526,
+              1990
+            ],
+            "size": [
+              465,
+              473
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1517,
+              1019,
+              1990
+            ],
+            "size": [
+              465,
+              473
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "About message checks\nWiseMessage model\nAI scores are not a guarantee. Do not reveal passwords, transfer money or install unfamiliar software based on a prediction. Find official contact details independently to verify.\nChecks accessible SMS only. It does not scan apps, files, RCS or WhatsApp.\nThe harmful group includes possible spam and scams; automatic incoming warnings are sent only for scam decisions. Review includes uncertain, waiting and failed checks. No high risk detected is not proof that a message is legitimate.\nAI scores are not a guarantee. Do not reveal passwords, transfer money or install unfamiliar software based on a prediction. Find official contact details independently to verify.\nChecks accessible SMS only. It does not scan apps, files, RCS or WhatsApp.\nThe harmful group includes possible spam and scams; automatic incoming warnings are sent only for scam decisions. Review includes uncertain, waiting and failed checks. No high risk detected is not proof that a message is legitimate.\nMessage text stays hidden until you open a message.\nShows up to 20 SMS per page. Previous and Next replace the current page instead of making a longer list.\nShows up to 20 results per page. Change the filter to start from its first page.\nThe harmful group includes possible spam and scams; automatic incoming warnings are sent only for scam decisions. Review includes uncertain, waiting and failed checks. No high risk detected is not proof that a message is legitimate.\nMessage text stays hidden until you open a message.\nShows up to 20 SMS per page. Previous and Next replace the current page instead of making a longer list.\nShows up to 20 results per page. Change the filter to start from its first page."
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "Metric",
+          "Today",
+          "All records"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "Completed checks",
+                "bounds": [
+                  111,
+                  661,
+                  587,
+                  785
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  587,
+                  658,
+                  739,
+                  789
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  739,
+                  658,
+                  969,
+                  789
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "No high risk detected",
+                "bounds": [
+                  111,
+                  792,
+                  587,
+                  916
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  587,
+                  789,
+                  739,
+                  920
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  739,
+                  789,
+                  969,
+                  920
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "Advertising or spam",
+                "bounds": [
+                  111,
+                  923,
+                  587,
+                  1047
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  587,
+                  920,
+                  739,
+                  1051
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  739,
+                  920,
+                  969,
+                  1051
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "Possible scam",
+                "bounds": [
+                  111,
+                  1054,
+                  587,
+                  1178
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  587,
+                  1051,
+                  739,
+                  1182
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  739,
+                  1051,
+                  969,
+                  1182
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "Needs verification",
+                "bounds": [
+                  111,
+                  1185,
+                  587,
+                  1309
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  587,
+                  1182,
+                  739,
+                  1313
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  739,
+                  1182,
+                  969,
+                  1313
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "Waiting for analysis",
+                "bounds": [
+                  111,
+                  1316,
+                  587,
+                  1440
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  587,
+                  1313,
+                  739,
+                  1444
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  739,
+                  1313,
+                  969,
+                  1444
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "Failed checks",
+                "bounds": [
+                  111,
+                  1447,
+                  587,
+                  1571
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  587,
+                  1444,
+                  739,
+                  1575
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  739,
+                  1444,
+                  969,
+                  1575
+                ]
+              }
+            ],
+            "height": 131
+          }
+        }
+      }
+    },
+    "zh-Hant-font-1.0": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              1222,
+              526,
+              1592
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              1222,
+              1019,
+              1592
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1620,
+              526,
+              1990
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1620,
+              1019,
+              1990
+            ],
+            "size": [
+              465,
+              370
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "關於簡訊檢查\nWiseMessage 模型\nAI 分數並非事實保證。切勿透露密碼、轉帳或安裝陌生軟件；請自行尋找官方聯絡方式核實。\n只檢查可讀取的 SMS，不會掃描應用程式、檔案、RCS 或 WhatsApp。\n有害分類包含疑似垃圾及詐騙簡訊；只有判定為詐騙的新來信會自動發出警告。待核實分類包含不確定、等待中及失敗的檢查。未發現高風險不代表簡訊必定真確。\n開啟個別簡訊前，內容會保持隱藏。\n每頁最多顯示 20 封 SMS。上一頁和下一頁會更換當前頁面，不會累積成長清單。\n有害分類包含疑似垃圾及詐騙簡訊；只有判定為詐騙的新來信會自動發出警告。待核實分類包含不確定、等待中及失敗的檢查。未發現高風險不代表簡訊必定真確。\n開啟個別簡訊前，內容會保持隱藏。\n每頁最多顯示 20 封 SMS。上一頁和下一頁會更換當前頁面，不會累積成長清單。\n每頁最多顯示 20 項結果。更改篩選條件後會返回該分類的第一頁。"
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "項目",
+          "今天",
+          "所有紀錄"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "已完成的檢查",
+                "bounds": [
+                  111,
+                  661,
+                  647,
+                  785
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  658,
+                  773,
+                  789
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  773,
+                  658,
+                  969,
+                  789
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "未發現高風險",
+                "bounds": [
+                  111,
+                  792,
+                  647,
+                  916
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  789,
+                  773,
+                  920
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  773,
+                  789,
+                  969,
+                  920
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "廣告或垃圾簡訊",
+                "bounds": [
+                  111,
+                  923,
+                  647,
+                  1047
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  920,
+                  773,
+                  1051
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  920,
+                  969,
+                  1051
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "疑似詐騙",
+                "bounds": [
+                  111,
+                  1054,
+                  647,
+                  1178
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  1051,
+                  773,
+                  1182
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  773,
+                  1051,
+                  969,
+                  1182
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "需要核實",
+                "bounds": [
+                  111,
+                  1185,
+                  647,
+                  1309
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  1182,
+                  773,
+                  1313
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1182,
+                  969,
+                  1313
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "等待分析",
+                "bounds": [
+                  111,
+                  1316,
+                  647,
+                  1440
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  647,
+                  1313,
+                  773,
+                  1444
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1313,
+                  969,
+                  1444
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "檢查失敗",
+                "bounds": [
+                  111,
+                  1447,
+                  647,
+                  1571
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  647,
+                  1444,
+                  773,
+                  1575
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1444,
+                  969,
+                  1575
+                ]
+              }
+            ],
+            "height": 131
+          }
+        }
+      }
+    },
+    "zh-Hans-font-1.0": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              1222,
+              526,
+              1592
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              1222,
+              1019,
+              1592
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1620,
+              526,
+              1990
+            ],
+            "size": [
+              465,
+              370
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1620,
+              1019,
+              1990
+            ],
+            "size": [
+              465,
+              370
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "关于短信检查\nWiseMessage 模型\nAI 分数并非事实保证。切勿透露密码、转账或安装陌生软件；请自行寻找官方联系方式核实。\n只检查可读取的 SMS，不会扫描应用、文件、RCS 或 WhatsApp。\n有害分类包含疑似垃圾及诈骗短信；只有判定为诈骗的新来信会自动发出警告。待核实分类包含不确定、等待中及失败的检查。未发现高风险不代表短信必定真实。\n打开单条短信前，内容会保持隐藏。\n每页最多显示 20 条 SMS。上一页和下一页会更换当前页面，不会累积成长列表。\n有害分类包含疑似垃圾及诈骗短信；只有判定为诈骗的新来信会自动发出警告。待核实分类包含不确定、等待中及失败的检查。未发现高风险不代表短信必定真实。\n打开单条短信前，内容会保持隐藏。\n每页最多显示 20 条 SMS。上一页和下一页会更换当前页面，不会累积成长列表。\n每页最多显示 20 项结果。更改筛选条件后会返回该分类的第一页。"
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "项目",
+          "今天",
+          "所有记录"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "已完成的检查",
+                "bounds": [
+                  111,
+                  661,
+                  647,
+                  785
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  658,
+                  773,
+                  789
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  773,
+                  658,
+                  969,
+                  789
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "未发现高风险",
+                "bounds": [
+                  111,
+                  792,
+                  647,
+                  916
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  789,
+                  773,
+                  920
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  773,
+                  789,
+                  969,
+                  920
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "广告或垃圾短信",
+                "bounds": [
+                  111,
+                  923,
+                  647,
+                  1047
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  920,
+                  773,
+                  1051
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  920,
+                  969,
+                  1051
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "疑似诈骗",
+                "bounds": [
+                  111,
+                  1054,
+                  647,
+                  1178
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  1051,
+                  773,
+                  1182
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  773,
+                  1051,
+                  969,
+                  1182
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "需要核实",
+                "bounds": [
+                  111,
+                  1185,
+                  647,
+                  1309
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  647,
+                  1182,
+                  773,
+                  1313
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1182,
+                  969,
+                  1313
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "等待分析",
+                "bounds": [
+                  111,
+                  1316,
+                  647,
+                  1440
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  647,
+                  1313,
+                  773,
+                  1444
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1313,
+                  969,
+                  1444
+                ]
+              }
+            ],
+            "height": 131
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "检查失败",
+                "bounds": [
+                  111,
+                  1447,
+                  647,
+                  1571
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  647,
+                  1444,
+                  773,
+                  1575
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  773,
+                  1444,
+                  969,
+                  1575
+                ]
+              }
+            ],
+            "height": 131
+          }
+        }
+      }
+    },
+    "en-font-1.3": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              710,
+              526,
+              1337
+            ],
+            "size": [
+              465,
+              627
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              710,
+              1019,
+              1337
+            ],
+            "size": [
+              465,
+              627
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1365,
+              526,
+              1992
+            ],
+            "size": [
+              465,
+              627
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1365,
+              1019,
+              1992
+            ],
+            "size": [
+              465,
+              627
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "About message checks\nWiseMessage model\nAI scores are not a guarantee. Do not reveal passwords, transfer money or install unfamiliar software based on a prediction. Find official contact details independently to verify.\nChecks accessible SMS only. It does not scan apps, files, RCS or WhatsApp.\nThe harmful group includes possible spam and scams; automatic incoming warnings are sent only for scam decisions. Review includes uncertain, waiting and failed checks. No high risk detected is not proof that a message is legitimate.\nThe harmful group includes possible spam and scams; automatic incoming warnings are sent only for scam decisions. Review includes uncertain, waiting and failed checks. No high risk detected is not proof that a message is legitimate.\nMessage text stays hidden until you open a message.\nShows up to 20 SMS per page. Previous and Next replace the current page instead of making a longer list.\nShows up to 20 results per page. Change the filter to start from its first page.\nShows up to 20 results per page. Change the filter to start from its first page."
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "Metric",
+          "Today",
+          "All records"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "Completed checks",
+                "bounds": [
+                  111,
+                  834,
+                  506,
+                  1039
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  506,
+                  862,
+                  686,
+                  1011
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  686,
+                  862,
+                  969,
+                  1011
+                ]
+              }
+            ],
+            "height": 205
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "No high risk detected",
+                "bounds": [
+                  111,
+                  1039,
+                  506,
+                  1244
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  506,
+                  1067,
+                  686,
+                  1216
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  686,
+                  1067,
+                  969,
+                  1216
+                ]
+              }
+            ],
+            "height": 205
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "Advertising or spam",
+                "bounds": [
+                  111,
+                  1244,
+                  506,
+                  1449
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  506,
+                  1272,
+                  686,
+                  1421
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  686,
+                  1272,
+                  969,
+                  1421
+                ]
+              }
+            ],
+            "height": 205
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "Possible scam",
+                "bounds": [
+                  111,
+                  1454,
+                  506,
+                  1593
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  506,
+                  1449,
+                  686,
+                  1598
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  686,
+                  1449,
+                  969,
+                  1598
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "Needs verification",
+                "bounds": [
+                  111,
+                  1598,
+                  506,
+                  1803
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  506,
+                  1626,
+                  686,
+                  1775
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  686,
+                  1626,
+                  969,
+                  1775
+                ]
+              }
+            ],
+            "height": 205
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "Waiting for analysis",
+                "bounds": [
+                  111,
+                  1803,
+                  506,
+                  2008
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  506,
+                  1831,
+                  686,
+                  1980
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  686,
+                  1831,
+                  969,
+                  1980
+                ]
+              }
+            ],
+            "height": 205
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "Failed checks",
+                "bounds": [
+                  111,
+                  527,
+                  506,
+                  666
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  506,
+                  522,
+                  686,
+                  671
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  686,
+                  522,
+                  969,
+                  671
+                ]
+              }
+            ],
+            "height": 149
+          }
+        }
+      }
+    },
+    "zh-Hant-font-1.3": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              786,
+              526,
+              1374
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              786,
+              1019,
+              1374
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1402,
+              526,
+              1990
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1402,
+              1019,
+              1990
+            ],
+            "size": [
+              465,
+              588
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "關於簡訊檢查\nWiseMessage 模型\nAI 分數並非事實保證。切勿透露密碼、轉帳或安裝陌生軟件；請自行尋找官方聯絡方式核實。\nWiseMessage 模型\nAI 分數並非事實保證。切勿透露密碼、轉帳或安裝陌生軟件；請自行尋找官方聯絡方式核實。\n只檢查可讀取的 SMS，不會掃描應用程式、檔案、RCS 或 WhatsApp。\n有害分類包含疑似垃圾及詐騙簡訊；只有判定為詐騙的新來信會自動發出警告。待核實分類包含不確定、等待中及失敗的檢查。未發現高風險不代表簡訊必定真確。\n開啟個別簡訊前，內容會保持隱藏。\n每頁最多顯示 20 封 SMS。上一頁和下一頁會更換當前頁面，不會累積成長清單。\n每頁最多顯示 20 項結果。更改篩選條件後會返回該分類的第一頁。\n每頁最多顯示 20 封 SMS。上一頁和下一頁會更換當前頁面，不會累積成長清單。\n每頁最多顯示 20 項結果。更改篩選條件後會返回該分類的第一頁。"
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "項目",
+          "今天",
+          "所有紀錄"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "已完成的檢查",
+                "bounds": [
+                  111,
+                  710,
+                  581,
+                  849
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  705,
+                  729,
+                  854
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  729,
+                  705,
+                  969,
+                  854
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "未發現高風險",
+                "bounds": [
+                  111,
+                  859,
+                  581,
+                  998
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  854,
+                  729,
+                  1003
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  729,
+                  854,
+                  969,
+                  1003
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "廣告或垃圾簡訊",
+                "bounds": [
+                  111,
+                  1008,
+                  581,
+                  1147
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1003,
+                  729,
+                  1152
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1003,
+                  969,
+                  1152
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "疑似詐騙",
+                "bounds": [
+                  111,
+                  1157,
+                  581,
+                  1296
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1152,
+                  729,
+                  1301
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  729,
+                  1152,
+                  969,
+                  1301
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "需要核實",
+                "bounds": [
+                  111,
+                  1306,
+                  581,
+                  1445
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1301,
+                  729,
+                  1450
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1301,
+                  969,
+                  1450
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "等待分析",
+                "bounds": [
+                  111,
+                  1455,
+                  581,
+                  1594
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  581,
+                  1450,
+                  729,
+                  1599
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1450,
+                  969,
+                  1599
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "檢查失敗",
+                "bounds": [
+                  111,
+                  1604,
+                  581,
+                  1743
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  581,
+                  1599,
+                  729,
+                  1748
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1599,
+                  969,
+                  1748
+                ]
+              }
+            ],
+            "height": 149
+          }
+        }
+      }
+    },
+    "zh-Hans-font-1.3": {
+      "dashboard": {
+        "equal_card_sizes": true,
+        "cards": {
+          "scan_all_button": {
+            "bounds": [
+              61,
+              786,
+              526,
+              1374
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "read_sms_button": {
+            "bounds": [
+              554,
+              786,
+              1019,
+              1374
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "manual_nav_button": {
+            "bounds": [
+              61,
+              1402,
+              526,
+              1990
+            ],
+            "size": [
+              465,
+              588
+            ]
+          },
+          "statistics_button": {
+            "bounds": [
+              554,
+              1402,
+              1019,
+              1990
+            ],
+            "size": [
+              465,
+              588
+            ]
+          }
+        },
+        "home_explanations_removed": true,
+        "raw_model_id_absent": true
+      },
+      "settings": {
+        "explanations_present_in_settings": true,
+        "explanation_text": "关于短信检查\nWiseMessage 模型\nAI 分数并非事实保证。切勿透露密码、转账或安装陌生软件；请自行寻找官方联系方式核实。\n关于短信检查\nWiseMessage 模型\nAI 分数并非事实保证。切勿透露密码、转账或安装陌生软件；请自行寻找官方联系方式核实。\n只检查可读取的 SMS，不会扫描应用、文件、RCS 或 WhatsApp。\n有害分类包含疑似垃圾及诈骗短信；只有判定为诈骗的新来信会自动发出警告。待核实分类包含不确定、等待中及失败的检查。未发现高风险不代表短信必定真实。\n打开单条短信前，内容会保持隐藏。\n每页最多显示 20 条 SMS。上一页和下一页会更换当前页面，不会累积成长列表。\n每页最多显示 20 项结果。更改筛选条件后会返回该分类的第一页。\n每页最多显示 20 条 SMS。上一页和下一页会更换当前页面，不会累积成长列表。\n每页最多显示 20 项结果。更改筛选条件后会返回该分类的第一页。"
+      },
+      "statistics": {
+        "three_readable_headers": [
+          "项目",
+          "今天",
+          "所有记录"
+        ],
+        "seven_rows_numeric_and_nonoverlapping": true,
+        "counts_columns_aligned": true,
+        "weekly_table_present": true,
+        "rows": {
+          "checked": {
+            "cells": [
+              {
+                "text": "已完成的检查",
+                "bounds": [
+                  111,
+                  710,
+                  581,
+                  849
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  705,
+                  729,
+                  854
+                ]
+              },
+              {
+                "text": "2",
+                "bounds": [
+                  729,
+                  705,
+                  969,
+                  854
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "normal": {
+            "cells": [
+              {
+                "text": "未发现高风险",
+                "bounds": [
+                  111,
+                  859,
+                  581,
+                  998
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  854,
+                  729,
+                  1003
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  729,
+                  854,
+                  969,
+                  1003
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "spam": {
+            "cells": [
+              {
+                "text": "广告或垃圾短信",
+                "bounds": [
+                  111,
+                  1008,
+                  581,
+                  1147
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1003,
+                  729,
+                  1152
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1003,
+                  969,
+                  1152
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "scam": {
+            "cells": [
+              {
+                "text": "疑似诈骗",
+                "bounds": [
+                  111,
+                  1157,
+                  581,
+                  1296
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1152,
+                  729,
+                  1301
+                ]
+              },
+              {
+                "text": "1",
+                "bounds": [
+                  729,
+                  1152,
+                  969,
+                  1301
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "review": {
+            "cells": [
+              {
+                "text": "需要核实",
+                "bounds": [
+                  111,
+                  1306,
+                  581,
+                  1445
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  581,
+                  1301,
+                  729,
+                  1450
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1301,
+                  969,
+                  1450
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "pending": {
+            "cells": [
+              {
+                "text": "等待分析",
+                "bounds": [
+                  111,
+                  1455,
+                  581,
+                  1594
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  581,
+                  1450,
+                  729,
+                  1599
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1450,
+                  969,
+                  1599
+                ]
+              }
+            ],
+            "height": 149
+          },
+          "failed": {
+            "cells": [
+              {
+                "text": "检查失败",
+                "bounds": [
+                  111,
+                  1604,
+                  581,
+                  1743
+                ]
+              },
+              {
+                "text": "—",
+                "bounds": [
+                  581,
+                  1599,
+                  729,
+                  1748
+                ]
+              },
+              {
+                "text": "0",
+                "bounds": [
+                  729,
+                  1599,
+                  969,
+                  1748
+                ]
+              }
+            ],
+            "height": 149
+          }
+        }
+      }
+    }
+  },
+  "manual_fixtures": [
+    {
+      "exact_input": "[WiseMessage UI 3.2 fictional test] 明天下午三點有牙科預約，請攜帶身分證。",
+      "actual_result_text": "Possible scam · Verify first\nNormal 6.3% · Spam 0.0% · Scam 93.6%",
+      "unicode_exact": true,
+      "real_ui_inference": true,
+      "raw_model_id_absent": true,
+      "evidence_recovered_from_saved_native_xml": true
+    },
+    {
+      "exact_input": "[WiseMessage UI 3.2 fictional test] 您的账户异常，请立即登录 https://secure-bank.example.invalid 核实资料，否则冻结账户。",
+      "actual_result_text": "疑似诈骗 · 请先核实\n正常 0.2% · 垃圾 0.0% · 诈骗 99.8%",
+      "unicode_exact": true,
+      "real_ui_inference": true,
+      "raw_model_id_absent": true,
+      "evidence_recovered_from_saved_native_xml": true
+    }
+  ],
+  "files_deleted": 0,
+  "stored_records_deleted": 0,
+  "permissions_changed": false,
+  "incoming_sms_sent": 0,
+  "limitations": [
+    "No Samsung physical device is connected; OEM/carrier/battery behavior was not tested.",
+    "Counts are real existing plus two preserved fictional manual checks; high-volume four-digit counts were not seeded.",
+    "Geometry and native screenshots cover API 30 ARM64 translation on the dedicated 1080x2400 emulator."
+  ],
+  "original_font_scale": "null",
+  "restored_font_scale": "null",
+  "restored_original_language": "Use phone language",
+  "protection_unchanged": true,
+  "runtime_permissions_preserved": true,
+  "runtime_permissions": {
+    "android.permission.READ_SMS": "true",
+    "android.permission.RECEIVE_SMS": "true"
+  },
+  "runtime_permissions_baseline_source": "windows-app/validation/android-validation-report.json",
+  "preserved_record_count_before_manual": 2,
+  "preserved_record_count_after_manual": 4,
+  "after_manual_statistics": {
+    "rows": {
+      "checked": {
+        "cells": [
+          {
+            "text": "已完成的检查",
+            "bounds": [
+              111,
+              661,
+              647,
+              785
+            ]
+          },
+          {
+            "text": "2",
+            "bounds": [
+              647,
+              658,
+              773,
+              789
+            ]
+          },
+          {
+            "text": "4",
+            "bounds": [
+              773,
+              658,
+              969,
+              789
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "normal": {
+        "cells": [
+          {
+            "text": "未发现高风险",
+            "bounds": [
+              111,
+              792,
+              647,
+              916
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              647,
+              789,
+              773,
+              920
+            ]
+          },
+          {
+            "text": "1",
+            "bounds": [
+              773,
+              789,
+              969,
+              920
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "spam": {
+        "cells": [
+          {
+            "text": "广告或垃圾短信",
+            "bounds": [
+              111,
+              923,
+              647,
+              1047
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              647,
+              920,
+              773,
+              1051
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              773,
+              920,
+              969,
+              1051
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "scam": {
+        "cells": [
+          {
+            "text": "疑似诈骗",
+            "bounds": [
+              111,
+              1054,
+              647,
+              1178
+            ]
+          },
+          {
+            "text": "2",
+            "bounds": [
+              647,
+              1051,
+              773,
+              1182
+            ]
+          },
+          {
+            "text": "3",
+            "bounds": [
+              773,
+              1051,
+              969,
+              1182
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "review": {
+        "cells": [
+          {
+            "text": "需要核实",
+            "bounds": [
+              111,
+              1185,
+              647,
+              1309
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              647,
+              1182,
+              773,
+              1313
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              773,
+              1182,
+              969,
+              1313
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "pending": {
+        "cells": [
+          {
+            "text": "等待分析",
+            "bounds": [
+              111,
+              1316,
+              647,
+              1440
+            ]
+          },
+          {
+            "text": "—",
+            "bounds": [
+              647,
+              1313,
+              773,
+              1444
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              773,
+              1313,
+              969,
+              1444
+            ]
+          }
+        ],
+        "height": 131
+      },
+      "failed": {
+        "cells": [
+          {
+            "text": "检查失败",
+            "bounds": [
+              111,
+              1447,
+              647,
+              1571
+            ]
+          },
+          {
+            "text": "—",
+            "bounds": [
+              647,
+              1444,
+              773,
+              1575
+            ]
+          },
+          {
+            "text": "0",
+            "bounds": [
+              773,
+              1444,
+              969,
+              1575
+            ]
+          }
+        ],
+        "height": 131
+      }
+    }
+  },
+  "evidence_directory": "artifacts\\android\\ui-v3_2-validation\\run-20261025T083909Z",
+  "completed_at_utc": "2026-10-25T08:48:51.139806+00:00",
+  "harness_recovery": "All six UI cases and both manual checks completed. Initial finalizer tried settings put font_scale null; Android rejected the unset value. Corrected helper removes only the temporary font-scale override with settings delete system font_scale, restores original English selection, confirms protection and SMS permissions unchanged, and reconstructs manual/count evidence from saved native XML without repeating any inference."
+}
