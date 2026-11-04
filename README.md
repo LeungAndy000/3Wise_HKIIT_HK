@@ -1,5 +1,7 @@
 # WiseMessage
 
+**Authors:** MA, YEUNG, LEUNG, LI (2026)
+
 WiseMessage detects normal, advertising/spam and scam SMS with an on-device BERT-family model using MindSpore Lite. The Android application checks messages on the phone without uploading SMS content. It does not request Internet permission.
 
 ## Get started
