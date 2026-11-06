@@ -31,6 +31,6 @@ git lfs pull
 
 ## Platform and evaluation scope
 
-The Android interface supports Traditional Chinese, Simplified Chinese and English. English interface support does not establish English-message detection accuracy. The included Android package is a signed test build. The HarmonyOS package is an unsigned debug build for emulator testing; automatic phone SMS integration is not established.
+The Android interface supports Traditional Chinese, Simplified Chinese and English.
 
 Model evaluation, converted-runtime consistency and interface tests have separate scopes. Dataset qualifications and source terms are documented with the model and datasets. A warning is a reason to pause and verify a request through independently obtained official contact details.
